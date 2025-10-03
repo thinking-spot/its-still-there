@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Still There - Live City Webcams</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Landing Page */
+        .landing {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .landing.hidden {
+            display: none;
+        }
+
+        .prompt {
+            font-size: 1.5rem;
+            line-height: 1.8;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+
+        .autocomplete-container {
+            position: relative;
+            display: inline-block;
+            min-width: 250px;
+        }
+
+        #cityInput {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 4px;
+            color: #e0e0e0;
+            font-size: 1.5rem;
+            padding: 12px 16px;
+            width: 100%;
+            font-weight: 300;
+            transition: all 0.3s ease;
+        }
+
+        #cityInput:focus {
+            outline: none;
+            border-color: #555;
+            background: #222;
+        }
+
+        #cityInput::placeholder {
+            color: #666;
+        }
+
+        .autocomplete-items {
+            position: absolute;
+            border: 1px solid #333;
+            border-top: none;
+            z-index: 99;
+            top: 100%;
+            left: 0;
+            right: 0;
+            max-height: 300px;
+            overflow-y: auto;
+            background: #1a1a1a;
+            border-radius: 0 0 4px 4px;
+        }
+
+        .autocomplete-item {
+            padding: 12px 16px;
+            cursor: pointer;
+            background-color: #1a1a1a;
+            border-bottom: 1px solid #2a2a2a;
+            font-size: 1.1rem;
+            color: #e0e0e0;
+        }
+
+        .autocomplete-item:hover {
+            background-color: #2a2a2a;
+        }
+
+        .autocomplete-item:last-child {
+            border-bottom: none;
+        }
+
+        /* Webcam View */
+        .webcam-view {
+            display: none;
+            width: 100%;
+            max-width: 1400px;
+            padding: 20px 0;
+        }
+
+        .webcam-view.active {
+            display: block;
+        }
+
+        .back-button {
+            background: transparent;
+            border: 1px solid #333;
+            color: #e0e0e0;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: #1a1a1a;
+            border-color: #555;
+        }
+
+        .city-title {
+            font-size: 2rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .webcam-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .webcam-container {
+            background: #1a1a1a;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .webcam-container:hover {
+            transform: translateY(-4px);
+        }
+
+        .webcam-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .webcam-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .webcam-info {
+            padding: 15px;
+        }
+
+        .webcam-name {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #e0e0e0;
+            margin-bottom: 5px;
+        }
+
+        .webcam-channel {
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .error-message {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .prompt {
+                font-size: 1.2rem;
+            }
+
+            #cityInput {
+                font-size: 1.2rem;
+            }
+
+            .webcam-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .city-title {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0a0a0a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #444;
+        }
+    </style>
+</head>
+<body>
+    <!-- Landing Page -->
+    <div class="landing" id="landingPage">
+        <div class="prompt">
+            I'd like to view 
+            <div class="autocomplete-container">
+                <input 
+                    type="text" 
+                    id="cityInput" 
+                    placeholder="City, State"
+                    autocomplete="off"
+                >
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+            webcams
+        </div>
+    </div>
+
+    <!-- Webcam View -->
+    <div class="webcam-view" id="webcamView">
+        <button class="back-button" onclick="goBack()">← Choose another city</button>
+        <h1 class="city-title" id="cityTitle"></h1>
+        <div class="webcam-grid" id="webcamGrid"></div>
+    </div>
+
+    <script>
+        let webcamData = [];
+        let cities = [];
+
+        // Load and parse CSV
+        async function loadWebcamData() {
+            try {
+                const response = await fetch('database.csv');
+                const csvText = await response.text();
+                
+                const lines = csvText.split('\n');
+                const headers = lines[0].split(',');
+                
+                // Parse CSV and filter out incomplete entries
+                for (let i = 1; i < lines.length; i++) {
+                    const line = lines[i].trim();
+                    if (!line) continue;
+                    
+                    const values = parseCSVLine(line);
+                    
+                    // Skip if missing essential data
+                    if (!values[0] || !values[1] || !values[3]) continue;
+                    
+                    const webcam = {
+                        city: values[0].trim(),
+                        state: values[1].trim(),
+                        cameraName: values[2] ? values[2].trim() : 'Unnamed Camera',
+                        youtubeUrl: values[3].trim(),
+                        channelName: values[4] ? values[4].trim() : '',
+                        status: values[5] ? values[5].trim() : 'Unknown'
+                    };
+                    
+                    webcamData.push(webcam);
+                }
+                
+                // Get unique cities
+                const citySet = new Set();
+                webcamData.forEach(cam => {
+                    citySet.add(`${cam.city}, ${cam.state}`);
+                });
+                cities = Array.from(citySet).sort();
+                
+                console.log(`Loaded ${webcamData.length} webcams from ${cities.length} cities`);
+            } catch (error) {
+                console.error('Error loading webcam data:', error);
+                document.getElementById('landingPage').innerHTML = 
+                    '<div class="error-message">Error loading webcam data. Please refresh the page.</div>';
+            }
+        }
+
+        // Parse CSV line handling commas in quotes
+        function parseCSVLine(line) {
+            const values = [];
+            let current = '';
+            let inQuotes = false;
+            
+            for (let i = 0; i < line.length; i++) {
+                const char = line[i];
+                
+                if (char === '"') {
+                    inQuotes = !inQuotes;
+                } else if (char === ',' && !inQuotes) {
+                    values.push(current);
+                    current = '';
+                } else {
+                    current += char;
+                }
+            }
+            values.push(current);
+            
+            return values;
+        }
+
+        // Autocomplete functionality
+        const cityInput = document.getElementById('cityInput');
+        const autocompleteList = document.getElementById('autocomplete-list');
+
+        cityInput.addEventListener('input', function() {
+            const value = this.value.toLowerCase();
+            autocompleteList.innerHTML = '';
+            
+            if (!value) return;
+            
+            const matches = cities.filter(city => 
+                city.toLowerCase().includes(value)
+            ).slice(0, 8); // Limit to 8 results
+            
+            matches.forEach(city => {
+                const div = document.createElement('div');
+                div.className = 'autocomplete-item';
+                div.textContent = city;
+                div.addEventListener('click', function() {
+                    selectCity(city);
+                });
+                autocompleteList.appendChild(div);
+            });
+        });
+
+        // Close autocomplete when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.autocomplete-container')) {
+                autocompleteList.innerHTML = '';
+            }
+        });
+
+        // Handle Enter key
+        cityInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                const value = this.value;
+                const exactMatch = cities.find(city => 
+                    city.toLowerCase() === value.toLowerCase()
+                );
+                
+                if (exactMatch) {
+                    selectCity(exactMatch);
+                } else if (autocompleteList.children.length > 0) {
+                    selectCity(autocompleteList.children[0].textContent);
+                }
+            }
+        });
+
+        // Select city and show webcams
+        function selectCity(cityState) {
+            autocompleteList.innerHTML = '';
+            cityInput.value = '';
+            
+            const [city, state] = cityState.split(', ');
+            const cityWebcams = webcamData.filter(cam => 
+                cam.city === city && cam.state === state
+            );
+            
+            if (cityWebcams.length === 0) {
+                alert('No webcams found for this city.');
+                return;
+            }
+            
+            // Update UI
+            document.getElementById('landingPage').classList.add('hidden');
+            document.getElementById('webcamView').classList.add('active');
+            document.getElementById('cityTitle').textContent = cityState;
+            
+            // Display webcams
+            displayWebcams(cityWebcams);
+        }
+
+        // Display webcams in grid
+        function displayWebcams(webcams) {
+            const grid = document.getElementById('webcamGrid');
+            grid.innerHTML = '';
+            
+            webcams.forEach(cam => {
+                const videoId = extractVideoId(cam.youtubeUrl);
+                if (!videoId) return; // Skip invalid URLs
+                
+                const container = document.createElement('div');
+                container.className = 'webcam-container';
+                
+                container.innerHTML = `
+                    <div class="webcam-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=1&rel=0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            loading="lazy"
+                            onerror="this.parentElement.parentElement.style.display='none'">
+                        </iframe>
+                    </div>
+                    <div class="webcam-info">
+                        <div class="webcam-name">${cam.cameraName}</div>
+                        ${cam.channelName ? `<div class="webcam-channel">${cam.channelName}</div>` : ''}
+                    </div>
+                `;
+                
+                grid.appendChild(container);
+            });
+        }
+
+        // Extract YouTube video ID from URL
+        function extractVideoId(url) {
+            const regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+            const match = url.match(regExp);
+            return (match && match[7].length === 11) ? match[7] : null;
+        }
+
+        // Go back to landing page
+        function goBack() {
+            document.getElementById('landingPage').classList.remove('hidden');
+            document.getElementById('webcamView').classList.remove('active');
+            document.getElementById('webcamGrid').innerHTML = '';
+        }
+
+        // Initialize
+        loadWebcamData();
+    </script>
+</body>
+</html>
