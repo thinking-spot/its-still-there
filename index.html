@@ -142,9 +142,12 @@
 
         .webcam-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-template-columns: 1fr;
             gap: 30px;
             margin-top: 20px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .webcam-container {
@@ -426,7 +429,7 @@
                 container.innerHTML = `
                     <div class="webcam-wrapper">
                         <iframe 
-                            src="https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=1&rel=0"
+                            src="https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen
                             loading="lazy"
