@@ -1,0 +1,14 @@
+{
+  "name": "its-still-there-validator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Headless-browser validator for It's Still There webcam streams. Uses the YouTube IFrame Player API to catch embed-blocked (code 150/101) and dead streams that oEmbed cannot detect, then writes a trustworthy Status to database.csv and streams.json.",
+  "scripts": {
+    "validate": "node validate.mjs",
+    "postinstall-note": "After install, run: npx playwright install --with-deps chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}

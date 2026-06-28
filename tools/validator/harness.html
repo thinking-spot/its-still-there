@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>stream validator harness</title>
+</head>
+<body>
+  <!-- Players are created here. Served from a real http origin so the
+       YouTube IFrame API's postMessage origin checks behave normally. -->
+  <div id="host"></div>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    let apiReady = false;
+    const waiters = [];
+    // The IFrame API calls this global once it has loaded.
+    window.onYouTubeIframeAPIReady = function () {
+      apiReady = true;
+      waiters.splice(0).forEach(fn => fn());
+    };
+    function whenReady() {
+      return apiReady ? Promise.resolve() : new Promise(r => waiters.push(r));
+    }
+
+    /**
+     * Verify a batch of YouTube IDs through real YT.Player instances.
+     * Returns [{ id, outcome, code }] where outcome is one of:
+     *   'playing'    — reached PLAYING/BUFFERING (embeddable AND broadcasting)
+     *   'error'      — onError fired (see `code`: 100 gone, 101/150 embed-blocked, 2/5 bad)
+     *   'no_signal'  — no error and never played before the timeout (likely offline)
+     */
+    window.checkBatch = async function (ids, timeoutMs) {
+      await whenReady();
+      const host = document.getElementById('host');
+      host.innerHTML = '';
+      const players = [];
+
+      const results = await Promise.all(ids.map(id => new Promise(resolve => {
+        const slot = document.createElement('div');
+        slot.style.cssText = 'width:320px;height:180px;';
+        host.appendChild(slot);
+
+        let settled = false;
+        const finish = (outcome, code) => {
+          if (settled) return;
+          settled = true;
+          resolve({ id, outcome, code: (code === undefined ? null : code) });
+        };
+
+        try {
+          players.push(new YT.Player(slot, {
+            videoId: id,
+            width: 320,
+            height: 180,
+            playerVars: { autoplay: 1, mute: 1, controls: 0, playsinline: 1 },
+            events: {
+              onStateChange: e => { if (e.data === 1 || e.data === 3) finish('playing'); },
+              onError: e => finish('error', e.data)
+            }
+          }));
+        } catch (err) {
+          finish('error', -1);
+        }
+
+        setTimeout(() => finish('no_signal'), timeoutMs);
+      })));
+
+      players.forEach(p => { try { p.destroy && p.destroy(); } catch (_) {} });
+      host.innerHTML = '';
+      return results;
+    };
+
+    window.__harnessReady = true;
+  </script>
+</body>
+</html>

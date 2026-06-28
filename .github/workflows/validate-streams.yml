@@ -1,0 +1,45 @@
+name: Validate streams
+
+# Re-checks every webcam in database.csv through a real headless browser so the
+# dataset heals itself: dead and embed-blocked streams get an accurate Status,
+# committed straight back to the repo. Runs weekly and on demand.
+
+on:
+  schedule:
+    - cron: '0 13 * * 1'   # Mondays 13:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: tools/validator
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+
+      - name: Run validator
+        working-directory: tools/validator
+        run: node validate.mjs
+
+      - name: Commit updated statuses
+        run: |
+          if [[ -n "$(git status --porcelain database.csv streams.json tools/validator/last-report.json)" ]]; then
+            git config user.name "stream-validator[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add database.csv streams.json tools/validator/last-report.json
+            git commit -m "chore: weekly stream validation ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No status changes — nothing to commit."
+          fi
