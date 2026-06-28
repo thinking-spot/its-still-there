@@ -42,7 +42,7 @@
             font-size: 1.5rem;
             line-height: 1.8;
             font-weight: 300;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
         }
 
         .autocomplete-container {
@@ -104,6 +104,33 @@
             border-bottom: none;
         }
 
+        /* Quiet text actions (surprise me, home shortcut, set-as-home) */
+        .landing-actions {
+            margin-top: 1.75rem;
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            min-height: 1.2rem;
+        }
+
+        .link-button {
+            background: none;
+            border: none;
+            color: #666;
+            font: inherit;
+            font-size: 0.9rem;
+            font-weight: 300;
+            cursor: pointer;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            transition: color 0.3s ease;
+        }
+
+        .link-button:hover {
+            color: #aaa;
+        }
+
         /* Webcam View */
         .webcam-view {
             display: none;
@@ -136,8 +163,13 @@
         .city-title {
             font-size: 2rem;
             font-weight: 300;
-            margin-bottom: 2rem;
+            margin-bottom: 0.5rem;
             text-align: center;
+        }
+
+        .view-actions {
+            text-align: center;
+            margin-bottom: 2rem;
         }
 
         .webcam-grid {
@@ -168,13 +200,48 @@
             overflow: hidden;
         }
 
-        .webcam-wrapper iframe {
+        .webcam-wrapper iframe,
+        .webcam-wrapper .yt-mount {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             border: none;
+        }
+
+        /* "Connecting…" veil shown until a cam proves it is live */
+        .cam-overlay {
+            position: absolute;
+            inset: 0;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: #141414;
+            color: #777;
+            font-size: 0.9rem;
+            font-weight: 300;
+            transition: opacity 0.5s ease;
+        }
+
+        .webcam-container.live .cam-overlay {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .pulse {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #4a8a4a;
+            animation: pulse 1.4s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.25; transform: scale(0.85); }
+            50%      { opacity: 1;    transform: scale(1); }
         }
 
         .webcam-info {
@@ -203,6 +270,30 @@
             text-align: center;
             padding: 40px;
             color: #666;
+        }
+
+        /* Honest footnote when some views have gone dark */
+        .dark-note {
+            text-align: center;
+            color: #555;
+            font-size: 0.85rem;
+            font-weight: 300;
+            font-style: italic;
+            margin-top: 2rem;
+        }
+
+        /* Whole-city empty state when nothing is left standing */
+        .empty-dark {
+            text-align: center;
+            color: #777;
+            padding: 60px 20px;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        .empty-dark strong {
+            color: #aaa;
+            font-weight: 400;
         }
 
         /* Responsive */
@@ -248,11 +339,11 @@
     <!-- Landing Page -->
     <div class="landing" id="landingPage">
         <div class="prompt">
-            I'd like to view 
+            I'd like to view
             <div class="autocomplete-container">
-                <input 
-                    type="text" 
-                    id="cityInput" 
+                <input
+                    type="text"
+                    id="cityInput"
                     placeholder="City, State"
                     autocomplete="off"
                 >
@@ -260,38 +351,73 @@
             </div>
             webcams
         </div>
+        <div class="landing-actions" id="landingActions"></div>
     </div>
 
     <!-- Webcam View -->
     <div class="webcam-view" id="webcamView">
         <button class="back-button" onclick="goBack()">← Choose another city</button>
         <h1 class="city-title" id="cityTitle"></h1>
+        <div class="view-actions">
+            <button id="homeToggle" class="link-button"></button>
+        </div>
         <div class="webcam-grid" id="webcamGrid"></div>
+        <div class="dark-note" id="darkNote"></div>
     </div>
 
     <script>
         let webcamData = [];
         let cities = [];
+        let currentCity = null;
+
+        const HOME_KEY = 'stillthere.home';
+
+        /* ---------- YouTube IFrame API plumbing ----------
+           A raw <iframe> can't tell us whether a stream is dead — YouTube
+           paints its own "Video unavailable" box inside the frame and the
+           iframe still "loads". The IFrame Player API, by contrast, fires
+           onError for removed / private / embedding-disabled videos and
+           reports playback state. We use it to hide dead cams before they
+           ever show as a black box. */
+        let ytState = 'loading';            // 'loading' | 'ready' | 'failed'
+        const pendingCams = [];             // cams waiting for the API verdict
+
+        (function loadYouTubeApi() {
+            const tag = document.createElement('script');
+            tag.src = 'https://www.youtube.com/iframe_api';
+            tag.onerror = () => resolveYt('failed');
+            document.head.appendChild(tag);
+            // If the API never answers, fall back to plain iframes rather than hang.
+            setTimeout(() => { if (ytState === 'loading') resolveYt('failed'); }, 8000);
+        })();
+
+        window.onYouTubeIframeAPIReady = function () { resolveYt('ready'); };
+
+        function resolveYt(state) {
+            if (ytState !== 'loading') return;
+            ytState = state;
+            while (pendingCams.length) mountCam(pendingCams.shift());
+        }
 
         // Load and parse CSV
         async function loadWebcamData() {
             try {
                 const response = await fetch('database.csv');
                 const csvText = await response.text();
-                
+
                 const lines = csvText.split('\n');
                 const headers = lines[0].split(',');
-                
+
                 // Parse CSV and filter out incomplete entries
                 for (let i = 1; i < lines.length; i++) {
                     const line = lines[i].trim();
                     if (!line) continue;
-                    
+
                     const values = parseCSVLine(line);
-                    
+
                     // Skip if missing essential data
                     if (!values[0] || !values[1] || !values[3]) continue;
-                    
+
                     const webcam = {
                         city: values[0].trim(),
                         state: values[1].trim(),
@@ -300,21 +426,22 @@
                         channelName: values[4] ? values[4].trim() : '',
                         status: values[5] ? values[5].trim() : 'Unknown'
                     };
-                    
+
                     webcamData.push(webcam);
                 }
-                
+
                 // Get unique cities
                 const citySet = new Set();
                 webcamData.forEach(cam => {
                     citySet.add(`${cam.city}, ${cam.state}`);
                 });
                 cities = Array.from(citySet).sort();
-                
+
                 console.log(`Loaded ${webcamData.length} webcams from ${cities.length} cities`);
+                afterLoad();
             } catch (error) {
                 console.error('Error loading webcam data:', error);
-                document.getElementById('landingPage').innerHTML = 
+                document.getElementById('landingPage').innerHTML =
                     '<div class="error-message">Error loading webcam data. Please refresh the page.</div>';
             }
         }
@@ -324,10 +451,10 @@
             const values = [];
             let current = '';
             let inQuotes = false;
-            
+
             for (let i = 0; i < line.length; i++) {
                 const char = line[i];
-                
+
                 if (char === '"') {
                     inQuotes = !inQuotes;
                 } else if (char === ',' && !inQuotes) {
@@ -338,8 +465,15 @@
                 }
             }
             values.push(current);
-            
+
             return values;
+        }
+
+        // Escape data-sourced text before injecting into markup
+        function esc(s) {
+            return String(s).replace(/[&<>"']/g, c => (
+                { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+            ));
         }
 
         // Autocomplete functionality
@@ -349,13 +483,13 @@
         cityInput.addEventListener('input', function() {
             const value = this.value.toLowerCase();
             autocompleteList.innerHTML = '';
-            
+
             if (!value) return;
-            
-            const matches = cities.filter(city => 
+
+            const matches = cities.filter(city =>
                 city.toLowerCase().includes(value)
             ).slice(0, 8); // Limit to 8 results
-            
+
             matches.forEach(city => {
                 const div = document.createElement('div');
                 div.className = 'autocomplete-item';
@@ -378,10 +512,10 @@
         cityInput.addEventListener('keypress', function(e) {
             if (e.key === 'Enter') {
                 const value = this.value;
-                const exactMatch = cities.find(city => 
+                const exactMatch = cities.find(city =>
                     city.toLowerCase() === value.toLowerCase()
                 );
-                
+
                 if (exactMatch) {
                     selectCity(exactMatch);
                 } else if (autocompleteList.children.length > 0) {
@@ -394,56 +528,153 @@
         function selectCity(cityState) {
             autocompleteList.innerHTML = '';
             cityInput.value = '';
-            
+
             const [city, state] = cityState.split(', ');
-            const cityWebcams = webcamData.filter(cam => 
+            const cityWebcams = webcamData.filter(cam =>
                 cam.city === city && cam.state === state
             );
-            
+
             if (cityWebcams.length === 0) {
                 alert('No webcams found for this city.');
                 return;
             }
-            
+
+            currentCity = cityState;
+
             // Update UI
             document.getElementById('landingPage').classList.add('hidden');
             document.getElementById('webcamView').classList.add('active');
             document.getElementById('cityTitle').textContent = cityState;
-            
+            updateHomeToggle();
+            window.scrollTo(0, 0);
+
             // Display webcams
             displayWebcams(cityWebcams);
         }
+
+        /* ---------- Liveness-aware rendering ---------- */
+        let liveTracker = null;             // { expected, dark } for the current city
 
         // Display webcams in grid
         function displayWebcams(webcams) {
             const grid = document.getElementById('webcamGrid');
             grid.innerHTML = '';
-            
-            webcams.forEach(cam => {
+            document.getElementById('darkNote').textContent = '';
+
+            liveTracker = { expected: 0, dark: 0 };
+
+            webcams.forEach((cam, idx) => {
                 const videoId = extractVideoId(cam.youtubeUrl);
                 if (!videoId) return; // Skip invalid URLs
-                
+
+                liveTracker.expected++;
+
                 const container = document.createElement('div');
                 container.className = 'webcam-container';
-                
+
+                const mountId = `yt-mount-${idx}-${videoId}`;
                 container.innerHTML = `
                     <div class="webcam-wrapper">
-                        <iframe 
-                            src="https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen
-                            loading="lazy"
-                            onerror="this.parentElement.parentElement.style.display='none'">
-                        </iframe>
+                        <div class="yt-mount" id="${mountId}"></div>
+                        <div class="cam-overlay"><span class="pulse"></span>Connecting…</div>
                     </div>
                     <div class="webcam-info">
-                        <div class="webcam-name">${cam.cameraName}</div>
-                        ${cam.channelName ? `<div class="webcam-channel">${cam.channelName}</div>` : ''}
+                        <div class="webcam-name">${esc(cam.cameraName)}</div>
+                        ${cam.channelName ? `<div class="webcam-channel">${esc(cam.channelName)}</div>` : ''}
                     </div>
                 `;
-                
+
                 grid.appendChild(container);
+
+                const item = { mountId, videoId, container, settled: false, timer: null };
+                if (ytState === 'loading') {
+                    pendingCams.push(item);
+                } else {
+                    mountCam(item);
+                }
             });
+        }
+
+        // Bring a single cam to life — via the Player API if we have it,
+        // otherwise a plain iframe (no detection, but never a hang).
+        function mountCam(item) {
+            if (ytState === 'failed') {
+                mountFallbackIframe(item);
+                return;
+            }
+
+            const player = new YT.Player(item.mountId, {
+                videoId: item.videoId,
+                playerVars: {
+                    autoplay: 1, mute: 1, controls: 0,
+                    modestbranding: 1, rel: 0, playsinline: 1, disablekb: 1
+                },
+                events: {
+                    onReady: e => { try { e.target.playVideo(); } catch (_) {} },
+                    onStateChange: e => {
+                        // PLAYING (1) or BUFFERING (3) => it's genuinely showing something.
+                        if (e.data === 1 || e.data === 3) markLive(item);
+                    },
+                    onError: () => markDark(item)   // removed / private / embedding off
+                }
+            });
+            item.player = player;
+
+            // Soft timeout: if it neither errored nor played (e.g. autoplay
+            // blocked), stop showing "Connecting…" rather than declaring it dead.
+            item.timer = setTimeout(() => { if (!item.settled) markLive(item); }, 20000);
+        }
+
+        function mountFallbackIframe(item) {
+            const mount = document.getElementById(item.mountId);
+            if (!mount) return;
+            const iframe = document.createElement('iframe');
+            iframe.src = `https://www.youtube.com/embed/${item.videoId}?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&playsinline=1`;
+            iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+            iframe.allowFullscreen = true;
+            mount.replaceWith(iframe);
+            markLive(item);
+        }
+
+        function markLive(item) {
+            if (item.settled) return;
+            item.settled = true;
+            clearTimeout(item.timer);
+            item.container.classList.add('live');
+        }
+
+        function markDark(item) {
+            if (item.settled) return;
+            item.settled = true;
+            clearTimeout(item.timer);
+            try { if (item.player && item.player.destroy) item.player.destroy(); } catch (_) {}
+            item.container.remove();
+            if (liveTracker) {
+                liveTracker.dark++;
+                updateDarkState();
+            }
+        }
+
+        // Reflect how many views have gone dark — honestly, but quietly.
+        function updateDarkState() {
+            const note = document.getElementById('darkNote');
+            const grid = document.getElementById('webcamGrid');
+            const { expected, dark } = liveTracker;
+
+            if (dark > 0 && dark === expected) {
+                // Nothing left standing — a gentle, on-theme empty state.
+                note.textContent = '';
+                grid.innerHTML = `
+                    <div class="empty-dark">
+                        Every view here has gone dark.<br>
+                        <strong>${esc(currentCity)}</strong> is still there — but its cameras have stopped looking.<br>
+                        Try another city, or check back another day.
+                    </div>`;
+            } else if (dark > 0) {
+                note.textContent = dark === 1
+                    ? '1 view has gone dark since this list was last checked.'
+                    : `${dark} views have gone dark since this list was last checked.`;
+            }
         }
 
         // Extract YouTube video ID from URL
@@ -455,9 +686,71 @@
 
         // Go back to landing page
         function goBack() {
+            currentCity = null;
             document.getElementById('landingPage').classList.remove('hidden');
             document.getElementById('webcamView').classList.remove('active');
             document.getElementById('webcamGrid').innerHTML = '';
+            document.getElementById('darkNote').textContent = '';
+            buildLandingActions();
+            cityInput.focus();
+        }
+
+        /* ---------- Presence: a remembered "home" city ---------- */
+        function getHome() {
+            try { return localStorage.getItem(HOME_KEY); } catch (_) { return null; }
+        }
+        function setHome(city) {
+            try { localStorage.setItem(HOME_KEY, city); } catch (_) {}
+        }
+        function clearHome() {
+            try { localStorage.removeItem(HOME_KEY); } catch (_) {}
+        }
+
+        function updateHomeToggle() {
+            const btn = document.getElementById('homeToggle');
+            const isHome = getHome() === currentCity;
+            btn.textContent = isHome ? '★ Home — this opens when you arrive' : '☆ Make this your home';
+            btn.onclick = () => {
+                if (getHome() === currentCity) clearHome();
+                else setHome(currentCity);
+                updateHomeToggle();
+            };
+        }
+
+        // Quiet text actions under the sentence: return home, and wander.
+        function buildLandingActions() {
+            const wrap = document.getElementById('landingActions');
+            wrap.innerHTML = '';
+
+            const home = getHome();
+            if (home && cities.includes(home)) {
+                const homeBtn = document.createElement('button');
+                homeBtn.className = 'link-button';
+                homeBtn.textContent = `return to ${home}`;
+                homeBtn.onclick = () => selectCity(home);
+                wrap.appendChild(homeBtn);
+            }
+
+            const surprise = document.createElement('button');
+            surprise.className = 'link-button';
+            surprise.textContent = 'visit somewhere at random';
+            surprise.onclick = () => {
+                if (!cities.length) return;
+                const idx = Math.floor(Math.random() * cities.length);
+                selectCity(cities[idx]);
+            };
+            wrap.appendChild(surprise);
+        }
+
+        // Called once the data is in: wire up actions and honor "home".
+        function afterLoad() {
+            buildLandingActions();
+            const home = getHome();
+            if (home && cities.includes(home)) {
+                selectCity(home);
+            } else {
+                cityInput.focus();
+            }
         }
 
         // Initialize
