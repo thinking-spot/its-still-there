@@ -1,1 +1,4 @@
 node_modules/
+candidates.json
+picks.json
+shortlist.json

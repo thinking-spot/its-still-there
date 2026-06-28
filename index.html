@@ -296,6 +296,17 @@
             font-weight: 400;
         }
 
+        /* Local time at the watched place */
+        .local-time {
+            text-align: center;
+            color: #666;
+            font-size: 0.85rem;
+            font-weight: 300;
+            letter-spacing: 0.03em;
+            margin-bottom: 0.75rem;
+            min-height: 1rem;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .prompt {
@@ -344,7 +355,7 @@
                 <input
                     type="text"
                     id="cityInput"
-                    placeholder="City, State"
+                    placeholder="a place"
                     autocomplete="off"
                 >
                 <div id="autocomplete-list" class="autocomplete-items"></div>
@@ -358,6 +369,7 @@
     <div class="webcam-view" id="webcamView">
         <button class="back-button" onclick="goBack()">← Choose another city</button>
         <h1 class="city-title" id="cityTitle"></h1>
+        <div class="local-time" id="localTime"></div>
         <div class="view-actions">
             <button id="homeToggle" class="link-button"></button>
         </div>
@@ -399,74 +411,37 @@
             while (pendingCams.length) mountCam(pendingCams.shift());
         }
 
-        // Load and parse CSV
+        // Load streams.json (the canonical source) and keep only verified-live cams.
+        // cache:'no-store' so an updated dataset is never served stale from cache.
         async function loadWebcamData() {
             try {
-                const response = await fetch('database.csv');
-                const csvText = await response.text();
+                const response = await fetch('streams.json', { cache: 'no-store' });
+                const data = await response.json();
 
-                const lines = csvText.split('\n');
-                const headers = lines[0].split(',');
+                webcamData = (data.streams || [])
+                    .filter(s => s.status === 'live' && s.youtubeId)
+                    .map(s => {
+                        const region = s.state || s.country || '';
+                        return {
+                            cameraName: s.cameraName || 'Live Camera',
+                            channelName: s.channelName || '',
+                            youtubeId: s.youtubeId,
+                            city: s.city,
+                            region,
+                            timezone: s.timezone || null,
+                            cityKey: region ? `${s.city}, ${region}` : s.city
+                        };
+                    });
 
-                // Parse CSV and filter out incomplete entries
-                for (let i = 1; i < lines.length; i++) {
-                    const line = lines[i].trim();
-                    if (!line) continue;
+                cities = Array.from(new Set(webcamData.map(c => c.cityKey))).sort();
 
-                    const values = parseCSVLine(line);
-
-                    // Skip if missing essential data
-                    if (!values[0] || !values[1] || !values[3]) continue;
-
-                    const webcam = {
-                        city: values[0].trim(),
-                        state: values[1].trim(),
-                        cameraName: values[2] ? values[2].trim() : 'Unnamed Camera',
-                        youtubeUrl: values[3].trim(),
-                        channelName: values[4] ? values[4].trim() : '',
-                        status: values[5] ? values[5].trim() : 'Unknown'
-                    };
-
-                    webcamData.push(webcam);
-                }
-
-                // Get unique cities
-                const citySet = new Set();
-                webcamData.forEach(cam => {
-                    citySet.add(`${cam.city}, ${cam.state}`);
-                });
-                cities = Array.from(citySet).sort();
-
-                console.log(`Loaded ${webcamData.length} webcams from ${cities.length} cities`);
+                console.log(`Loaded ${webcamData.length} live cams across ${cities.length} places`);
                 afterLoad();
             } catch (error) {
-                console.error('Error loading webcam data:', error);
+                console.error('Error loading stream data:', error);
                 document.getElementById('landingPage').innerHTML =
-                    '<div class="error-message">Error loading webcam data. Please refresh the page.</div>';
+                    '<div class="error-message">Error loading stream data. Please refresh the page.</div>';
             }
-        }
-
-        // Parse CSV line handling commas in quotes
-        function parseCSVLine(line) {
-            const values = [];
-            let current = '';
-            let inQuotes = false;
-
-            for (let i = 0; i < line.length; i++) {
-                const char = line[i];
-
-                if (char === '"') {
-                    inQuotes = !inQuotes;
-                } else if (char === ',' && !inQuotes) {
-                    values.push(current);
-                    current = '';
-                } else {
-                    current += char;
-                }
-            }
-            values.push(current);
-
-            return values;
         }
 
         // Escape data-sourced text before injecting into markup
@@ -524,32 +499,48 @@
             }
         });
 
-        // Select city and show webcams
-        function selectCity(cityState) {
+        // Select a place (by cityKey) and show its webcams
+        function selectCity(cityKey) {
             autocompleteList.innerHTML = '';
             cityInput.value = '';
 
-            const [city, state] = cityState.split(', ');
-            const cityWebcams = webcamData.filter(cam =>
-                cam.city === city && cam.state === state
-            );
+            const cityWebcams = webcamData.filter(cam => cam.cityKey === cityKey);
 
             if (cityWebcams.length === 0) {
-                alert('No webcams found for this city.');
+                alert('No webcams found for this place.');
                 return;
             }
 
-            currentCity = cityState;
+            currentCity = cityKey;
 
             // Update UI
             document.getElementById('landingPage').classList.add('hidden');
             document.getElementById('webcamView').classList.add('active');
-            document.getElementById('cityTitle').textContent = cityState;
+            document.getElementById('cityTitle').textContent = cityKey;
+            startClock(cityWebcams[0].timezone);
             updateHomeToggle();
             window.scrollTo(0, 0);
 
             // Display webcams
             displayWebcams(cityWebcams);
+        }
+
+        /* ---------- Local time at the watched place (Intl) ---------- */
+        let clockTimer = null;
+        function startClock(tz) {
+            clearInterval(clockTimer);
+            const el = document.getElementById('localTime');
+            if (!tz) { el.textContent = ''; return; }
+            const tick = () => {
+                try {
+                    const t = new Intl.DateTimeFormat('en-US', {
+                        timeZone: tz, weekday: 'short', hour: 'numeric', minute: '2-digit'
+                    }).format(new Date());
+                    el.textContent = `local time · ${t}`;
+                } catch (_) { el.textContent = ''; }
+            };
+            tick();
+            clockTimer = setInterval(tick, 30000);
         }
 
         /* ---------- Liveness-aware rendering ---------- */
@@ -564,8 +555,8 @@
             liveTracker = { expected: 0, dark: 0 };
 
             webcams.forEach((cam, idx) => {
-                const videoId = extractVideoId(cam.youtubeUrl);
-                if (!videoId) return; // Skip invalid URLs
+                const videoId = cam.youtubeId;
+                if (!videoId) return;
 
                 liveTracker.expected++;
 
@@ -677,16 +668,11 @@
             }
         }
 
-        // Extract YouTube video ID from URL
-        function extractVideoId(url) {
-            const regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
-            const match = url.match(regExp);
-            return (match && match[7].length === 11) ? match[7] : null;
-        }
-
         // Go back to landing page
         function goBack() {
             currentCity = null;
+            clearInterval(clockTimer);
+            document.getElementById('localTime').textContent = '';
             document.getElementById('landingPage').classList.remove('hidden');
             document.getElementById('webcamView').classList.remove('active');
             document.getElementById('webcamGrid').innerHTML = '';
