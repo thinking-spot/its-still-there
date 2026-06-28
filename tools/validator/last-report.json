@@ -1,25 +1,19 @@
 {
-  "checkedAt": "2026-06-28T22:43:07.188Z",
-  "total": 17,
+  "checkedAt": "2026-06-28T23:10:07.224Z",
+  "total": 16,
   "tally": {
-    "embed_blocked": 5,
-    "live": 12
+    "live": 16
   },
   "streams": [
     {
-      "id": "rnXIjl_Rzy4",
-      "status": "embed_blocked",
-      "code": 150
+      "id": "VGnFLdQW39A",
+      "status": "live",
+      "code": null
     },
     {
       "id": "7WgkjCSDe0w",
       "status": "live",
       "code": null
-    },
-    {
-      "id": "g4CmWNxgsic",
-      "status": "embed_blocked",
-      "code": 150
     },
     {
       "id": "1EiC9bvVGnk",
@@ -42,9 +36,9 @@
       "code": null
     },
     {
-      "id": "gBpR6tUgtWI",
-      "status": "embed_blocked",
-      "code": 150
+      "id": "QvNWCIOaB4Y",
+      "status": "live",
+      "code": null
     },
     {
       "id": "qx7gry390YA",
@@ -62,9 +56,9 @@
       "code": null
     },
     {
-      "id": "z_Dn0wGfGSU",
-      "status": "embed_blocked",
-      "code": 150
+      "id": "06v5pzump4w",
+      "status": "live",
+      "code": null
     },
     {
       "id": "iaBfYxbmwXA",
@@ -72,9 +66,9 @@
       "code": null
     },
     {
-      "id": "mPLQxFiT2H8",
-      "status": "embed_blocked",
-      "code": 150
+      "id": "TyzfHp1bTxA",
+      "status": "live",
+      "code": null
     },
     {
       "id": "5vsOc_X2XKA",
