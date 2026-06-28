@@ -2,7 +2,7 @@
   "generatedOn": "2026-06-28",
   "verificationMethod": "Every youtubeId is verified by the IFrame Player API validator in tools/validator (real YT.Player in headless Chromium). It catches embed-blocked streams (IFrame error code 150/101) that oEmbed cannot detect, and confirms the stream is broadcasting. Re-run weekly via .github/workflows/validate-streams.yml. status is one of: live, embed_blocked, unavailable, offline, error.",
   "schemaNotes": "Canonical data source for the app (index.html reads this file directly). youtubeId is canonical; youtubeUrl and embedUrl are derived. timezone is IANA, used to show local time at the watched place. sourceType is one of: city_square, street, park, landmark, skyline, beach, pier, boardwalk, harbor, campus, underwater, plaza, mountain, river, port.",
-  "count": 152,
+  "count": 157,
   "streams": [
     {
       "id": "nyc-times-square",
@@ -21,7 +21,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "nyc-brooklyn-bridge",
@@ -40,7 +40,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "jackson-hole-town-square",
@@ -59,7 +59,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "new-orleans-french-quarter",
@@ -78,7 +78,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "nashville-lower-broadway",
@@ -97,7 +97,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "chicago-skydeck",
@@ -116,7 +116,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "tampa-skyline",
@@ -136,7 +136,7 @@
       "verifiedOn": "2026-06-28",
       "notes": "University of Tampa riverfront cam looking across the Hillsborough River toward the downtown skyline.",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "niagara-falls",
@@ -156,7 +156,7 @@
       "verifiedOn": "2026-06-28",
       "notes": "Shared US/Canada landmark; vantage looks across to Horseshoe Falls. Listed under Niagara Falls, NY.",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "santa-monica-pier",
@@ -175,7 +175,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "venice-beach-boardwalk",
@@ -194,7 +194,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "waikiki-beach",
@@ -213,7 +213,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "san-diego-harbor-island",
@@ -232,7 +232,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "newport-harbor",
@@ -251,7 +251,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "reno-unr-quad",
@@ -270,7 +270,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "miami-south-beach",
@@ -289,7 +289,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "miami-coral-city",
@@ -308,7 +308,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "seattle",
@@ -327,7 +327,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "san-francisco",
@@ -346,7 +346,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "las-vegas",
@@ -365,7 +365,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "boston",
@@ -384,7 +384,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "washington-dc",
@@ -403,7 +403,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "key-west",
@@ -422,7 +422,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "san-antonio",
@@ -441,7 +441,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "savannah",
@@ -460,7 +460,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "charleston",
@@ -479,7 +479,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "portland-or",
@@ -498,7 +498,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "pittsburgh",
@@ -517,7 +517,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "clearwater-beach",
@@ -536,7 +536,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "daytona-beach",
@@ -555,7 +555,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "myrtle-beach",
@@ -574,7 +574,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "lake-tahoe",
@@ -593,7 +593,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "yellowstone-old-faithful",
@@ -612,7 +612,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "grand-canyon",
@@ -631,7 +631,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "katmai-bears",
@@ -650,7 +650,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "toronto",
@@ -669,7 +669,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "vancouver",
@@ -688,7 +688,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "banff",
@@ -707,7 +707,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "montreal",
@@ -726,7 +726,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "whistler",
@@ -745,7 +745,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "cancun",
@@ -764,7 +764,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "cabo",
@@ -783,7 +783,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "mexico-city",
@@ -802,7 +802,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "san-juan-pr",
@@ -821,7 +821,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "nassau",
@@ -840,7 +840,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "rio",
@@ -859,7 +859,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "sao-paulo",
@@ -878,7 +878,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "buenos-aires",
@@ -897,7 +897,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "cartagena",
@@ -916,7 +916,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "lima",
@@ -935,7 +935,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "london",
@@ -954,7 +954,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "paris",
@@ -973,7 +973,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "rome",
@@ -992,7 +992,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "venice-it",
@@ -1011,7 +1011,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "florence",
@@ -1030,7 +1030,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "milan",
@@ -1049,7 +1049,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "madrid",
@@ -1068,7 +1068,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "amsterdam",
@@ -1087,7 +1087,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "berlin",
@@ -1106,7 +1106,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "munich",
@@ -1125,7 +1125,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "prague",
@@ -1144,7 +1144,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "vienna",
@@ -1163,7 +1163,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "dublin",
@@ -1182,7 +1182,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "edinburgh",
@@ -1201,7 +1201,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "zurich",
@@ -1220,7 +1220,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "zermatt",
@@ -1239,7 +1239,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "santorini",
@@ -1258,7 +1258,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "athens",
@@ -1277,7 +1277,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "dubrovnik",
@@ -1296,7 +1296,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "reykjavik",
@@ -1315,7 +1315,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "copenhagen",
@@ -1334,7 +1334,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "stockholm",
@@ -1353,7 +1353,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "oslo",
@@ -1372,7 +1372,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "helsinki",
@@ -1391,7 +1391,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "budapest",
@@ -1410,7 +1410,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "warsaw",
@@ -1429,7 +1429,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "hallstatt",
@@ -1448,7 +1448,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "tenerife",
@@ -1467,7 +1467,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "istanbul",
@@ -1486,7 +1486,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "cape-town",
@@ -1505,7 +1505,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "cairo",
@@ -1524,7 +1524,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "nairobi-wildlife",
@@ -1543,7 +1543,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "dubai",
@@ -1562,7 +1562,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "jerusalem",
@@ -1581,7 +1581,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "tokyo-shibuya",
@@ -1600,7 +1600,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "osaka",
@@ -1619,7 +1619,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "kyoto",
@@ -1638,7 +1638,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "seoul",
@@ -1657,7 +1657,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "hong-kong",
@@ -1676,7 +1676,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "singapore",
@@ -1695,7 +1695,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "bangkok",
@@ -1714,7 +1714,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "bali",
@@ -1733,7 +1733,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "taipei",
@@ -1752,7 +1752,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "phuket",
@@ -1771,7 +1771,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "sydney",
@@ -1790,7 +1790,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "melbourne",
@@ -1809,7 +1809,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "gold-coast",
@@ -1828,7 +1828,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "auckland",
@@ -1847,7 +1847,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "queenstown-nz",
@@ -1866,7 +1866,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "minneapolis",
@@ -1885,7 +1885,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "denver",
@@ -1904,7 +1904,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "salt-lake-city",
@@ -1923,7 +1923,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "phoenix",
@@ -1942,7 +1942,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "cleveland",
@@ -1961,7 +1961,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "virginia-beach",
@@ -1980,7 +1980,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "ocean-city-md",
@@ -1999,7 +1999,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "outer-banks",
@@ -2018,7 +2018,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "naples-fl",
@@ -2037,7 +2037,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "fort-lauderdale",
@@ -2056,7 +2056,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "cocoa-beach",
@@ -2075,7 +2075,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "key-largo",
@@ -2094,7 +2094,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "panama-city-beach",
@@ -2113,7 +2113,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "gulf-shores",
@@ -2132,7 +2132,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "south-padre",
@@ -2151,7 +2151,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "santa-cruz",
@@ -2170,7 +2170,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "huntington-beach",
@@ -2189,7 +2189,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "malibu",
@@ -2208,7 +2208,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "big-bear",
@@ -2227,7 +2227,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "mammoth",
@@ -2246,7 +2246,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "aspen",
@@ -2265,7 +2265,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "gatlinburg",
@@ -2284,7 +2284,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "asheville",
@@ -2303,7 +2303,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "mount-rushmore",
@@ -2322,7 +2322,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "brussels",
@@ -2341,7 +2341,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "bruges",
@@ -2360,7 +2360,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "porto",
@@ -2379,7 +2379,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "seville",
@@ -2398,7 +2398,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "valencia",
@@ -2417,7 +2417,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "naples-it",
@@ -2436,7 +2436,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "geneva",
@@ -2455,7 +2455,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "interlaken",
@@ -2474,7 +2474,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "innsbruck",
@@ -2493,7 +2493,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "salzburg",
@@ -2512,7 +2512,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "krakow",
@@ -2531,7 +2531,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "mykonos",
@@ -2550,7 +2550,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "cannes",
@@ -2569,7 +2569,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "monaco",
@@ -2588,7 +2588,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "valletta",
@@ -2607,7 +2607,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "bergen",
@@ -2626,7 +2626,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "tromso",
@@ -2645,7 +2645,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "tallinn",
@@ -2664,7 +2664,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "abu-dhabi",
@@ -2683,7 +2683,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "doha",
@@ -2702,7 +2702,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "kuala-lumpur",
@@ -2721,7 +2721,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "manila",
@@ -2740,7 +2740,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "sapporo",
@@ -2759,7 +2759,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "brisbane",
@@ -2778,7 +2778,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "perth",
@@ -2797,7 +2797,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "cairns",
@@ -2816,7 +2816,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "wellington",
@@ -2835,7 +2835,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "punta-del-este",
@@ -2854,7 +2854,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "marrakech",
@@ -2873,7 +2873,7 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     },
     {
       "id": "zanzibar",
@@ -2892,8 +2892,103 @@
       "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-28T23:38:28.769Z"
+      "lastChecked": "2026-06-28T23:49:19.205Z"
+    },
+    {
+      "id": "barcelona",
+      "cameraName": "Barcelona (SkyCam)",
+      "city": "Barcelona",
+      "state": "",
+      "country": "Spain",
+      "lat": 41.3851,
+      "lng": 2.1734,
+      "timezone": "Europe/Madrid",
+      "sourceType": "street",
+      "channelName": "SkyCam Barcelona",
+      "youtubeId": "3q9Fou6ZWFY",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3q9Fou6ZWFY",
+      "embedUrl": "https://www.youtube.com/embed/3q9Fou6ZWFY",
+      "status": "live",
+      "verifiedOn": "2026-06-28",
+      "errorCode": null,
+      "lastChecked": "2026-06-28T23:49:19.205Z"
+    },
+    {
+      "id": "detroit",
+      "cameraName": "Detroit River (Dossin Museum)",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "USA",
+      "lat": 42.3314,
+      "lng": -83.0458,
+      "timezone": "America/New_York",
+      "sourceType": "skyline",
+      "channelName": "BoatNerd",
+      "youtubeId": "VA5zde5zPGk",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VA5zde5zPGk",
+      "embedUrl": "https://www.youtube.com/embed/VA5zde5zPGk",
+      "status": "live",
+      "verifiedOn": "2026-06-28",
+      "errorCode": null,
+      "lastChecked": "2026-06-28T23:49:19.205Z"
+    },
+    {
+      "id": "park-city",
+      "cameraName": "Deer Valley (Silver Lake Lodge)",
+      "city": "Park City",
+      "state": "UT",
+      "country": "USA",
+      "lat": 40.6461,
+      "lng": -111.498,
+      "timezone": "America/Denver",
+      "sourceType": "mountain",
+      "channelName": "Deer Valley Resort",
+      "youtubeId": "uE_ent5rC3Y",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uE_ent5rC3Y",
+      "embedUrl": "https://www.youtube.com/embed/uE_ent5rC3Y",
+      "status": "live",
+      "verifiedOn": "2026-06-28",
+      "errorCode": null,
+      "lastChecked": "2026-06-28T23:49:19.205Z"
+    },
+    {
+      "id": "maui-lahaina",
+      "cameraName": "Kaanapali Beach (Sheraton Maui)",
+      "city": "Maui",
+      "state": "HI",
+      "country": "USA",
+      "lat": 20.9242,
+      "lng": -156.6947,
+      "timezone": "Pacific/Honolulu",
+      "sourceType": "beach",
+      "channelName": "Ozolio Live",
+      "youtubeId": "YXji6UQ0bwY",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YXji6UQ0bwY",
+      "embedUrl": "https://www.youtube.com/embed/YXji6UQ0bwY",
+      "status": "live",
+      "verifiedOn": "2026-06-28",
+      "errorCode": null,
+      "lastChecked": "2026-06-28T23:49:19.205Z"
+    },
+    {
+      "id": "okinawa",
+      "cameraName": "Okinawa Beach (Busena Terrace)",
+      "city": "Okinawa",
+      "state": "",
+      "country": "Japan",
+      "lat": 26.3344,
+      "lng": 127.8056,
+      "timezone": "Asia/Tokyo",
+      "sourceType": "beach",
+      "channelName": "TheTerraceHotels",
+      "youtubeId": "VWpOgCVKoK4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VWpOgCVKoK4",
+      "embedUrl": "https://www.youtube.com/embed/VWpOgCVKoK4",
+      "status": "live",
+      "verifiedOn": "2026-06-28",
+      "errorCode": null,
+      "lastChecked": "2026-06-28T23:49:19.205Z"
     }
   ],
-  "lastValidated": "2026-06-28T23:38:28.769Z"
+  "lastValidated": "2026-06-28T23:49:19.205Z"
 }

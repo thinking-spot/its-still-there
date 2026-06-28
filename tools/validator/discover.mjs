@@ -25,7 +25,10 @@ const TARGETS_PATH = path.join(__dirname, 'targets.json');
 const CANDIDATES_PATH = path.join(__dirname, 'candidates.json');
 const SHORTLIST_PATH = path.join(__dirname, 'shortlist.json');
 
-const targets = readJSON(TARGETS_PATH);
+// Optional: limit to specific target ids via ONLY="id1,id2" (saves API quota).
+const ONLY = process.env.ONLY ? new Set(process.env.ONLY.split(',').map(s => s.trim())) : null;
+let targets = readJSON(TARGETS_PATH);
+if (ONLY) targets = targets.filter(t => ONLY.has(t.id));
 
 // 1. Gather candidate IDs per target.
 const candidatesByTarget = {};
