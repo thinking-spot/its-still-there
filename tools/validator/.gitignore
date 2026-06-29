@@ -2,3 +2,7 @@ node_modules/
 candidates.json
 picks.json
 shortlist.json
+scrape-out.json
+scrape.log
+scrape-test.mjs
+cities.txt
