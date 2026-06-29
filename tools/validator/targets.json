@@ -5368,5 +5368,1265 @@
       "Mendoza Argentina live cam 24/7",
       "Mendoza plaza live stream youtube"
     ]
+  },
+  {
+    "id": "chennai",
+    "city": "Chennai",
+    "state": "",
+    "country": "India",
+    "lat": 13.0827,
+    "lng": 80.2707,
+    "timezone": "Asia/Kolkata",
+    "sourceType": "beach",
+    "queries": [
+      "Chennai live webcam",
+      "Chennai India live cam 24/7",
+      "Chennai beach live stream youtube"
+    ]
+  },
+  {
+    "id": "kolkata",
+    "city": "Kolkata",
+    "state": "",
+    "country": "India",
+    "lat": 22.5726,
+    "lng": 88.3639,
+    "timezone": "Asia/Kolkata",
+    "sourceType": "street",
+    "queries": [
+      "Kolkata live webcam",
+      "Kolkata India live cam 24/7",
+      "Kolkata street live stream youtube"
+    ]
+  },
+  {
+    "id": "hyderabad",
+    "city": "Hyderabad",
+    "state": "",
+    "country": "India",
+    "lat": 17.385,
+    "lng": 78.4867,
+    "timezone": "Asia/Kolkata",
+    "sourceType": "skyline",
+    "queries": [
+      "Hyderabad live webcam",
+      "Hyderabad India live cam 24/7",
+      "Hyderabad skyline live stream youtube"
+    ]
+  },
+  {
+    "id": "amritsar",
+    "city": "Amritsar (Golden Temple)",
+    "state": "",
+    "country": "India",
+    "lat": 31.62,
+    "lng": 74.8765,
+    "timezone": "Asia/Kolkata",
+    "sourceType": "landmark",
+    "queries": [
+      "Amritsar (Golden Temple) live webcam",
+      "Amritsar (Golden Temple) India live cam 24/7",
+      "Amritsar (Golden Temple) landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "rishikesh",
+    "city": "Rishikesh",
+    "state": "",
+    "country": "India",
+    "lat": 30.0869,
+    "lng": 78.2676,
+    "timezone": "Asia/Kolkata",
+    "sourceType": "river",
+    "queries": [
+      "Rishikesh live webcam",
+      "Rishikesh India live cam 24/7",
+      "Rishikesh river live stream youtube"
+    ]
+  },
+  {
+    "id": "udaipur",
+    "city": "Udaipur",
+    "state": "",
+    "country": "India",
+    "lat": 24.5854,
+    "lng": 73.7125,
+    "timezone": "Asia/Kolkata",
+    "sourceType": "landmark",
+    "queries": [
+      "Udaipur live webcam",
+      "Udaipur India live cam 24/7",
+      "Udaipur landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "kochi",
+    "city": "Kochi",
+    "state": "",
+    "country": "India",
+    "lat": 9.9312,
+    "lng": 76.2673,
+    "timezone": "Asia/Kolkata",
+    "sourceType": "harbor",
+    "queries": [
+      "Kochi live webcam",
+      "Kochi India live cam 24/7",
+      "Kochi harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "shimla",
+    "city": "Shimla",
+    "state": "",
+    "country": "India",
+    "lat": 31.1048,
+    "lng": 77.1734,
+    "timezone": "Asia/Kolkata",
+    "sourceType": "mountain",
+    "queries": [
+      "Shimla live webcam",
+      "Shimla India live cam 24/7",
+      "Shimla mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "dhaka",
+    "city": "Dhaka",
+    "state": "",
+    "country": "Bangladesh",
+    "lat": 23.8103,
+    "lng": 90.4125,
+    "timezone": "Asia/Dhaka",
+    "sourceType": "street",
+    "queries": [
+      "Dhaka live webcam",
+      "Dhaka Bangladesh live cam 24/7",
+      "Dhaka street live stream youtube"
+    ]
+  },
+  {
+    "id": "lahore",
+    "city": "Lahore",
+    "state": "",
+    "country": "Pakistan",
+    "lat": 31.5497,
+    "lng": 74.3436,
+    "timezone": "Asia/Karachi",
+    "sourceType": "landmark",
+    "queries": [
+      "Lahore live webcam",
+      "Lahore Pakistan live cam 24/7",
+      "Lahore landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "karachi",
+    "city": "Karachi",
+    "state": "",
+    "country": "Pakistan",
+    "lat": 24.8607,
+    "lng": 67.0011,
+    "timezone": "Asia/Karachi",
+    "sourceType": "harbor",
+    "queries": [
+      "Karachi live webcam",
+      "Karachi Pakistan live cam 24/7",
+      "Karachi harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "vientiane",
+    "city": "Vientiane",
+    "state": "",
+    "country": "Laos",
+    "lat": 17.9757,
+    "lng": 102.6331,
+    "timezone": "Asia/Vientiane",
+    "sourceType": "river",
+    "queries": [
+      "Vientiane live webcam",
+      "Vientiane Laos live cam 24/7",
+      "Vientiane river live stream youtube"
+    ]
+  },
+  {
+    "id": "luang-prabang",
+    "city": "Luang Prabang",
+    "state": "",
+    "country": "Laos",
+    "lat": 19.8856,
+    "lng": 102.1347,
+    "timezone": "Asia/Vientiane",
+    "sourceType": "landmark",
+    "queries": [
+      "Luang Prabang live webcam",
+      "Luang Prabang Laos live cam 24/7",
+      "Luang Prabang landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "ubud",
+    "city": "Ubud (Bali)",
+    "state": "",
+    "country": "Indonesia",
+    "lat": -8.5069,
+    "lng": 115.2625,
+    "timezone": "Asia/Makassar",
+    "sourceType": "river",
+    "queries": [
+      "Ubud (Bali) live webcam",
+      "Ubud (Bali) Indonesia live cam 24/7",
+      "Ubud (Bali) river live stream youtube"
+    ]
+  },
+  {
+    "id": "yogyakarta",
+    "city": "Yogyakarta",
+    "state": "",
+    "country": "Indonesia",
+    "lat": -7.7956,
+    "lng": 110.3695,
+    "timezone": "Asia/Jakarta",
+    "sourceType": "landmark",
+    "queries": [
+      "Yogyakarta live webcam",
+      "Yogyakarta Indonesia live cam 24/7",
+      "Yogyakarta landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "cebu",
+    "city": "Cebu",
+    "state": "",
+    "country": "Philippines",
+    "lat": 10.3157,
+    "lng": 123.8854,
+    "timezone": "Asia/Manila",
+    "sourceType": "skyline",
+    "queries": [
+      "Cebu live webcam",
+      "Cebu Philippines live cam 24/7",
+      "Cebu skyline live stream youtube"
+    ]
+  },
+  {
+    "id": "hoi-an",
+    "city": "Hoi An",
+    "state": "",
+    "country": "Vietnam",
+    "lat": 15.8801,
+    "lng": 108.338,
+    "timezone": "Asia/Ho_Chi_Minh",
+    "sourceType": "landmark",
+    "queries": [
+      "Hoi An live webcam",
+      "Hoi An Vietnam live cam 24/7",
+      "Hoi An landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "vung-tau",
+    "city": "Vung Tau",
+    "state": "",
+    "country": "Vietnam",
+    "lat": 10.4114,
+    "lng": 107.1362,
+    "timezone": "Asia/Ho_Chi_Minh",
+    "sourceType": "beach",
+    "queries": [
+      "Vung Tau live webcam",
+      "Vung Tau Vietnam live cam 24/7",
+      "Vung Tau beach live stream youtube"
+    ]
+  },
+  {
+    "id": "penang",
+    "city": "Penang (Georgetown)",
+    "state": "",
+    "country": "Malaysia",
+    "lat": 5.4141,
+    "lng": 100.3288,
+    "timezone": "Asia/Kuala_Lumpur",
+    "sourceType": "street",
+    "queries": [
+      "Penang (Georgetown) live webcam",
+      "Penang (Georgetown) Malaysia live cam 24/7",
+      "Penang (Georgetown) street live stream youtube"
+    ]
+  },
+  {
+    "id": "malacca",
+    "city": "Malacca",
+    "state": "",
+    "country": "Malaysia",
+    "lat": 2.1896,
+    "lng": 102.2501,
+    "timezone": "Asia/Kuala_Lumpur",
+    "sourceType": "river",
+    "queries": [
+      "Malacca live webcam",
+      "Malacca Malaysia live cam 24/7",
+      "Malacca river live stream youtube"
+    ]
+  },
+  {
+    "id": "koh-samui",
+    "city": "Koh Samui",
+    "state": "",
+    "country": "Thailand",
+    "lat": 9.512,
+    "lng": 100.0136,
+    "timezone": "Asia/Bangkok",
+    "sourceType": "beach",
+    "queries": [
+      "Koh Samui live webcam",
+      "Koh Samui Thailand live cam 24/7",
+      "Koh Samui beach live stream youtube"
+    ]
+  },
+  {
+    "id": "hua-hin",
+    "city": "Hua Hin",
+    "state": "",
+    "country": "Thailand",
+    "lat": 12.5684,
+    "lng": 99.9577,
+    "timezone": "Asia/Bangkok",
+    "sourceType": "beach",
+    "queries": [
+      "Hua Hin live webcam",
+      "Hua Hin Thailand live cam 24/7",
+      "Hua Hin beach live stream youtube"
+    ]
+  },
+  {
+    "id": "kaohsiung",
+    "city": "Kaohsiung",
+    "state": "",
+    "country": "Taiwan",
+    "lat": 22.6273,
+    "lng": 120.3014,
+    "timezone": "Asia/Taipei",
+    "sourceType": "harbor",
+    "queries": [
+      "Kaohsiung live webcam",
+      "Kaohsiung Taiwan live cam 24/7",
+      "Kaohsiung harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "incheon",
+    "city": "Incheon",
+    "state": "",
+    "country": "South Korea",
+    "lat": 37.4563,
+    "lng": 126.7052,
+    "timezone": "Asia/Seoul",
+    "sourceType": "harbor",
+    "queries": [
+      "Incheon live webcam",
+      "Incheon South Korea live cam 24/7",
+      "Incheon harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "sendai",
+    "city": "Sendai",
+    "state": "",
+    "country": "Japan",
+    "lat": 38.2682,
+    "lng": 140.8694,
+    "timezone": "Asia/Tokyo",
+    "sourceType": "street",
+    "queries": [
+      "Sendai live webcam",
+      "Sendai Japan live cam 24/7",
+      "Sendai street live stream youtube"
+    ]
+  },
+  {
+    "id": "kanazawa",
+    "city": "Kanazawa",
+    "state": "",
+    "country": "Japan",
+    "lat": 36.5613,
+    "lng": 136.6562,
+    "timezone": "Asia/Tokyo",
+    "sourceType": "landmark",
+    "queries": [
+      "Kanazawa live webcam",
+      "Kanazawa Japan live cam 24/7",
+      "Kanazawa landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "otaru",
+    "city": "Otaru",
+    "state": "",
+    "country": "Japan",
+    "lat": 43.1907,
+    "lng": 140.9947,
+    "timezone": "Asia/Tokyo",
+    "sourceType": "harbor",
+    "queries": [
+      "Otaru live webcam",
+      "Otaru Japan live cam 24/7",
+      "Otaru harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "ulaanbaatar",
+    "city": "Ulaanbaatar",
+    "state": "",
+    "country": "Mongolia",
+    "lat": 47.8864,
+    "lng": 106.9057,
+    "timezone": "Asia/Ulaanbaatar",
+    "sourceType": "plaza",
+    "queries": [
+      "Ulaanbaatar live webcam",
+      "Ulaanbaatar Mongolia live cam 24/7",
+      "Ulaanbaatar plaza live stream youtube"
+    ]
+  },
+  {
+    "id": "hangzhou",
+    "city": "Hangzhou (West Lake)",
+    "state": "",
+    "country": "China",
+    "lat": 30.2741,
+    "lng": 120.1551,
+    "timezone": "Asia/Shanghai",
+    "sourceType": "landmark",
+    "queries": [
+      "Hangzhou (West Lake) live webcam",
+      "Hangzhou (West Lake) China live cam 24/7",
+      "Hangzhou (West Lake) landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "chengdu-pandas",
+    "city": "Chengdu Panda Base",
+    "state": "",
+    "country": "China",
+    "lat": 30.7333,
+    "lng": 104.15,
+    "timezone": "Asia/Shanghai",
+    "sourceType": "mountain",
+    "queries": [
+      "Chengdu Panda Base live webcam",
+      "Chengdu Panda Base China live cam 24/7",
+      "Chengdu Panda Base mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "samarkand",
+    "city": "Samarkand",
+    "state": "",
+    "country": "Uzbekistan",
+    "lat": 39.627,
+    "lng": 66.975,
+    "timezone": "Asia/Samarkand",
+    "sourceType": "landmark",
+    "queries": [
+      "Samarkand live webcam",
+      "Samarkand Uzbekistan live cam 24/7",
+      "Samarkand landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "tashkent",
+    "city": "Tashkent",
+    "state": "",
+    "country": "Uzbekistan",
+    "lat": 41.2995,
+    "lng": 69.2401,
+    "timezone": "Asia/Tashkent",
+    "sourceType": "plaza",
+    "queries": [
+      "Tashkent live webcam",
+      "Tashkent Uzbekistan live cam 24/7",
+      "Tashkent plaza live stream youtube"
+    ]
+  },
+  {
+    "id": "bishkek",
+    "city": "Bishkek",
+    "state": "",
+    "country": "Kyrgyzstan",
+    "lat": 42.8746,
+    "lng": 74.5698,
+    "timezone": "Asia/Bishkek",
+    "sourceType": "plaza",
+    "queries": [
+      "Bishkek live webcam",
+      "Bishkek Kyrgyzstan live cam 24/7",
+      "Bishkek plaza live stream youtube"
+    ]
+  },
+  {
+    "id": "astana",
+    "city": "Astana",
+    "state": "",
+    "country": "Kazakhstan",
+    "lat": 51.1694,
+    "lng": 71.4491,
+    "timezone": "Asia/Almaty",
+    "sourceType": "skyline",
+    "queries": [
+      "Astana live webcam",
+      "Astana Kazakhstan live cam 24/7",
+      "Astana skyline live stream youtube"
+    ]
+  },
+  {
+    "id": "batumi",
+    "city": "Batumi",
+    "state": "",
+    "country": "Georgia",
+    "lat": 41.6168,
+    "lng": 41.6367,
+    "timezone": "Asia/Tbilisi",
+    "sourceType": "beach",
+    "queries": [
+      "Batumi live webcam",
+      "Batumi Georgia live cam 24/7",
+      "Batumi beach live stream youtube"
+    ]
+  },
+  {
+    "id": "riyadh",
+    "city": "Riyadh",
+    "state": "",
+    "country": "Saudi Arabia",
+    "lat": 24.7136,
+    "lng": 46.6753,
+    "timezone": "Asia/Riyadh",
+    "sourceType": "skyline",
+    "queries": [
+      "Riyadh live webcam",
+      "Riyadh Saudi Arabia live cam 24/7",
+      "Riyadh skyline live stream youtube"
+    ]
+  },
+  {
+    "id": "jeddah",
+    "city": "Jeddah",
+    "state": "",
+    "country": "Saudi Arabia",
+    "lat": 21.4858,
+    "lng": 39.1925,
+    "timezone": "Asia/Riyadh",
+    "sourceType": "harbor",
+    "queries": [
+      "Jeddah live webcam",
+      "Jeddah Saudi Arabia live cam 24/7",
+      "Jeddah harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "medina",
+    "city": "Medina",
+    "state": "",
+    "country": "Saudi Arabia",
+    "lat": 24.4686,
+    "lng": 39.6142,
+    "timezone": "Asia/Riyadh",
+    "sourceType": "landmark",
+    "queries": [
+      "Medina live webcam",
+      "Medina Saudi Arabia live cam 24/7",
+      "Medina landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "tehran",
+    "city": "Tehran",
+    "state": "",
+    "country": "Iran",
+    "lat": 35.6892,
+    "lng": 51.389,
+    "timezone": "Asia/Tehran",
+    "sourceType": "landmark",
+    "queries": [
+      "Tehran live webcam",
+      "Tehran Iran live cam 24/7",
+      "Tehran landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "aqaba",
+    "city": "Aqaba",
+    "state": "",
+    "country": "Jordan",
+    "lat": 29.5267,
+    "lng": 35.0078,
+    "timezone": "Asia/Amman",
+    "sourceType": "beach",
+    "queries": [
+      "Aqaba live webcam",
+      "Aqaba Jordan live cam 24/7",
+      "Aqaba beach live stream youtube"
+    ]
+  },
+  {
+    "id": "mombasa",
+    "city": "Mombasa",
+    "state": "",
+    "country": "Kenya",
+    "lat": -4.0435,
+    "lng": 39.6682,
+    "timezone": "Africa/Nairobi",
+    "sourceType": "beach",
+    "queries": [
+      "Mombasa live webcam",
+      "Mombasa Kenya live cam 24/7",
+      "Mombasa beach live stream youtube"
+    ]
+  },
+  {
+    "id": "kampala",
+    "city": "Kampala",
+    "state": "",
+    "country": "Uganda",
+    "lat": 0.3476,
+    "lng": 32.5825,
+    "timezone": "Africa/Kampala",
+    "sourceType": "plaza",
+    "queries": [
+      "Kampala live webcam",
+      "Kampala Uganda live cam 24/7",
+      "Kampala plaza live stream youtube"
+    ]
+  },
+  {
+    "id": "kigali",
+    "city": "Kigali",
+    "state": "",
+    "country": "Rwanda",
+    "lat": -1.9441,
+    "lng": 30.0619,
+    "timezone": "Africa/Kigali",
+    "sourceType": "skyline",
+    "queries": [
+      "Kigali live webcam",
+      "Kigali Rwanda live cam 24/7",
+      "Kigali skyline live stream youtube"
+    ]
+  },
+  {
+    "id": "lagos",
+    "city": "Lagos",
+    "state": "",
+    "country": "Nigeria",
+    "lat": 6.4541,
+    "lng": 3.3947,
+    "timezone": "Africa/Lagos",
+    "sourceType": "street",
+    "queries": [
+      "Lagos live webcam",
+      "Lagos Nigeria live cam 24/7",
+      "Lagos street live stream youtube"
+    ]
+  },
+  {
+    "id": "gaborone",
+    "city": "Gaborone",
+    "state": "",
+    "country": "Botswana",
+    "lat": -24.6282,
+    "lng": 25.9231,
+    "timezone": "Africa/Gaborone",
+    "sourceType": "plaza",
+    "queries": [
+      "Gaborone live webcam",
+      "Gaborone Botswana live cam 24/7",
+      "Gaborone plaza live stream youtube"
+    ]
+  },
+  {
+    "id": "maputo",
+    "city": "Maputo",
+    "state": "",
+    "country": "Mozambique",
+    "lat": -25.9692,
+    "lng": 32.5732,
+    "timezone": "Africa/Maputo",
+    "sourceType": "harbor",
+    "queries": [
+      "Maputo live webcam",
+      "Maputo Mozambique live cam 24/7",
+      "Maputo harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "pretoria",
+    "city": "Pretoria",
+    "state": "",
+    "country": "South Africa",
+    "lat": -25.7479,
+    "lng": 28.2293,
+    "timezone": "Africa/Johannesburg",
+    "sourceType": "plaza",
+    "queries": [
+      "Pretoria live webcam",
+      "Pretoria South Africa live cam 24/7",
+      "Pretoria plaza live stream youtube"
+    ]
+  },
+  {
+    "id": "pridelands",
+    "city": "Pridelands (Greater Kruger)",
+    "state": "",
+    "country": "South Africa",
+    "lat": -24.4,
+    "lng": 31.3,
+    "timezone": "Africa/Johannesburg",
+    "sourceType": "river",
+    "queries": [
+      "Pridelands (Greater Kruger) live webcam",
+      "Pridelands (Greater Kruger) South Africa live cam 24/7",
+      "Pridelands (Greater Kruger) river live stream youtube"
+    ]
+  },
+  {
+    "id": "chobe",
+    "city": "Chobe River",
+    "state": "",
+    "country": "Botswana",
+    "lat": -17.8,
+    "lng": 25.07,
+    "timezone": "Africa/Gaborone",
+    "sourceType": "river",
+    "queries": [
+      "Chobe River live webcam",
+      "Chobe River Botswana live cam 24/7",
+      "Chobe River river live stream youtube"
+    ]
+  },
+  {
+    "id": "windhoek",
+    "city": "Windhoek",
+    "state": "",
+    "country": "Namibia",
+    "lat": -22.5609,
+    "lng": 17.0658,
+    "timezone": "Africa/Windhoek",
+    "sourceType": "plaza",
+    "queries": [
+      "Windhoek live webcam",
+      "Windhoek Namibia live cam 24/7",
+      "Windhoek plaza live stream youtube"
+    ]
+  },
+  {
+    "id": "guam",
+    "city": "Guam (Tumon Bay)",
+    "state": "",
+    "country": "Guam",
+    "lat": 13.5132,
+    "lng": 144.8003,
+    "timezone": "Pacific/Guam",
+    "sourceType": "beach",
+    "queries": [
+      "Guam (Tumon Bay) live webcam",
+      "Guam (Tumon Bay) Guam live cam 24/7",
+      "Guam (Tumon Bay) beach live stream youtube"
+    ]
+  },
+  {
+    "id": "noumea",
+    "city": "Noumea",
+    "state": "",
+    "country": "New Caledonia",
+    "lat": -22.2758,
+    "lng": 166.458,
+    "timezone": "Pacific/Noumea",
+    "sourceType": "harbor",
+    "queries": [
+      "Noumea live webcam",
+      "Noumea New Caledonia live cam 24/7",
+      "Noumea harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "suva",
+    "city": "Suva",
+    "state": "",
+    "country": "Fiji",
+    "lat": -18.1416,
+    "lng": 178.4419,
+    "timezone": "Pacific/Fiji",
+    "sourceType": "harbor",
+    "queries": [
+      "Suva live webcam",
+      "Suva Fiji live cam 24/7",
+      "Suva harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "darwin",
+    "city": "Darwin",
+    "state": "",
+    "country": "Australia",
+    "lat": -12.4634,
+    "lng": 130.8456,
+    "timezone": "Australia/Darwin",
+    "sourceType": "harbor",
+    "queries": [
+      "Darwin live webcam",
+      "Darwin Australia live cam 24/7",
+      "Darwin harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "newcastle-au",
+    "city": "Newcastle",
+    "state": "",
+    "country": "Australia",
+    "lat": -32.9283,
+    "lng": 151.7817,
+    "timezone": "Australia/Sydney",
+    "sourceType": "beach",
+    "queries": [
+      "Newcastle live webcam",
+      "Newcastle Australia live cam 24/7",
+      "Newcastle beach live stream youtube"
+    ]
+  },
+  {
+    "id": "wollongong",
+    "city": "Wollongong",
+    "state": "",
+    "country": "Australia",
+    "lat": -34.4278,
+    "lng": 150.8931,
+    "timezone": "Australia/Sydney",
+    "sourceType": "beach",
+    "queries": [
+      "Wollongong live webcam",
+      "Wollongong Australia live cam 24/7",
+      "Wollongong beach live stream youtube"
+    ]
+  },
+  {
+    "id": "sunshine-coast",
+    "city": "Sunshine Coast",
+    "state": "",
+    "country": "Australia",
+    "lat": -26.65,
+    "lng": 153.0667,
+    "timezone": "Australia/Brisbane",
+    "sourceType": "beach",
+    "queries": [
+      "Sunshine Coast live webcam",
+      "Sunshine Coast Australia live cam 24/7",
+      "Sunshine Coast beach live stream youtube"
+    ]
+  },
+  {
+    "id": "geelong",
+    "city": "Geelong",
+    "state": "",
+    "country": "Australia",
+    "lat": -38.1499,
+    "lng": 144.3617,
+    "timezone": "Australia/Melbourne",
+    "sourceType": "harbor",
+    "queries": [
+      "Geelong live webcam",
+      "Geelong Australia live cam 24/7",
+      "Geelong harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "dunedin",
+    "city": "Dunedin",
+    "state": "",
+    "country": "New Zealand",
+    "lat": -45.8788,
+    "lng": 170.5028,
+    "timezone": "Pacific/Auckland",
+    "sourceType": "harbor",
+    "queries": [
+      "Dunedin live webcam",
+      "Dunedin New Zealand live cam 24/7",
+      "Dunedin harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "napier",
+    "city": "Napier",
+    "state": "",
+    "country": "New Zealand",
+    "lat": -39.4928,
+    "lng": 176.912,
+    "timezone": "Pacific/Auckland",
+    "sourceType": "beach",
+    "queries": [
+      "Napier live webcam",
+      "Napier New Zealand live cam 24/7",
+      "Napier beach live stream youtube"
+    ]
+  },
+  {
+    "id": "tauranga",
+    "city": "Tauranga",
+    "state": "",
+    "country": "New Zealand",
+    "lat": -37.6878,
+    "lng": 176.1651,
+    "timezone": "Pacific/Auckland",
+    "sourceType": "harbor",
+    "queries": [
+      "Tauranga live webcam",
+      "Tauranga New Zealand live cam 24/7",
+      "Tauranga harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "richmond-va",
+    "city": "Richmond",
+    "state": "VA",
+    "country": "USA",
+    "lat": 37.5407,
+    "lng": -77.436,
+    "timezone": "America/New_York",
+    "sourceType": "river",
+    "queries": [
+      "Richmond live webcam",
+      "Richmond USA live cam 24/7",
+      "Richmond river live stream youtube"
+    ]
+  },
+  {
+    "id": "raleigh",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "USA",
+    "lat": 35.7796,
+    "lng": -78.6382,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "Raleigh live webcam",
+      "Raleigh USA live cam 24/7",
+      "Raleigh skyline live stream youtube"
+    ]
+  },
+  {
+    "id": "columbus-oh",
+    "city": "Columbus",
+    "state": "OH",
+    "country": "USA",
+    "lat": 39.9612,
+    "lng": -82.9988,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "Columbus live webcam",
+      "Columbus USA live cam 24/7",
+      "Columbus skyline live stream youtube"
+    ]
+  },
+  {
+    "id": "indianapolis",
+    "city": "Indianapolis",
+    "state": "IN",
+    "country": "USA",
+    "lat": 39.7684,
+    "lng": -86.1581,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "Indianapolis live webcam",
+      "Indianapolis USA live cam 24/7",
+      "Indianapolis skyline live stream youtube"
+    ]
+  },
+  {
+    "id": "louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "country": "USA",
+    "lat": 38.2527,
+    "lng": -85.7585,
+    "timezone": "America/New_York",
+    "sourceType": "river",
+    "queries": [
+      "Louisville live webcam",
+      "Louisville USA live cam 24/7",
+      "Louisville river live stream youtube"
+    ]
+  },
+  {
+    "id": "oklahoma-city",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "country": "USA",
+    "lat": 35.4676,
+    "lng": -97.5164,
+    "timezone": "America/Chicago",
+    "sourceType": "skyline",
+    "queries": [
+      "Oklahoma City live webcam",
+      "Oklahoma City USA live cam 24/7",
+      "Oklahoma City skyline live stream youtube"
+    ]
+  },
+  {
+    "id": "omaha",
+    "city": "Omaha",
+    "state": "NE",
+    "country": "USA",
+    "lat": 41.2565,
+    "lng": -95.9345,
+    "timezone": "America/Chicago",
+    "sourceType": "skyline",
+    "queries": [
+      "Omaha live webcam",
+      "Omaha USA live cam 24/7",
+      "Omaha skyline live stream youtube"
+    ]
+  },
+  {
+    "id": "madison-wi",
+    "city": "Madison",
+    "state": "WI",
+    "country": "USA",
+    "lat": 43.0731,
+    "lng": -89.4012,
+    "timezone": "America/Chicago",
+    "sourceType": "plaza",
+    "queries": [
+      "Madison live webcam",
+      "Madison USA live cam 24/7",
+      "Madison plaza live stream youtube"
+    ]
+  },
+  {
+    "id": "boise",
+    "city": "Boise",
+    "state": "ID",
+    "country": "USA",
+    "lat": 43.615,
+    "lng": -116.2023,
+    "timezone": "America/Boise",
+    "sourceType": "skyline",
+    "queries": [
+      "Boise live webcam",
+      "Boise USA live cam 24/7",
+      "Boise skyline live stream youtube"
+    ]
+  },
+  {
+    "id": "spokane",
+    "city": "Spokane",
+    "state": "WA",
+    "country": "USA",
+    "lat": 47.6588,
+    "lng": -117.426,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "river",
+    "queries": [
+      "Spokane live webcam",
+      "Spokane USA live cam 24/7",
+      "Spokane river live stream youtube"
+    ]
+  },
+  {
+    "id": "sacramento",
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "USA",
+    "lat": 38.5816,
+    "lng": -121.4944,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "river",
+    "queries": [
+      "Sacramento live webcam",
+      "Sacramento USA live cam 24/7",
+      "Sacramento river live stream youtube"
+    ]
+  },
+  {
+    "id": "burlington-vt",
+    "city": "Burlington",
+    "state": "VT",
+    "country": "USA",
+    "lat": 44.4759,
+    "lng": -73.2121,
+    "timezone": "America/New_York",
+    "sourceType": "harbor",
+    "queries": [
+      "Burlington live webcam",
+      "Burlington USA live cam 24/7",
+      "Burlington harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "mystic-ct",
+    "city": "Mystic",
+    "state": "CT",
+    "country": "USA",
+    "lat": 41.3543,
+    "lng": -71.9665,
+    "timezone": "America/New_York",
+    "sourceType": "harbor",
+    "queries": [
+      "Mystic live webcam",
+      "Mystic USA live cam 24/7",
+      "Mystic harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "rehoboth-beach",
+    "city": "Rehoboth Beach",
+    "state": "DE",
+    "country": "USA",
+    "lat": 38.7209,
+    "lng": -75.076,
+    "timezone": "America/New_York",
+    "sourceType": "beach",
+    "queries": [
+      "Rehoboth Beach live webcam",
+      "Rehoboth Beach USA live cam 24/7",
+      "Rehoboth Beach beach live stream youtube"
+    ]
+  },
+  {
+    "id": "wildwood-nj",
+    "city": "Wildwood",
+    "state": "NJ",
+    "country": "USA",
+    "lat": 38.9918,
+    "lng": -74.8149,
+    "timezone": "America/New_York",
+    "sourceType": "boardwalk",
+    "queries": [
+      "Wildwood live webcam",
+      "Wildwood USA live cam 24/7",
+      "Wildwood boardwalk live stream youtube"
+    ]
+  },
+  {
+    "id": "biloxi",
+    "city": "Biloxi",
+    "state": "MS",
+    "country": "USA",
+    "lat": 30.396,
+    "lng": -88.8853,
+    "timezone": "America/Chicago",
+    "sourceType": "beach",
+    "queries": [
+      "Biloxi live webcam",
+      "Biloxi USA live cam 24/7",
+      "Biloxi beach live stream youtube"
+    ]
+  },
+  {
+    "id": "destin",
+    "city": "Destin",
+    "state": "FL",
+    "country": "USA",
+    "lat": 30.3935,
+    "lng": -86.4958,
+    "timezone": "America/Chicago",
+    "sourceType": "beach",
+    "queries": [
+      "Destin live webcam",
+      "Destin USA live cam 24/7",
+      "Destin beach live stream youtube"
+    ]
+  },
+  {
+    "id": "corpus-christi",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "country": "USA",
+    "lat": 27.8006,
+    "lng": -97.3964,
+    "timezone": "America/Chicago",
+    "sourceType": "harbor",
+    "queries": [
+      "Corpus Christi live webcam",
+      "Corpus Christi USA live cam 24/7",
+      "Corpus Christi harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "moab",
+    "city": "Moab",
+    "state": "UT",
+    "country": "USA",
+    "lat": 38.5733,
+    "lng": -109.5498,
+    "timezone": "America/Denver",
+    "sourceType": "mountain",
+    "queries": [
+      "Moab live webcam",
+      "Moab USA live cam 24/7",
+      "Moab mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "seward-ak",
+    "city": "Seward",
+    "state": "AK",
+    "country": "USA",
+    "lat": 60.1042,
+    "lng": -149.4422,
+    "timezone": "America/Anchorage",
+    "sourceType": "harbor",
+    "queries": [
+      "Seward live webcam",
+      "Seward USA live cam 24/7",
+      "Seward harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "taos",
+    "city": "Taos",
+    "state": "NM",
+    "country": "USA",
+    "lat": 36.4072,
+    "lng": -105.5731,
+    "timezone": "America/Denver",
+    "sourceType": "mountain",
+    "queries": [
+      "Taos live webcam",
+      "Taos USA live cam 24/7",
+      "Taos mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "georgia-aquarium",
+    "city": "Georgia Aquarium",
+    "state": "GA",
+    "country": "USA",
+    "lat": 33.7634,
+    "lng": -84.3951,
+    "timezone": "America/New_York",
+    "sourceType": "underwater",
+    "queries": [
+      "Georgia Aquarium live webcam",
+      "Georgia Aquarium USA live cam 24/7",
+      "Georgia Aquarium underwater live stream youtube"
+    ]
+  },
+  {
+    "id": "churchill-polar",
+    "city": "Churchill (Tundra)",
+    "state": "",
+    "country": "Canada",
+    "lat": 58.7684,
+    "lng": -94.165,
+    "timezone": "America/Winnipeg",
+    "sourceType": "river",
+    "queries": [
+      "Churchill (Tundra) live webcam",
+      "Churchill (Tundra) Canada live cam 24/7",
+      "Churchill (Tundra) river live stream youtube"
+    ]
   }
 ]
