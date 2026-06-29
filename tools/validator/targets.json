@@ -6628,5 +6628,890 @@
       "Churchill (Tundra) Canada live cam 24/7",
       "Churchill (Tundra) river live stream youtube"
     ]
+  },
+  {
+    "id": "statue-of-liberty",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "lat": 40.6892,
+    "lng": -74.0445,
+    "timezone": "America/New_York",
+    "sourceType": "landmark",
+    "queries": [
+      "New York live webcam",
+      "New York USA live cam 24/7",
+      "New York landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "central-park",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "lat": 40.7829,
+    "lng": -73.9654,
+    "timezone": "America/New_York",
+    "sourceType": "park",
+    "queries": [
+      "New York live webcam",
+      "New York USA live cam 24/7",
+      "New York park live stream youtube"
+    ]
+  },
+  {
+    "id": "hollywood-sign",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "lat": 34.1341,
+    "lng": -118.3215,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "landmark",
+    "queries": [
+      "Los Angeles live webcam",
+      "Los Angeles USA live cam 24/7",
+      "Los Angeles landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "griffith-observatory",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "lat": 34.1184,
+    "lng": -118.3004,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "landmark",
+    "queries": [
+      "Los Angeles live webcam",
+      "Los Angeles USA live cam 24/7",
+      "Los Angeles landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "golden-gate-bridge",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "lat": 37.8199,
+    "lng": -122.4783,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "landmark",
+    "queries": [
+      "San Francisco live webcam",
+      "San Francisco USA live cam 24/7",
+      "San Francisco landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "golden-gate-park",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "lat": 37.7694,
+    "lng": -122.4862,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "park",
+    "queries": [
+      "San Francisco live webcam",
+      "San Francisco USA live cam 24/7",
+      "San Francisco park live stream youtube"
+    ]
+  },
+  {
+    "id": "lincoln-memorial",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "lat": 38.8893,
+    "lng": -77.0502,
+    "timezone": "America/New_York",
+    "sourceType": "landmark",
+    "queries": [
+      "Washington live webcam",
+      "Washington USA live cam 24/7",
+      "Washington landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "smithsonian-zoo",
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "lat": 38.9296,
+    "lng": -77.0497,
+    "timezone": "America/New_York",
+    "sourceType": "park",
+    "queries": [
+      "Washington live webcam",
+      "Washington USA live cam 24/7",
+      "Washington park live stream youtube"
+    ]
+  },
+  {
+    "id": "millennium-park",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "lat": 41.8826,
+    "lng": -87.6226,
+    "timezone": "America/Chicago",
+    "sourceType": "park",
+    "queries": [
+      "Chicago live webcam",
+      "Chicago USA live cam 24/7",
+      "Chicago park live stream youtube"
+    ]
+  },
+  {
+    "id": "boston-common",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "lat": 42.355,
+    "lng": -71.0656,
+    "timezone": "America/New_York",
+    "sourceType": "park",
+    "queries": [
+      "Boston live webcam",
+      "Boston USA live cam 24/7",
+      "Boston park live stream youtube"
+    ]
+  },
+  {
+    "id": "san-diego-zoo",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA",
+    "lat": 32.7353,
+    "lng": -117.149,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "park",
+    "queries": [
+      "San Diego live webcam",
+      "San Diego USA live cam 24/7",
+      "San Diego park live stream youtube"
+    ]
+  },
+  {
+    "id": "cincinnati-zoo",
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "USA",
+    "lat": 39.143,
+    "lng": -84.5083,
+    "timezone": "America/New_York",
+    "sourceType": "park",
+    "queries": [
+      "Cincinnati live webcam",
+      "Cincinnati USA live cam 24/7",
+      "Cincinnati park live stream youtube"
+    ]
+  },
+  {
+    "id": "houston-zoo",
+    "city": "Houston",
+    "state": "TX",
+    "country": "USA",
+    "lat": 29.715,
+    "lng": -95.3909,
+    "timezone": "America/Chicago",
+    "sourceType": "park",
+    "queries": [
+      "Houston live webcam",
+      "Houston USA live cam 24/7",
+      "Houston park live stream youtube"
+    ]
+  },
+  {
+    "id": "tower-bridge-london",
+    "city": "London",
+    "state": "",
+    "country": "UK",
+    "lat": 51.5055,
+    "lng": -0.0754,
+    "timezone": "Europe/London",
+    "sourceType": "landmark",
+    "queries": [
+      "London live webcam",
+      "London UK live cam 24/7",
+      "London landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "london-eye",
+    "city": "London",
+    "state": "",
+    "country": "UK",
+    "lat": 51.5033,
+    "lng": -0.1196,
+    "timezone": "Europe/London",
+    "sourceType": "landmark",
+    "queries": [
+      "London live webcam",
+      "London UK live cam 24/7",
+      "London landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "hyde-park-london",
+    "city": "London",
+    "state": "",
+    "country": "UK",
+    "lat": 51.5073,
+    "lng": -0.1657,
+    "timezone": "Europe/London",
+    "sourceType": "park",
+    "queries": [
+      "London live webcam",
+      "London UK live cam 24/7",
+      "London park live stream youtube"
+    ]
+  },
+  {
+    "id": "sagrada-familia",
+    "city": "Barcelona",
+    "state": "",
+    "country": "Spain",
+    "lat": 41.4036,
+    "lng": 2.1744,
+    "timezone": "Europe/Madrid",
+    "sourceType": "landmark",
+    "queries": [
+      "Barcelona live webcam",
+      "Barcelona Spain live cam 24/7",
+      "Barcelona landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "colosseum",
+    "city": "Rome",
+    "state": "",
+    "country": "Italy",
+    "lat": 41.8902,
+    "lng": 12.4922,
+    "timezone": "Europe/Rome",
+    "sourceType": "landmark",
+    "queries": [
+      "Rome live webcam",
+      "Rome Italy live cam 24/7",
+      "Rome landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "trevi-fountain",
+    "city": "Rome",
+    "state": "",
+    "country": "Italy",
+    "lat": 41.9009,
+    "lng": 12.4833,
+    "timezone": "Europe/Rome",
+    "sourceType": "landmark",
+    "queries": [
+      "Rome live webcam",
+      "Rome Italy live cam 24/7",
+      "Rome landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "st-peters-square",
+    "city": "Vatican City",
+    "state": "",
+    "country": "Vatican",
+    "lat": 41.9022,
+    "lng": 12.4539,
+    "timezone": "Europe/Vatican",
+    "sourceType": "landmark",
+    "queries": [
+      "Vatican City live webcam",
+      "Vatican City Vatican live cam 24/7",
+      "Vatican City landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "arc-de-triomphe",
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "lat": 48.8738,
+    "lng": 2.295,
+    "timezone": "Europe/Paris",
+    "sourceType": "landmark",
+    "queries": [
+      "Paris live webcam",
+      "Paris France live cam 24/7",
+      "Paris landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "louvre",
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "lat": 48.8606,
+    "lng": 2.3376,
+    "timezone": "Europe/Paris",
+    "sourceType": "landmark",
+    "queries": [
+      "Paris live webcam",
+      "Paris France live cam 24/7",
+      "Paris landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "sacre-coeur",
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "lat": 48.8867,
+    "lng": 2.3431,
+    "timezone": "Europe/Paris",
+    "sourceType": "landmark",
+    "queries": [
+      "Paris live webcam",
+      "Paris France live cam 24/7",
+      "Paris landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "luxembourg-gardens",
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "lat": 48.8462,
+    "lng": 2.3372,
+    "timezone": "Europe/Paris",
+    "sourceType": "park",
+    "queries": [
+      "Paris live webcam",
+      "Paris France live cam 24/7",
+      "Paris park live stream youtube"
+    ]
+  },
+  {
+    "id": "brandenburg-gate",
+    "city": "Berlin",
+    "state": "",
+    "country": "Germany",
+    "lat": 52.5163,
+    "lng": 13.3777,
+    "timezone": "Europe/Berlin",
+    "sourceType": "landmark",
+    "queries": [
+      "Berlin live webcam",
+      "Berlin Germany live cam 24/7",
+      "Berlin landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "tiergarten",
+    "city": "Berlin",
+    "state": "",
+    "country": "Germany",
+    "lat": 52.5145,
+    "lng": 13.3501,
+    "timezone": "Europe/Berlin",
+    "sourceType": "park",
+    "queries": [
+      "Berlin live webcam",
+      "Berlin Germany live cam 24/7",
+      "Berlin park live stream youtube"
+    ]
+  },
+  {
+    "id": "acropolis",
+    "city": "Athens",
+    "state": "",
+    "country": "Greece",
+    "lat": 37.9715,
+    "lng": 23.7257,
+    "timezone": "Europe/Athens",
+    "sourceType": "landmark",
+    "queries": [
+      "Athens live webcam",
+      "Athens Greece live cam 24/7",
+      "Athens landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "duomo-milan",
+    "city": "Milan",
+    "state": "",
+    "country": "Italy",
+    "lat": 45.4642,
+    "lng": 9.1916,
+    "timezone": "Europe/Rome",
+    "sourceType": "landmark",
+    "queries": [
+      "Milan live webcam",
+      "Milan Italy live cam 24/7",
+      "Milan landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "charles-bridge",
+    "city": "Prague",
+    "state": "",
+    "country": "Czechia",
+    "lat": 50.0865,
+    "lng": 14.4114,
+    "timezone": "Europe/Prague",
+    "sourceType": "landmark",
+    "queries": [
+      "Prague live webcam",
+      "Prague Czechia live cam 24/7",
+      "Prague landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "little-mermaid",
+    "city": "Copenhagen",
+    "state": "",
+    "country": "Denmark",
+    "lat": 55.6929,
+    "lng": 12.5993,
+    "timezone": "Europe/Copenhagen",
+    "sourceType": "landmark",
+    "queries": [
+      "Copenhagen live webcam",
+      "Copenhagen Denmark live cam 24/7",
+      "Copenhagen landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "atomium",
+    "city": "Brussels",
+    "state": "",
+    "country": "Belgium",
+    "lat": 50.895,
+    "lng": 4.3415,
+    "timezone": "Europe/Brussels",
+    "sourceType": "landmark",
+    "queries": [
+      "Brussels live webcam",
+      "Brussels Belgium live cam 24/7",
+      "Brussels landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "sydney-opera-house",
+    "city": "Sydney",
+    "state": "",
+    "country": "Australia",
+    "lat": -33.8568,
+    "lng": 151.2153,
+    "timezone": "Australia/Sydney",
+    "sourceType": "landmark",
+    "queries": [
+      "Sydney live webcam",
+      "Sydney Australia live cam 24/7",
+      "Sydney landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "edinburgh-castle",
+    "city": "Edinburgh",
+    "state": "",
+    "country": "UK",
+    "lat": 55.9486,
+    "lng": -3.1999,
+    "timezone": "Europe/London",
+    "sourceType": "landmark",
+    "queries": [
+      "Edinburgh live webcam",
+      "Edinburgh UK live cam 24/7",
+      "Edinburgh landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "ueno-park",
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "lat": 35.7156,
+    "lng": 139.7745,
+    "timezone": "Asia/Tokyo",
+    "sourceType": "park",
+    "queries": [
+      "Tokyo live webcam",
+      "Tokyo Japan live cam 24/7",
+      "Tokyo park live stream youtube"
+    ]
+  },
+  {
+    "id": "phoenix-park",
+    "city": "Dublin",
+    "state": "",
+    "country": "Ireland",
+    "lat": 53.3559,
+    "lng": -6.3298,
+    "timezone": "Europe/Dublin",
+    "sourceType": "park",
+    "queries": [
+      "Dublin live webcam",
+      "Dublin Ireland live cam 24/7",
+      "Dublin park live stream youtube"
+    ]
+  },
+  {
+    "id": "christ-redeemer",
+    "city": "Rio de Janeiro",
+    "state": "",
+    "country": "Brazil",
+    "lat": -22.9519,
+    "lng": -43.2105,
+    "timezone": "America/Sao_Paulo",
+    "sourceType": "landmark",
+    "queries": [
+      "Rio de Janeiro live webcam",
+      "Rio de Janeiro Brazil live cam 24/7",
+      "Rio de Janeiro landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "stonehenge",
+    "city": "Stonehenge",
+    "state": "",
+    "country": "UK",
+    "lat": 51.1789,
+    "lng": -1.8262,
+    "timezone": "Europe/London",
+    "sourceType": "landmark",
+    "queries": [
+      "Stonehenge live webcam",
+      "Stonehenge UK live cam 24/7",
+      "Stonehenge landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "neuschwanstein",
+    "city": "Neuschwanstein",
+    "state": "",
+    "country": "Germany",
+    "lat": 47.5576,
+    "lng": 10.7498,
+    "timezone": "Europe/Berlin",
+    "sourceType": "landmark",
+    "queries": [
+      "Neuschwanstein live webcam",
+      "Neuschwanstein Germany live cam 24/7",
+      "Neuschwanstein landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "mont-saint-michel",
+    "city": "Mont-Saint-Michel",
+    "state": "",
+    "country": "France",
+    "lat": 48.6361,
+    "lng": -1.5115,
+    "timezone": "Europe/Paris",
+    "sourceType": "landmark",
+    "queries": [
+      "Mont-Saint-Michel live webcam",
+      "Mont-Saint-Michel France live cam 24/7",
+      "Mont-Saint-Michel landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "machu-picchu",
+    "city": "Machu Picchu",
+    "state": "",
+    "country": "Peru",
+    "lat": -13.1631,
+    "lng": -72.545,
+    "timezone": "America/Lima",
+    "sourceType": "landmark",
+    "queries": [
+      "Machu Picchu live webcam",
+      "Machu Picchu Peru live cam 24/7",
+      "Machu Picchu landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "chichen-itza",
+    "city": "Chichen Itza",
+    "state": "",
+    "country": "Mexico",
+    "lat": 20.6843,
+    "lng": -88.5678,
+    "timezone": "America/Merida",
+    "sourceType": "landmark",
+    "queries": [
+      "Chichen Itza live webcam",
+      "Chichen Itza Mexico live cam 24/7",
+      "Chichen Itza landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "uluru",
+    "city": "Uluru",
+    "state": "",
+    "country": "Australia",
+    "lat": -25.3444,
+    "lng": 131.0369,
+    "timezone": "Australia/Darwin",
+    "sourceType": "landmark",
+    "queries": [
+      "Uluru live webcam",
+      "Uluru Australia live cam 24/7",
+      "Uluru landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "mount-everest",
+    "city": "Mount Everest",
+    "state": "",
+    "country": "Nepal",
+    "lat": 27.9881,
+    "lng": 86.925,
+    "timezone": "Asia/Kathmandu",
+    "sourceType": "mountain",
+    "queries": [
+      "Mount Everest live webcam",
+      "Mount Everest Nepal live cam 24/7",
+      "Mount Everest mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "angkor-wat",
+    "city": "Angkor Wat",
+    "state": "",
+    "country": "Cambodia",
+    "lat": 13.4125,
+    "lng": 103.867,
+    "timezone": "Asia/Phnom_Penh",
+    "sourceType": "landmark",
+    "queries": [
+      "Angkor Wat live webcam",
+      "Angkor Wat Cambodia live cam 24/7",
+      "Angkor Wat landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "st-basils-moscow",
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "lat": 55.7525,
+    "lng": 37.6231,
+    "timezone": "Europe/Moscow",
+    "sourceType": "landmark",
+    "queries": [
+      "Moscow live webcam",
+      "Moscow Russia live cam 24/7",
+      "Moscow landmark live stream youtube"
+    ]
+  },
+  {
+    "id": "iguazu-falls",
+    "city": "Iguazu Falls",
+    "state": "",
+    "country": "Argentina",
+    "lat": -25.6953,
+    "lng": -54.4367,
+    "timezone": "America/Argentina/Cordoba",
+    "sourceType": "river",
+    "queries": [
+      "Iguazu Falls live webcam",
+      "Iguazu Falls Argentina live cam 24/7",
+      "Iguazu Falls river live stream youtube"
+    ]
+  },
+  {
+    "id": "plitvice",
+    "city": "Plitvice Lakes",
+    "state": "",
+    "country": "Croatia",
+    "lat": 44.8654,
+    "lng": 15.582,
+    "timezone": "Europe/Zagreb",
+    "sourceType": "mountain",
+    "queries": [
+      "Plitvice Lakes live webcam",
+      "Plitvice Lakes Croatia live cam 24/7",
+      "Plitvice Lakes mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "torres-del-paine",
+    "city": "Torres del Paine",
+    "state": "",
+    "country": "Chile",
+    "lat": -50.9423,
+    "lng": -73.4068,
+    "timezone": "America/Punta_Arenas",
+    "sourceType": "mountain",
+    "queries": [
+      "Torres del Paine live webcam",
+      "Torres del Paine Chile live cam 24/7",
+      "Torres del Paine mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "bryce-canyon",
+    "city": "Bryce Canyon",
+    "state": "UT",
+    "country": "USA",
+    "lat": 37.593,
+    "lng": -112.1871,
+    "timezone": "America/Denver",
+    "sourceType": "mountain",
+    "queries": [
+      "Bryce Canyon live webcam",
+      "Bryce Canyon USA live cam 24/7",
+      "Bryce Canyon mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "canyonlands",
+    "city": "Canyonlands",
+    "state": "UT",
+    "country": "USA",
+    "lat": 38.3269,
+    "lng": -109.8783,
+    "timezone": "America/Denver",
+    "sourceType": "mountain",
+    "queries": [
+      "Canyonlands live webcam",
+      "Canyonlands USA live cam 24/7",
+      "Canyonlands mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "redwoods",
+    "city": "Redwood National Park",
+    "state": "CA",
+    "country": "USA",
+    "lat": 41.2132,
+    "lng": -124.0046,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "mountain",
+    "queries": [
+      "Redwood National Park live webcam",
+      "Redwood National Park USA live cam 24/7",
+      "Redwood National Park mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "white-sands",
+    "city": "White Sands",
+    "state": "NM",
+    "country": "USA",
+    "lat": 32.7872,
+    "lng": -106.3257,
+    "timezone": "America/Denver",
+    "sourceType": "mountain",
+    "queries": [
+      "White Sands live webcam",
+      "White Sands USA live cam 24/7",
+      "White Sands mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "saguaro",
+    "city": "Saguaro (Tucson)",
+    "state": "AZ",
+    "country": "USA",
+    "lat": 32.2967,
+    "lng": -111.1666,
+    "timezone": "America/Phoenix",
+    "sourceType": "mountain",
+    "queries": [
+      "Saguaro (Tucson) live webcam",
+      "Saguaro (Tucson) USA live cam 24/7",
+      "Saguaro (Tucson) mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "big-bend",
+    "city": "Big Bend",
+    "state": "TX",
+    "country": "USA",
+    "lat": 29.1275,
+    "lng": -103.2425,
+    "timezone": "America/Chicago",
+    "sourceType": "mountain",
+    "queries": [
+      "Big Bend live webcam",
+      "Big Bend USA live cam 24/7",
+      "Big Bend mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "mount-st-helens",
+    "city": "Mount St. Helens",
+    "state": "WA",
+    "country": "USA",
+    "lat": 46.1912,
+    "lng": -122.1944,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "mountain",
+    "queries": [
+      "Mount St. Helens live webcam",
+      "Mount St. Helens USA live cam 24/7",
+      "Mount St. Helens mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "kenai-fjords",
+    "city": "Kenai Fjords",
+    "state": "AK",
+    "country": "USA",
+    "lat": 59.9167,
+    "lng": -149.65,
+    "timezone": "America/Anchorage",
+    "sourceType": "harbor",
+    "queries": [
+      "Kenai Fjords live webcam",
+      "Kenai Fjords USA live cam 24/7",
+      "Kenai Fjords harbor live stream youtube"
+    ]
+  },
+  {
+    "id": "jasper",
+    "city": "Jasper",
+    "state": "",
+    "country": "Canada",
+    "lat": 52.8734,
+    "lng": -118.0807,
+    "timezone": "America/Edmonton",
+    "sourceType": "mountain",
+    "queries": [
+      "Jasper live webcam",
+      "Jasper Canada live cam 24/7",
+      "Jasper mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "lake-louise",
+    "city": "Lake Louise",
+    "state": "",
+    "country": "Canada",
+    "lat": 51.4254,
+    "lng": -116.1773,
+    "timezone": "America/Edmonton",
+    "sourceType": "mountain",
+    "queries": [
+      "Lake Louise live webcam",
+      "Lake Louise Canada live cam 24/7",
+      "Lake Louise mountain live stream youtube"
+    ]
+  },
+  {
+    "id": "horseshoe-bend",
+    "city": "Page (Horseshoe Bend)",
+    "state": "AZ",
+    "country": "USA",
+    "lat": 36.8791,
+    "lng": -111.5104,
+    "timezone": "America/Phoenix",
+    "sourceType": "river",
+    "queries": [
+      "Page (Horseshoe Bend) live webcam",
+      "Page (Horseshoe Bend) USA live cam 24/7",
+      "Page (Horseshoe Bend) river live stream youtube"
+    ]
   }
 ]
