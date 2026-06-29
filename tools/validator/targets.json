@@ -7513,5 +7513,1190 @@
       "Page (Horseshoe Bend) USA live cam 24/7",
       "Page (Horseshoe Bend) river live stream youtube"
     ]
+  },
+  {
+    "id": "buffalo",
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "USA",
+    "lat": 42.8864,
+    "lng": -78.8784,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Buffalo live cam",
+      "Buffalo city center live webcam youtube",
+      "Buffalo skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "rochester-ny",
+    "city": "Rochester",
+    "state": "NY",
+    "country": "USA",
+    "lat": 43.1566,
+    "lng": -77.6088,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Rochester live cam",
+      "Rochester city center live webcam youtube",
+      "Rochester skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "albany-ny",
+    "city": "Albany",
+    "state": "NY",
+    "country": "USA",
+    "lat": 42.6526,
+    "lng": -73.7562,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Albany live cam",
+      "Albany city center live webcam youtube",
+      "Albany skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "syracuse",
+    "city": "Syracuse",
+    "state": "NY",
+    "country": "USA",
+    "lat": 43.0481,
+    "lng": -76.1474,
+    "timezone": "America/New_York",
+    "sourceType": "street",
+    "queries": [
+      "downtown Syracuse live cam",
+      "Syracuse city center live webcam youtube",
+      "Syracuse skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "baltimore",
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "USA",
+    "lat": 39.2904,
+    "lng": -76.6122,
+    "timezone": "America/New_York",
+    "sourceType": "harbor",
+    "queries": [
+      "downtown Baltimore live cam",
+      "Baltimore city center live webcam youtube",
+      "Baltimore skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "providence-ri",
+    "city": "Providence",
+    "state": "RI",
+    "country": "USA",
+    "lat": 41.824,
+    "lng": -71.4128,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Providence live cam",
+      "Providence city center live webcam youtube",
+      "Providence skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "hartford",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "lat": 41.7658,
+    "lng": -72.6734,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Hartford live cam",
+      "Hartford city center live webcam youtube",
+      "Hartford skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "new-haven",
+    "city": "New Haven",
+    "state": "CT",
+    "country": "USA",
+    "lat": 41.3083,
+    "lng": -72.9279,
+    "timezone": "America/New_York",
+    "sourceType": "street",
+    "queries": [
+      "downtown New Haven live cam",
+      "New Haven city center live webcam youtube",
+      "New Haven skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "knoxville",
+    "city": "Knoxville",
+    "state": "TN",
+    "country": "USA",
+    "lat": 35.9606,
+    "lng": -83.9207,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Knoxville live cam",
+      "Knoxville city center live webcam youtube",
+      "Knoxville skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "chattanooga",
+    "city": "Chattanooga",
+    "state": "TN",
+    "country": "USA",
+    "lat": 35.0456,
+    "lng": -85.3097,
+    "timezone": "America/New_York",
+    "sourceType": "river",
+    "queries": [
+      "downtown Chattanooga live cam",
+      "Chattanooga city center live webcam youtube",
+      "Chattanooga skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "lexington-ky",
+    "city": "Lexington",
+    "state": "KY",
+    "country": "USA",
+    "lat": 38.0406,
+    "lng": -84.5037,
+    "timezone": "America/New_York",
+    "sourceType": "street",
+    "queries": [
+      "downtown Lexington live cam",
+      "Lexington city center live webcam youtube",
+      "Lexington skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "grand-rapids",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "country": "USA",
+    "lat": 42.9634,
+    "lng": -85.6681,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Grand Rapids live cam",
+      "Grand Rapids city center live webcam youtube",
+      "Grand Rapids skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "toledo",
+    "city": "Toledo",
+    "state": "OH",
+    "country": "USA",
+    "lat": 41.6528,
+    "lng": -83.5379,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Toledo live cam",
+      "Toledo city center live webcam youtube",
+      "Toledo skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "akron",
+    "city": "Akron",
+    "state": "OH",
+    "country": "USA",
+    "lat": 41.0814,
+    "lng": -81.519,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Akron live cam",
+      "Akron city center live webcam youtube",
+      "Akron skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "dayton",
+    "city": "Dayton",
+    "state": "OH",
+    "country": "USA",
+    "lat": 39.7589,
+    "lng": -84.1916,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Dayton live cam",
+      "Dayton city center live webcam youtube",
+      "Dayton skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "charlotte",
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "USA",
+    "lat": 35.2271,
+    "lng": -80.8431,
+    "timezone": "America/New_York",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Charlotte live cam",
+      "Charlotte city center live webcam youtube",
+      "Charlotte skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "greensboro",
+    "city": "Greensboro",
+    "state": "NC",
+    "country": "USA",
+    "lat": 36.0726,
+    "lng": -79.792,
+    "timezone": "America/New_York",
+    "sourceType": "street",
+    "queries": [
+      "downtown Greensboro live cam",
+      "Greensboro city center live webcam youtube",
+      "Greensboro skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "durham-nc",
+    "city": "Durham",
+    "state": "NC",
+    "country": "USA",
+    "lat": 35.994,
+    "lng": -78.8986,
+    "timezone": "America/New_York",
+    "sourceType": "street",
+    "queries": [
+      "downtown Durham live cam",
+      "Durham city center live webcam youtube",
+      "Durham skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "columbia-sc",
+    "city": "Columbia",
+    "state": "SC",
+    "country": "USA",
+    "lat": 34.0007,
+    "lng": -81.0348,
+    "timezone": "America/New_York",
+    "sourceType": "street",
+    "queries": [
+      "downtown Columbia live cam",
+      "Columbia city center live webcam youtube",
+      "Columbia skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "greenville-sc",
+    "city": "Greenville",
+    "state": "SC",
+    "country": "USA",
+    "lat": 34.8526,
+    "lng": -82.394,
+    "timezone": "America/New_York",
+    "sourceType": "street",
+    "queries": [
+      "downtown Greenville live cam",
+      "Greenville city center live webcam youtube",
+      "Greenville skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "tallahassee",
+    "city": "Tallahassee",
+    "state": "FL",
+    "country": "USA",
+    "lat": 30.4383,
+    "lng": -84.2807,
+    "timezone": "America/New_York",
+    "sourceType": "street",
+    "queries": [
+      "downtown Tallahassee live cam",
+      "Tallahassee city center live webcam youtube",
+      "Tallahassee skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "gainesville",
+    "city": "Gainesville",
+    "state": "FL",
+    "country": "USA",
+    "lat": 29.6516,
+    "lng": -82.3248,
+    "timezone": "America/New_York",
+    "sourceType": "street",
+    "queries": [
+      "downtown Gainesville live cam",
+      "Gainesville city center live webcam youtube",
+      "Gainesville skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "des-moines",
+    "city": "Des Moines",
+    "state": "IA",
+    "country": "USA",
+    "lat": 41.5868,
+    "lng": -93.625,
+    "timezone": "America/Chicago",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Des Moines live cam",
+      "Des Moines city center live webcam youtube",
+      "Des Moines skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "wichita",
+    "city": "Wichita",
+    "state": "KS",
+    "country": "USA",
+    "lat": 37.6872,
+    "lng": -97.3301,
+    "timezone": "America/Chicago",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Wichita live cam",
+      "Wichita city center live webcam youtube",
+      "Wichita skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "lincoln-ne",
+    "city": "Lincoln",
+    "state": "NE",
+    "country": "USA",
+    "lat": 40.8136,
+    "lng": -96.7026,
+    "timezone": "America/Chicago",
+    "sourceType": "street",
+    "queries": [
+      "downtown Lincoln live cam",
+      "Lincoln city center live webcam youtube",
+      "Lincoln skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "fargo",
+    "city": "Fargo",
+    "state": "ND",
+    "country": "USA",
+    "lat": 46.8772,
+    "lng": -96.7898,
+    "timezone": "America/Chicago",
+    "sourceType": "street",
+    "queries": [
+      "downtown Fargo live cam",
+      "Fargo city center live webcam youtube",
+      "Fargo skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "sioux-falls",
+    "city": "Sioux Falls",
+    "state": "SD",
+    "country": "USA",
+    "lat": 43.5446,
+    "lng": -96.7311,
+    "timezone": "America/Chicago",
+    "sourceType": "street",
+    "queries": [
+      "downtown Sioux Falls live cam",
+      "Sioux Falls city center live webcam youtube",
+      "Sioux Falls skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "little-rock",
+    "city": "Little Rock",
+    "state": "AR",
+    "country": "USA",
+    "lat": 34.7465,
+    "lng": -92.2896,
+    "timezone": "America/Chicago",
+    "sourceType": "river",
+    "queries": [
+      "downtown Little Rock live cam",
+      "Little Rock city center live webcam youtube",
+      "Little Rock skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "birmingham-al",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "USA",
+    "lat": 33.5186,
+    "lng": -86.8104,
+    "timezone": "America/Chicago",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Birmingham live cam",
+      "Birmingham city center live webcam youtube",
+      "Birmingham skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "baton-rouge",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "country": "USA",
+    "lat": 30.4515,
+    "lng": -91.1871,
+    "timezone": "America/Chicago",
+    "sourceType": "river",
+    "queries": [
+      "downtown Baton Rouge live cam",
+      "Baton Rouge city center live webcam youtube",
+      "Baton Rouge skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "fort-worth",
+    "city": "Fort Worth",
+    "state": "TX",
+    "country": "USA",
+    "lat": 32.7555,
+    "lng": -97.3308,
+    "timezone": "America/Chicago",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Fort Worth live cam",
+      "Fort Worth city center live webcam youtube",
+      "Fort Worth skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "lubbock",
+    "city": "Lubbock",
+    "state": "TX",
+    "country": "USA",
+    "lat": 33.5779,
+    "lng": -101.8552,
+    "timezone": "America/Chicago",
+    "sourceType": "street",
+    "queries": [
+      "downtown Lubbock live cam",
+      "Lubbock city center live webcam youtube",
+      "Lubbock skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "tulsa",
+    "city": "Tulsa",
+    "state": "OK",
+    "country": "USA",
+    "lat": 36.154,
+    "lng": -95.9928,
+    "timezone": "America/Chicago",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Tulsa live cam",
+      "Tulsa city center live webcam youtube",
+      "Tulsa skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "colorado-springs",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "country": "USA",
+    "lat": 38.8339,
+    "lng": -104.8214,
+    "timezone": "America/Denver",
+    "sourceType": "mountain",
+    "queries": [
+      "downtown Colorado Springs live cam",
+      "Colorado Springs city center live webcam youtube",
+      "Colorado Springs skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "fort-collins",
+    "city": "Fort Collins",
+    "state": "CO",
+    "country": "USA",
+    "lat": 40.5853,
+    "lng": -105.0844,
+    "timezone": "America/Denver",
+    "sourceType": "street",
+    "queries": [
+      "downtown Fort Collins live cam",
+      "Fort Collins city center live webcam youtube",
+      "Fort Collins skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "el-paso",
+    "city": "El Paso",
+    "state": "TX",
+    "country": "USA",
+    "lat": 31.7619,
+    "lng": -106.485,
+    "timezone": "America/Denver",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown El Paso live cam",
+      "El Paso city center live webcam youtube",
+      "El Paso skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "tucson",
+    "city": "Tucson",
+    "state": "AZ",
+    "country": "USA",
+    "lat": 32.2226,
+    "lng": -110.9747,
+    "timezone": "America/Phoenix",
+    "sourceType": "street",
+    "queries": [
+      "downtown Tucson live cam",
+      "Tucson city center live webcam youtube",
+      "Tucson skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "tacoma",
+    "city": "Tacoma",
+    "state": "WA",
+    "country": "USA",
+    "lat": 47.2529,
+    "lng": -122.4443,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "harbor",
+    "queries": [
+      "downtown Tacoma live cam",
+      "Tacoma city center live webcam youtube",
+      "Tacoma skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "eugene",
+    "city": "Eugene",
+    "state": "OR",
+    "country": "USA",
+    "lat": 44.0521,
+    "lng": -123.0868,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "street",
+    "queries": [
+      "downtown Eugene live cam",
+      "Eugene city center live webcam youtube",
+      "Eugene skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "fresno",
+    "city": "Fresno",
+    "state": "CA",
+    "country": "USA",
+    "lat": 36.7378,
+    "lng": -119.7871,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "street",
+    "queries": [
+      "downtown Fresno live cam",
+      "Fresno city center live webcam youtube",
+      "Fresno skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "long-beach",
+    "city": "Long Beach",
+    "state": "CA",
+    "country": "USA",
+    "lat": 33.7701,
+    "lng": -118.1937,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "harbor",
+    "queries": [
+      "downtown Long Beach live cam",
+      "Long Beach city center live webcam youtube",
+      "Long Beach skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "oakland",
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "lat": 37.8044,
+    "lng": -122.2712,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Oakland live cam",
+      "Oakland city center live webcam youtube",
+      "Oakland skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "san-jose-ca",
+    "city": "San Jose",
+    "state": "CA",
+    "country": "USA",
+    "lat": 37.3382,
+    "lng": -121.8863,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown San Jose live cam",
+      "San Jose city center live webcam youtube",
+      "San Jose skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "stuttgart",
+    "city": "Stuttgart",
+    "state": "",
+    "country": "Germany",
+    "lat": 48.7758,
+    "lng": 9.1829,
+    "timezone": "Europe/Berlin",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown Stuttgart live cam",
+      "Stuttgart city center live webcam youtube",
+      "Stuttgart skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "dusseldorf",
+    "city": "Dusseldorf",
+    "state": "",
+    "country": "Germany",
+    "lat": 51.2277,
+    "lng": 6.7735,
+    "timezone": "Europe/Berlin",
+    "sourceType": "river",
+    "queries": [
+      "downtown Dusseldorf live cam",
+      "Dusseldorf city center live webcam youtube",
+      "Dusseldorf skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "dresden",
+    "city": "Dresden",
+    "state": "",
+    "country": "Germany",
+    "lat": 51.0504,
+    "lng": 13.7373,
+    "timezone": "Europe/Berlin",
+    "sourceType": "landmark",
+    "queries": [
+      "downtown Dresden live cam",
+      "Dresden city center live webcam youtube",
+      "Dresden skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "nuremberg",
+    "city": "Nuremberg",
+    "state": "",
+    "country": "Germany",
+    "lat": 49.4521,
+    "lng": 11.0767,
+    "timezone": "Europe/Berlin",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown Nuremberg live cam",
+      "Nuremberg city center live webcam youtube",
+      "Nuremberg skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "bremen",
+    "city": "Bremen",
+    "state": "",
+    "country": "Germany",
+    "lat": 53.0793,
+    "lng": 8.8017,
+    "timezone": "Europe/Berlin",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown Bremen live cam",
+      "Bremen city center live webcam youtube",
+      "Bremen skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "the-hague",
+    "city": "The Hague",
+    "state": "",
+    "country": "Netherlands",
+    "lat": 52.0705,
+    "lng": 4.3007,
+    "timezone": "Europe/Amsterdam",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown The Hague live cam",
+      "The Hague city center live webcam youtube",
+      "The Hague skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "nantes",
+    "city": "Nantes",
+    "state": "",
+    "country": "France",
+    "lat": 47.2184,
+    "lng": -1.5536,
+    "timezone": "Europe/Paris",
+    "sourceType": "street",
+    "queries": [
+      "downtown Nantes live cam",
+      "Nantes city center live webcam youtube",
+      "Nantes skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "toulouse",
+    "city": "Toulouse",
+    "state": "",
+    "country": "France",
+    "lat": 43.6047,
+    "lng": 1.4442,
+    "timezone": "Europe/Paris",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown Toulouse live cam",
+      "Toulouse city center live webcam youtube",
+      "Toulouse skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "lille",
+    "city": "Lille",
+    "state": "",
+    "country": "France",
+    "lat": 50.6292,
+    "lng": 3.0573,
+    "timezone": "Europe/Paris",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown Lille live cam",
+      "Lille city center live webcam youtube",
+      "Lille skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "bordeaux",
+    "city": "Bordeaux",
+    "state": "",
+    "country": "France",
+    "lat": 44.8378,
+    "lng": -0.5792,
+    "timezone": "Europe/Paris",
+    "sourceType": "river",
+    "queries": [
+      "downtown Bordeaux live cam",
+      "Bordeaux city center live webcam youtube",
+      "Bordeaux skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "zaragoza",
+    "city": "Zaragoza",
+    "state": "",
+    "country": "Spain",
+    "lat": 41.6488,
+    "lng": -0.8891,
+    "timezone": "Europe/Madrid",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown Zaragoza live cam",
+      "Zaragoza city center live webcam youtube",
+      "Zaragoza skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "alicante",
+    "city": "Alicante",
+    "state": "",
+    "country": "Spain",
+    "lat": 38.3452,
+    "lng": -0.4815,
+    "timezone": "Europe/Madrid",
+    "sourceType": "harbor",
+    "queries": [
+      "downtown Alicante live cam",
+      "Alicante city center live webcam youtube",
+      "Alicante skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "bologna",
+    "city": "Bologna",
+    "state": "",
+    "country": "Italy",
+    "lat": 44.4949,
+    "lng": 11.3426,
+    "timezone": "Europe/Rome",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown Bologna live cam",
+      "Bologna city center live webcam youtube",
+      "Bologna skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "palermo",
+    "city": "Palermo",
+    "state": "",
+    "country": "Italy",
+    "lat": 38.1157,
+    "lng": 13.3615,
+    "timezone": "Europe/Rome",
+    "sourceType": "street",
+    "queries": [
+      "downtown Palermo live cam",
+      "Palermo city center live webcam youtube",
+      "Palermo skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "catania",
+    "city": "Catania",
+    "state": "",
+    "country": "Italy",
+    "lat": 37.5079,
+    "lng": 15.083,
+    "timezone": "Europe/Rome",
+    "sourceType": "street",
+    "queries": [
+      "downtown Catania live cam",
+      "Catania city center live webcam youtube",
+      "Catania skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "malmo",
+    "city": "Malmo",
+    "state": "",
+    "country": "Sweden",
+    "lat": 55.605,
+    "lng": 13.0038,
+    "timezone": "Europe/Stockholm",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown Malmo live cam",
+      "Malmo city center live webcam youtube",
+      "Malmo skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "aarhus",
+    "city": "Aarhus",
+    "state": "",
+    "country": "Denmark",
+    "lat": 56.1629,
+    "lng": 10.2039,
+    "timezone": "Europe/Copenhagen",
+    "sourceType": "harbor",
+    "queries": [
+      "downtown Aarhus live cam",
+      "Aarhus city center live webcam youtube",
+      "Aarhus skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "poznan",
+    "city": "Poznan",
+    "state": "",
+    "country": "Poland",
+    "lat": 52.4064,
+    "lng": 16.9252,
+    "timezone": "Europe/Warsaw",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown Poznan live cam",
+      "Poznan city center live webcam youtube",
+      "Poznan skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "linz",
+    "city": "Linz",
+    "state": "",
+    "country": "Austria",
+    "lat": 48.3069,
+    "lng": 14.2858,
+    "timezone": "Europe/Vienna",
+    "sourceType": "river",
+    "queries": [
+      "downtown Linz live cam",
+      "Linz city center live webcam youtube",
+      "Linz skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "cluj",
+    "city": "Cluj-Napoca",
+    "state": "",
+    "country": "Romania",
+    "lat": 46.7712,
+    "lng": 23.6236,
+    "timezone": "Europe/Bucharest",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown Cluj-Napoca live cam",
+      "Cluj-Napoca city center live webcam youtube",
+      "Cluj-Napoca skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "varna",
+    "city": "Varna",
+    "state": "",
+    "country": "Bulgaria",
+    "lat": 43.2141,
+    "lng": 27.9147,
+    "timezone": "Europe/Sofia",
+    "sourceType": "beach",
+    "queries": [
+      "downtown Varna live cam",
+      "Varna city center live webcam youtube",
+      "Varna skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "lviv",
+    "city": "Lviv",
+    "state": "",
+    "country": "Ukraine",
+    "lat": 49.8397,
+    "lng": 24.0297,
+    "timezone": "Europe/Kyiv",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown Lviv live cam",
+      "Lviv city center live webcam youtube",
+      "Lviv skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "izmir",
+    "city": "Izmir",
+    "state": "",
+    "country": "Turkey",
+    "lat": 38.4237,
+    "lng": 27.1428,
+    "timezone": "Europe/Istanbul",
+    "sourceType": "harbor",
+    "queries": [
+      "downtown Izmir live cam",
+      "Izmir city center live webcam youtube",
+      "Izmir skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "antalya",
+    "city": "Antalya",
+    "state": "",
+    "country": "Turkey",
+    "lat": 36.8969,
+    "lng": 30.7133,
+    "timezone": "Europe/Istanbul",
+    "sourceType": "beach",
+    "queries": [
+      "downtown Antalya live cam",
+      "Antalya city center live webcam youtube",
+      "Antalya skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "guayaquil",
+    "city": "Guayaquil",
+    "state": "",
+    "country": "Ecuador",
+    "lat": -2.1962,
+    "lng": -79.8862,
+    "timezone": "America/Guayaquil",
+    "sourceType": "river",
+    "queries": [
+      "downtown Guayaquil live cam",
+      "Guayaquil city center live webcam youtube",
+      "Guayaquil skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "cali",
+    "city": "Cali",
+    "state": "",
+    "country": "Colombia",
+    "lat": 3.4516,
+    "lng": -76.532,
+    "timezone": "America/Bogota",
+    "sourceType": "street",
+    "queries": [
+      "downtown Cali live cam",
+      "Cali city center live webcam youtube",
+      "Cali skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "curitiba",
+    "city": "Curitiba",
+    "state": "",
+    "country": "Brazil",
+    "lat": -25.4284,
+    "lng": -49.2733,
+    "timezone": "America/Sao_Paulo",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Curitiba live cam",
+      "Curitiba city center live webcam youtube",
+      "Curitiba skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "porto-alegre",
+    "city": "Porto Alegre",
+    "state": "",
+    "country": "Brazil",
+    "lat": -30.0346,
+    "lng": -51.2177,
+    "timezone": "America/Sao_Paulo",
+    "sourceType": "river",
+    "queries": [
+      "downtown Porto Alegre live cam",
+      "Porto Alegre city center live webcam youtube",
+      "Porto Alegre skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "recife",
+    "city": "Recife",
+    "state": "",
+    "country": "Brazil",
+    "lat": -8.0476,
+    "lng": -34.877,
+    "timezone": "America/Recife",
+    "sourceType": "beach",
+    "queries": [
+      "downtown Recife live cam",
+      "Recife city center live webcam youtube",
+      "Recife skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "monterrey",
+    "city": "Monterrey",
+    "state": "",
+    "country": "Mexico",
+    "lat": 25.6866,
+    "lng": -100.3161,
+    "timezone": "America/Monterrey",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Monterrey live cam",
+      "Monterrey city center live webcam youtube",
+      "Monterrey skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "merida-mx",
+    "city": "Merida",
+    "state": "",
+    "country": "Mexico",
+    "lat": 20.9674,
+    "lng": -89.5926,
+    "timezone": "America/Merida",
+    "sourceType": "plaza",
+    "queries": [
+      "downtown Merida live cam",
+      "Merida city center live webcam youtube",
+      "Merida skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "surabaya",
+    "city": "Surabaya",
+    "state": "",
+    "country": "Indonesia",
+    "lat": -7.2575,
+    "lng": 112.7521,
+    "timezone": "Asia/Jakarta",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Surabaya live cam",
+      "Surabaya city center live webcam youtube",
+      "Surabaya skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "daegu",
+    "city": "Daegu",
+    "state": "",
+    "country": "South Korea",
+    "lat": 35.8714,
+    "lng": 128.6014,
+    "timezone": "Asia/Seoul",
+    "sourceType": "street",
+    "queries": [
+      "downtown Daegu live cam",
+      "Daegu city center live webcam youtube",
+      "Daegu skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "guangzhou",
+    "city": "Guangzhou",
+    "state": "",
+    "country": "China",
+    "lat": 23.1291,
+    "lng": 113.2644,
+    "timezone": "Asia/Shanghai",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Guangzhou live cam",
+      "Guangzhou city center live webcam youtube",
+      "Guangzhou skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "pune",
+    "city": "Pune",
+    "state": "",
+    "country": "India",
+    "lat": 18.5204,
+    "lng": 73.8567,
+    "timezone": "Asia/Kolkata",
+    "sourceType": "street",
+    "queries": [
+      "downtown Pune live cam",
+      "Pune city center live webcam youtube",
+      "Pune skyline live cam 24/7"
+    ]
+  },
+  {
+    "id": "sharjah",
+    "city": "Sharjah",
+    "state": "",
+    "country": "UAE",
+    "lat": 25.3463,
+    "lng": 55.4209,
+    "timezone": "Asia/Dubai",
+    "sourceType": "skyline",
+    "queries": [
+      "downtown Sharjah live cam",
+      "Sharjah city center live webcam youtube",
+      "Sharjah skyline live cam 24/7"
+    ]
   }
 ]
