@@ -2,7 +2,7 @@
   "generatedOn": "2026-06-28",
   "verificationMethod": "Every youtubeId is verified by the IFrame Player API validator in tools/validator (real YT.Player in headless Chromium). It catches embed-blocked streams (IFrame error code 150/101) that oEmbed cannot detect, and confirms the stream is broadcasting. Re-run weekly via .github/workflows/validate-streams.yml. status is one of: live, embed_blocked, unavailable, offline, error.",
   "schemaNotes": "Canonical data source for the app (index.html reads this file directly). youtubeId is canonical; youtubeUrl and embedUrl are derived. timezone is IANA, used to show local time at the watched place. sourceType is one of: city_square, street, park, landmark, skyline, beach, pier, boardwalk, harbor, campus, underwater, plaza, mountain, river, port.",
-  "count": 358,
+  "count": 371,
   "streams": [
     {
       "id": "nyc-times-square",
@@ -18,10 +18,10 @@
       "youtubeId": "VGnFLdQW39A",
       "youtubeUrl": "https://www.youtube.com/watch?v=VGnFLdQW39A",
       "embedUrl": "https://www.youtube.com/embed/VGnFLdQW39A",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "nyc-brooklyn-bridge",
@@ -37,10 +37,10 @@
       "youtubeId": "7WgkjCSDe0w",
       "youtubeUrl": "https://www.youtube.com/watch?v=7WgkjCSDe0w",
       "embedUrl": "https://www.youtube.com/embed/7WgkjCSDe0w",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "jackson-hole-town-square",
@@ -56,10 +56,10 @@
       "youtubeId": "1EiC9bvVGnk",
       "youtubeUrl": "https://www.youtube.com/watch?v=1EiC9bvVGnk",
       "embedUrl": "https://www.youtube.com/embed/1EiC9bvVGnk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "new-orleans-french-quarter",
@@ -75,10 +75,10 @@
       "youtubeId": "Ksrleaxxxhw",
       "youtubeUrl": "https://www.youtube.com/watch?v=Ksrleaxxxhw",
       "embedUrl": "https://www.youtube.com/embed/Ksrleaxxxhw",
-      "status": "offline",
+      "status": "live",
       "verifiedOn": "2026-06-28",
       "errorCode": null,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "nashville-lower-broadway",
@@ -94,10 +94,10 @@
       "youtubeId": "h5Grd2w7HQM",
       "youtubeUrl": "https://www.youtube.com/watch?v=h5Grd2w7HQM",
       "embedUrl": "https://www.youtube.com/embed/h5Grd2w7HQM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "chicago-skydeck",
@@ -113,10 +113,10 @@
       "youtubeId": "O0UGT7AT3aw",
       "youtubeUrl": "https://www.youtube.com/watch?v=O0UGT7AT3aw",
       "embedUrl": "https://www.youtube.com/embed/O0UGT7AT3aw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "tampa-skyline",
@@ -132,11 +132,11 @@
       "youtubeId": "QvNWCIOaB4Y",
       "youtubeUrl": "https://www.youtube.com/watch?v=QvNWCIOaB4Y",
       "embedUrl": "https://www.youtube.com/embed/QvNWCIOaB4Y",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
       "notes": "University of Tampa riverfront cam looking across the Hillsborough River toward the downtown skyline.",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "niagara-falls",
@@ -152,11 +152,11 @@
       "youtubeId": "qx7gry390YA",
       "youtubeUrl": "https://www.youtube.com/watch?v=qx7gry390YA",
       "embedUrl": "https://www.youtube.com/embed/qx7gry390YA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
       "notes": "Shared US/Canada landmark; vantage looks across to Horseshoe Falls. Listed under Niagara Falls, NY.",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "santa-monica-pier",
@@ -172,10 +172,10 @@
       "youtubeId": "v97JpT3ZA0w",
       "youtubeUrl": "https://www.youtube.com/watch?v=v97JpT3ZA0w",
       "embedUrl": "https://www.youtube.com/embed/v97JpT3ZA0w",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "venice-beach-boardwalk",
@@ -191,10 +191,10 @@
       "youtubeId": "EO_1LWqsCNE",
       "youtubeUrl": "https://www.youtube.com/watch?v=EO_1LWqsCNE",
       "embedUrl": "https://www.youtube.com/embed/EO_1LWqsCNE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "waikiki-beach",
@@ -210,10 +210,10 @@
       "youtubeId": "06v5pzump4w",
       "youtubeUrl": "https://www.youtube.com/watch?v=06v5pzump4w",
       "embedUrl": "https://www.youtube.com/embed/06v5pzump4w",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "san-diego-harbor-island",
@@ -229,10 +229,10 @@
       "youtubeId": "iaBfYxbmwXA",
       "youtubeUrl": "https://www.youtube.com/watch?v=iaBfYxbmwXA",
       "embedUrl": "https://www.youtube.com/embed/iaBfYxbmwXA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "newport-harbor",
@@ -248,10 +248,10 @@
       "youtubeId": "TyzfHp1bTxA",
       "youtubeUrl": "https://www.youtube.com/watch?v=TyzfHp1bTxA",
       "embedUrl": "https://www.youtube.com/embed/TyzfHp1bTxA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "reno-unr-quad",
@@ -267,10 +267,10 @@
       "youtubeId": "5vsOc_X2XKA",
       "youtubeUrl": "https://www.youtube.com/watch?v=5vsOc_X2XKA",
       "embedUrl": "https://www.youtube.com/embed/5vsOc_X2XKA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "miami-south-beach",
@@ -286,10 +286,10 @@
       "youtubeId": "HUqYW82Dktc",
       "youtubeUrl": "https://www.youtube.com/watch?v=HUqYW82Dktc",
       "embedUrl": "https://www.youtube.com/embed/HUqYW82Dktc",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "miami-coral-city",
@@ -305,10 +305,10 @@
       "youtubeId": "7i8ARjIeM2k",
       "youtubeUrl": "https://www.youtube.com/watch?v=7i8ARjIeM2k",
       "embedUrl": "https://www.youtube.com/embed/7i8ARjIeM2k",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "seattle",
@@ -324,10 +324,10 @@
       "youtubeId": "4cgSE12k9Sc",
       "youtubeUrl": "https://www.youtube.com/watch?v=4cgSE12k9Sc",
       "embedUrl": "https://www.youtube.com/embed/4cgSE12k9Sc",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "san-francisco",
@@ -343,10 +343,10 @@
       "youtubeId": "ZEuT7E8orjw",
       "youtubeUrl": "https://www.youtube.com/watch?v=ZEuT7E8orjw",
       "embedUrl": "https://www.youtube.com/embed/ZEuT7E8orjw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "las-vegas",
@@ -362,10 +362,10 @@
       "youtubeId": "_XJa-HI33ss",
       "youtubeUrl": "https://www.youtube.com/watch?v=_XJa-HI33ss",
       "embedUrl": "https://www.youtube.com/embed/_XJa-HI33ss",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "boston",
@@ -381,10 +381,10 @@
       "youtubeId": "Jq-5u9NNZiM",
       "youtubeUrl": "https://www.youtube.com/watch?v=Jq-5u9NNZiM",
       "embedUrl": "https://www.youtube.com/embed/Jq-5u9NNZiM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "washington-dc",
@@ -400,10 +400,10 @@
       "youtubeId": "oDCAAfOSqvA",
       "youtubeUrl": "https://www.youtube.com/watch?v=oDCAAfOSqvA",
       "embedUrl": "https://www.youtube.com/embed/oDCAAfOSqvA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "key-west",
@@ -419,10 +419,10 @@
       "youtubeId": "wc9vgfHhWS8",
       "youtubeUrl": "https://www.youtube.com/watch?v=wc9vgfHhWS8",
       "embedUrl": "https://www.youtube.com/embed/wc9vgfHhWS8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "san-antonio",
@@ -438,10 +438,10 @@
       "youtubeId": "A_F3X-Cj2to",
       "youtubeUrl": "https://www.youtube.com/watch?v=A_F3X-Cj2to",
       "embedUrl": "https://www.youtube.com/embed/A_F3X-Cj2to",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "savannah",
@@ -457,10 +457,10 @@
       "youtubeId": "_wfQzfrGXwI",
       "youtubeUrl": "https://www.youtube.com/watch?v=_wfQzfrGXwI",
       "embedUrl": "https://www.youtube.com/embed/_wfQzfrGXwI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "charleston",
@@ -476,10 +476,10 @@
       "youtubeId": "1mbKiVzdrKg",
       "youtubeUrl": "https://www.youtube.com/watch?v=1mbKiVzdrKg",
       "embedUrl": "https://www.youtube.com/embed/1mbKiVzdrKg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "portland-or",
@@ -495,10 +495,10 @@
       "youtubeId": "Vbdtk55IX5c",
       "youtubeUrl": "https://www.youtube.com/watch?v=Vbdtk55IX5c",
       "embedUrl": "https://www.youtube.com/embed/Vbdtk55IX5c",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "pittsburgh",
@@ -514,10 +514,10 @@
       "youtubeId": "kMfu8owm8Og",
       "youtubeUrl": "https://www.youtube.com/watch?v=kMfu8owm8Og",
       "embedUrl": "https://www.youtube.com/embed/kMfu8owm8Og",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "clearwater-beach",
@@ -533,10 +533,10 @@
       "youtubeId": "rxBBRLWF0mM",
       "youtubeUrl": "https://www.youtube.com/watch?v=rxBBRLWF0mM",
       "embedUrl": "https://www.youtube.com/embed/rxBBRLWF0mM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "daytona-beach",
@@ -552,10 +552,10 @@
       "youtubeId": "wRU6mf_s8rQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=wRU6mf_s8rQ",
       "embedUrl": "https://www.youtube.com/embed/wRU6mf_s8rQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "myrtle-beach",
@@ -571,10 +571,10 @@
       "youtubeId": "UKtfCDXhCq0",
       "youtubeUrl": "https://www.youtube.com/watch?v=UKtfCDXhCq0",
       "embedUrl": "https://www.youtube.com/embed/UKtfCDXhCq0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "lake-tahoe",
@@ -590,10 +590,10 @@
       "youtubeId": "Lk0Z5ExUWL0",
       "youtubeUrl": "https://www.youtube.com/watch?v=Lk0Z5ExUWL0",
       "embedUrl": "https://www.youtube.com/embed/Lk0Z5ExUWL0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "yellowstone-old-faithful",
@@ -609,10 +609,10 @@
       "youtubeId": "hJSVbRyFfRk",
       "youtubeUrl": "https://www.youtube.com/watch?v=hJSVbRyFfRk",
       "embedUrl": "https://www.youtube.com/embed/hJSVbRyFfRk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "grand-canyon",
@@ -628,10 +628,10 @@
       "youtubeId": "_f_ZHvnn0gU",
       "youtubeUrl": "https://www.youtube.com/watch?v=_f_ZHvnn0gU",
       "embedUrl": "https://www.youtube.com/embed/_f_ZHvnn0gU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "katmai-bears",
@@ -647,10 +647,10 @@
       "youtubeId": "z7_GhJeFxQI",
       "youtubeUrl": "https://www.youtube.com/watch?v=z7_GhJeFxQI",
       "embedUrl": "https://www.youtube.com/embed/z7_GhJeFxQI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "toronto",
@@ -666,10 +666,10 @@
       "youtubeId": "bbjwotvAvDM",
       "youtubeUrl": "https://www.youtube.com/watch?v=bbjwotvAvDM",
       "embedUrl": "https://www.youtube.com/embed/bbjwotvAvDM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "vancouver",
@@ -685,10 +685,10 @@
       "youtubeId": "rxyNjFKwzJA",
       "youtubeUrl": "https://www.youtube.com/watch?v=rxyNjFKwzJA",
       "embedUrl": "https://www.youtube.com/embed/rxyNjFKwzJA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "banff",
@@ -704,10 +704,10 @@
       "youtubeId": "Axw2qu_KmWA",
       "youtubeUrl": "https://www.youtube.com/watch?v=Axw2qu_KmWA",
       "embedUrl": "https://www.youtube.com/embed/Axw2qu_KmWA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "montreal",
@@ -723,10 +723,10 @@
       "youtubeId": "wWh_7ofrr4k",
       "youtubeUrl": "https://www.youtube.com/watch?v=wWh_7ofrr4k",
       "embedUrl": "https://www.youtube.com/embed/wWh_7ofrr4k",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "whistler",
@@ -742,10 +742,10 @@
       "youtubeId": "IEhDUXECe_k",
       "youtubeUrl": "https://www.youtube.com/watch?v=IEhDUXECe_k",
       "embedUrl": "https://www.youtube.com/embed/IEhDUXECe_k",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cancun",
@@ -761,10 +761,10 @@
       "youtubeId": "GE9CaHxW8s4",
       "youtubeUrl": "https://www.youtube.com/watch?v=GE9CaHxW8s4",
       "embedUrl": "https://www.youtube.com/embed/GE9CaHxW8s4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cabo",
@@ -780,10 +780,10 @@
       "youtubeId": "POijZWZ1qwc",
       "youtubeUrl": "https://www.youtube.com/watch?v=POijZWZ1qwc",
       "embedUrl": "https://www.youtube.com/embed/POijZWZ1qwc",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "mexico-city",
@@ -799,10 +799,10 @@
       "youtubeId": "Kd9JjX_621U",
       "youtubeUrl": "https://www.youtube.com/watch?v=Kd9JjX_621U",
       "embedUrl": "https://www.youtube.com/embed/Kd9JjX_621U",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "san-juan-pr",
@@ -818,10 +818,10 @@
       "youtubeId": "taI7GiyvDxE",
       "youtubeUrl": "https://www.youtube.com/watch?v=taI7GiyvDxE",
       "embedUrl": "https://www.youtube.com/embed/taI7GiyvDxE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "nassau",
@@ -837,10 +837,10 @@
       "youtubeId": "33VkbmuOWws",
       "youtubeUrl": "https://www.youtube.com/watch?v=33VkbmuOWws",
       "embedUrl": "https://www.youtube.com/embed/33VkbmuOWws",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "rio",
@@ -856,10 +856,10 @@
       "youtubeId": "S5M3TbkUiKM",
       "youtubeUrl": "https://www.youtube.com/watch?v=S5M3TbkUiKM",
       "embedUrl": "https://www.youtube.com/embed/S5M3TbkUiKM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "sao-paulo",
@@ -875,10 +875,10 @@
       "youtubeId": "VSHKrNhyCKw",
       "youtubeUrl": "https://www.youtube.com/watch?v=VSHKrNhyCKw",
       "embedUrl": "https://www.youtube.com/embed/VSHKrNhyCKw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "buenos-aires",
@@ -894,10 +894,10 @@
       "youtubeId": "7-W1GQfb7cA",
       "youtubeUrl": "https://www.youtube.com/watch?v=7-W1GQfb7cA",
       "embedUrl": "https://www.youtube.com/embed/7-W1GQfb7cA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cartagena",
@@ -913,10 +913,10 @@
       "youtubeId": "E6I6bLaiqXs",
       "youtubeUrl": "https://www.youtube.com/watch?v=E6I6bLaiqXs",
       "embedUrl": "https://www.youtube.com/embed/E6I6bLaiqXs",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "lima",
@@ -932,10 +932,10 @@
       "youtubeId": "CGGevFTJ8EE",
       "youtubeUrl": "https://www.youtube.com/watch?v=CGGevFTJ8EE",
       "embedUrl": "https://www.youtube.com/embed/CGGevFTJ8EE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "london",
@@ -951,10 +951,10 @@
       "youtubeId": "yrzqCc0wNQs",
       "youtubeUrl": "https://www.youtube.com/watch?v=yrzqCc0wNQs",
       "embedUrl": "https://www.youtube.com/embed/yrzqCc0wNQs",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "paris",
@@ -970,10 +970,10 @@
       "youtubeId": "OzYp4NRZlwQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=OzYp4NRZlwQ",
       "embedUrl": "https://www.youtube.com/embed/OzYp4NRZlwQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "rome",
@@ -989,10 +989,10 @@
       "youtubeId": "CMyRFwZGko4",
       "youtubeUrl": "https://www.youtube.com/watch?v=CMyRFwZGko4",
       "embedUrl": "https://www.youtube.com/embed/CMyRFwZGko4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "venice-it",
@@ -1008,10 +1008,10 @@
       "youtubeId": "_w_2nORo1L8",
       "youtubeUrl": "https://www.youtube.com/watch?v=_w_2nORo1L8",
       "embedUrl": "https://www.youtube.com/embed/_w_2nORo1L8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "florence",
@@ -1027,10 +1027,10 @@
       "youtubeId": "yhJEW02TfZU",
       "youtubeUrl": "https://www.youtube.com/watch?v=yhJEW02TfZU",
       "embedUrl": "https://www.youtube.com/embed/yhJEW02TfZU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "milan",
@@ -1046,10 +1046,10 @@
       "youtubeId": "28BXLXTP63E",
       "youtubeUrl": "https://www.youtube.com/watch?v=28BXLXTP63E",
       "embedUrl": "https://www.youtube.com/embed/28BXLXTP63E",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "madrid",
@@ -1065,10 +1065,10 @@
       "youtubeId": "Fe6xNc6wqjo",
       "youtubeUrl": "https://www.youtube.com/watch?v=Fe6xNc6wqjo",
       "embedUrl": "https://www.youtube.com/embed/Fe6xNc6wqjo",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "amsterdam",
@@ -1084,10 +1084,10 @@
       "youtubeId": "43qH0tDA6lM",
       "youtubeUrl": "https://www.youtube.com/watch?v=43qH0tDA6lM",
       "embedUrl": "https://www.youtube.com/embed/43qH0tDA6lM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "berlin",
@@ -1103,10 +1103,10 @@
       "youtubeId": "SgeQKaiJGNU",
       "youtubeUrl": "https://www.youtube.com/watch?v=SgeQKaiJGNU",
       "embedUrl": "https://www.youtube.com/embed/SgeQKaiJGNU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "munich",
@@ -1122,10 +1122,10 @@
       "youtubeId": "dOnesWNFwdw",
       "youtubeUrl": "https://www.youtube.com/watch?v=dOnesWNFwdw",
       "embedUrl": "https://www.youtube.com/embed/dOnesWNFwdw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "prague",
@@ -1141,10 +1141,10 @@
       "youtubeId": "0FvTdT3EJY4",
       "youtubeUrl": "https://www.youtube.com/watch?v=0FvTdT3EJY4",
       "embedUrl": "https://www.youtube.com/embed/0FvTdT3EJY4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "vienna",
@@ -1160,10 +1160,10 @@
       "youtubeId": "NIuO6hrFTrg",
       "youtubeUrl": "https://www.youtube.com/watch?v=NIuO6hrFTrg",
       "embedUrl": "https://www.youtube.com/embed/NIuO6hrFTrg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "dublin",
@@ -1179,10 +1179,10 @@
       "youtubeId": "3nyPER2kzqk",
       "youtubeUrl": "https://www.youtube.com/watch?v=3nyPER2kzqk",
       "embedUrl": "https://www.youtube.com/embed/3nyPER2kzqk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "edinburgh",
@@ -1198,10 +1198,10 @@
       "youtubeId": "d2Ii5ybhbQY",
       "youtubeUrl": "https://www.youtube.com/watch?v=d2Ii5ybhbQY",
       "embedUrl": "https://www.youtube.com/embed/d2Ii5ybhbQY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "zurich",
@@ -1217,10 +1217,10 @@
       "youtubeId": "Yuy2ua8FOUc",
       "youtubeUrl": "https://www.youtube.com/watch?v=Yuy2ua8FOUc",
       "embedUrl": "https://www.youtube.com/embed/Yuy2ua8FOUc",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "zermatt",
@@ -1236,10 +1236,10 @@
       "youtubeId": "5GRpeR5V7nQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=5GRpeR5V7nQ",
       "embedUrl": "https://www.youtube.com/embed/5GRpeR5V7nQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "santorini",
@@ -1255,10 +1255,10 @@
       "youtubeId": "zC-S84OGXFs",
       "youtubeUrl": "https://www.youtube.com/watch?v=zC-S84OGXFs",
       "embedUrl": "https://www.youtube.com/embed/zC-S84OGXFs",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "athens",
@@ -1274,10 +1274,10 @@
       "youtubeId": "C73zejm7vig",
       "youtubeUrl": "https://www.youtube.com/watch?v=C73zejm7vig",
       "embedUrl": "https://www.youtube.com/embed/C73zejm7vig",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "dubrovnik",
@@ -1293,10 +1293,10 @@
       "youtubeId": "jhGoHgQNel4",
       "youtubeUrl": "https://www.youtube.com/watch?v=jhGoHgQNel4",
       "embedUrl": "https://www.youtube.com/embed/jhGoHgQNel4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "reykjavik",
@@ -1312,10 +1312,10 @@
       "youtubeId": "tYgGEC-ESTw",
       "youtubeUrl": "https://www.youtube.com/watch?v=tYgGEC-ESTw",
       "embedUrl": "https://www.youtube.com/embed/tYgGEC-ESTw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "copenhagen",
@@ -1331,10 +1331,10 @@
       "youtubeId": "imzrtnSid6Q",
       "youtubeUrl": "https://www.youtube.com/watch?v=imzrtnSid6Q",
       "embedUrl": "https://www.youtube.com/embed/imzrtnSid6Q",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "stockholm",
@@ -1350,10 +1350,10 @@
       "youtubeId": "SAoWaQNnYxA",
       "youtubeUrl": "https://www.youtube.com/watch?v=SAoWaQNnYxA",
       "embedUrl": "https://www.youtube.com/embed/SAoWaQNnYxA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "oslo",
@@ -1369,10 +1369,10 @@
       "youtubeId": "7VXn9NpuSZk",
       "youtubeUrl": "https://www.youtube.com/watch?v=7VXn9NpuSZk",
       "embedUrl": "https://www.youtube.com/embed/7VXn9NpuSZk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "helsinki",
@@ -1388,10 +1388,10 @@
       "youtubeId": "CvOB-Is_yYU",
       "youtubeUrl": "https://www.youtube.com/watch?v=CvOB-Is_yYU",
       "embedUrl": "https://www.youtube.com/embed/CvOB-Is_yYU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "budapest",
@@ -1407,10 +1407,10 @@
       "youtubeId": "NJLkVeBd7Mo",
       "youtubeUrl": "https://www.youtube.com/watch?v=NJLkVeBd7Mo",
       "embedUrl": "https://www.youtube.com/embed/NJLkVeBd7Mo",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "warsaw",
@@ -1426,10 +1426,10 @@
       "youtubeId": "Uf4p1PJFtUI",
       "youtubeUrl": "https://www.youtube.com/watch?v=Uf4p1PJFtUI",
       "embedUrl": "https://www.youtube.com/embed/Uf4p1PJFtUI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "hallstatt",
@@ -1445,10 +1445,10 @@
       "youtubeId": "6xaHkx3Q-OU",
       "youtubeUrl": "https://www.youtube.com/watch?v=6xaHkx3Q-OU",
       "embedUrl": "https://www.youtube.com/embed/6xaHkx3Q-OU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "tenerife",
@@ -1464,10 +1464,10 @@
       "youtubeId": "AfIJWdXstCM",
       "youtubeUrl": "https://www.youtube.com/watch?v=AfIJWdXstCM",
       "embedUrl": "https://www.youtube.com/embed/AfIJWdXstCM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "istanbul",
@@ -1483,10 +1483,10 @@
       "youtubeId": "qXRYokWh3rU",
       "youtubeUrl": "https://www.youtube.com/watch?v=qXRYokWh3rU",
       "embedUrl": "https://www.youtube.com/embed/qXRYokWh3rU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cape-town",
@@ -1502,10 +1502,10 @@
       "youtubeId": "IGu55JrxyHU",
       "youtubeUrl": "https://www.youtube.com/watch?v=IGu55JrxyHU",
       "embedUrl": "https://www.youtube.com/embed/IGu55JrxyHU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cairo",
@@ -1521,10 +1521,10 @@
       "youtubeId": "Oz50wQ4O1vw",
       "youtubeUrl": "https://www.youtube.com/watch?v=Oz50wQ4O1vw",
       "embedUrl": "https://www.youtube.com/embed/Oz50wQ4O1vw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "nairobi-wildlife",
@@ -1540,10 +1540,10 @@
       "youtubeId": "xXZqU5vnEug",
       "youtubeUrl": "https://www.youtube.com/watch?v=xXZqU5vnEug",
       "embedUrl": "https://www.youtube.com/embed/xXZqU5vnEug",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "dubai",
@@ -1559,10 +1559,10 @@
       "youtubeId": "ka9MsehA8I4",
       "youtubeUrl": "https://www.youtube.com/watch?v=ka9MsehA8I4",
       "embedUrl": "https://www.youtube.com/embed/ka9MsehA8I4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "jerusalem",
@@ -1578,10 +1578,10 @@
       "youtubeId": "77akujLn4k8",
       "youtubeUrl": "https://www.youtube.com/watch?v=77akujLn4k8",
       "embedUrl": "https://www.youtube.com/embed/77akujLn4k8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "tokyo-shibuya",
@@ -1597,10 +1597,10 @@
       "youtubeId": "dfVK7ld38Ys",
       "youtubeUrl": "https://www.youtube.com/watch?v=dfVK7ld38Ys",
       "embedUrl": "https://www.youtube.com/embed/dfVK7ld38Ys",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "osaka",
@@ -1616,10 +1616,10 @@
       "youtubeId": "F-PXblfCnF8",
       "youtubeUrl": "https://www.youtube.com/watch?v=F-PXblfCnF8",
       "embedUrl": "https://www.youtube.com/embed/F-PXblfCnF8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "kyoto",
@@ -1635,10 +1635,10 @@
       "youtubeId": "T8FR4SB9pzQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=T8FR4SB9pzQ",
       "embedUrl": "https://www.youtube.com/embed/T8FR4SB9pzQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "seoul",
@@ -1654,10 +1654,10 @@
       "youtubeId": "DSgn-lTHJzM",
       "youtubeUrl": "https://www.youtube.com/watch?v=DSgn-lTHJzM",
       "embedUrl": "https://www.youtube.com/embed/DSgn-lTHJzM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "hong-kong",
@@ -1673,10 +1673,10 @@
       "youtubeId": "bNOWG3jcOlQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=bNOWG3jcOlQ",
       "embedUrl": "https://www.youtube.com/embed/bNOWG3jcOlQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "singapore",
@@ -1692,10 +1692,10 @@
       "youtubeId": "LhsIlmvwEbc",
       "youtubeUrl": "https://www.youtube.com/watch?v=LhsIlmvwEbc",
       "embedUrl": "https://www.youtube.com/embed/LhsIlmvwEbc",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "bangkok",
@@ -1711,10 +1711,10 @@
       "youtubeId": "Q71sLS8h9a4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Q71sLS8h9a4",
       "embedUrl": "https://www.youtube.com/embed/Q71sLS8h9a4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "bali",
@@ -1730,10 +1730,10 @@
       "youtubeId": "J-g2I5qBybo",
       "youtubeUrl": "https://www.youtube.com/watch?v=J-g2I5qBybo",
       "embedUrl": "https://www.youtube.com/embed/J-g2I5qBybo",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "taipei",
@@ -1749,10 +1749,10 @@
       "youtubeId": "_ojxJwRKqMU",
       "youtubeUrl": "https://www.youtube.com/watch?v=_ojxJwRKqMU",
       "embedUrl": "https://www.youtube.com/embed/_ojxJwRKqMU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "phuket",
@@ -1768,10 +1768,10 @@
       "youtubeId": "QtwFXpOVEb8",
       "youtubeUrl": "https://www.youtube.com/watch?v=QtwFXpOVEb8",
       "embedUrl": "https://www.youtube.com/embed/QtwFXpOVEb8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "sydney",
@@ -1787,10 +1787,10 @@
       "youtubeId": "5uZa3-RMFos",
       "youtubeUrl": "https://www.youtube.com/watch?v=5uZa3-RMFos",
       "embedUrl": "https://www.youtube.com/embed/5uZa3-RMFos",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "melbourne",
@@ -1806,10 +1806,10 @@
       "youtubeId": "gEbrHdFRgpQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=gEbrHdFRgpQ",
       "embedUrl": "https://www.youtube.com/embed/gEbrHdFRgpQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "gold-coast",
@@ -1825,10 +1825,10 @@
       "youtubeId": "Pk0iA2vsdPQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=Pk0iA2vsdPQ",
       "embedUrl": "https://www.youtube.com/embed/Pk0iA2vsdPQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "auckland",
@@ -1844,10 +1844,10 @@
       "youtubeId": "PaLDpyFxpXE",
       "youtubeUrl": "https://www.youtube.com/watch?v=PaLDpyFxpXE",
       "embedUrl": "https://www.youtube.com/embed/PaLDpyFxpXE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "queenstown-nz",
@@ -1863,10 +1863,10 @@
       "youtubeId": "g0wt2fE3BhE",
       "youtubeUrl": "https://www.youtube.com/watch?v=g0wt2fE3BhE",
       "embedUrl": "https://www.youtube.com/embed/g0wt2fE3BhE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "minneapolis",
@@ -1882,10 +1882,10 @@
       "youtubeId": "UodZPB82se4",
       "youtubeUrl": "https://www.youtube.com/watch?v=UodZPB82se4",
       "embedUrl": "https://www.youtube.com/embed/UodZPB82se4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "denver",
@@ -1901,10 +1901,10 @@
       "youtubeId": "X7m2dN-wcbU",
       "youtubeUrl": "https://www.youtube.com/watch?v=X7m2dN-wcbU",
       "embedUrl": "https://www.youtube.com/embed/X7m2dN-wcbU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "salt-lake-city",
@@ -1920,10 +1920,10 @@
       "youtubeId": "8BHMPED9ZyQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=8BHMPED9ZyQ",
       "embedUrl": "https://www.youtube.com/embed/8BHMPED9ZyQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "phoenix",
@@ -1939,10 +1939,10 @@
       "youtubeId": "kBifss3o69Q",
       "youtubeUrl": "https://www.youtube.com/watch?v=kBifss3o69Q",
       "embedUrl": "https://www.youtube.com/embed/kBifss3o69Q",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cleveland",
@@ -1958,10 +1958,10 @@
       "youtubeId": "iHqqkh_Lths",
       "youtubeUrl": "https://www.youtube.com/watch?v=iHqqkh_Lths",
       "embedUrl": "https://www.youtube.com/embed/iHqqkh_Lths",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "virginia-beach",
@@ -1977,10 +1977,10 @@
       "youtubeId": "IiGtyD0F7sI",
       "youtubeUrl": "https://www.youtube.com/watch?v=IiGtyD0F7sI",
       "embedUrl": "https://www.youtube.com/embed/IiGtyD0F7sI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "ocean-city-md",
@@ -1996,10 +1996,10 @@
       "youtubeId": "tviv_KtpXUA",
       "youtubeUrl": "https://www.youtube.com/watch?v=tviv_KtpXUA",
       "embedUrl": "https://www.youtube.com/embed/tviv_KtpXUA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "outer-banks",
@@ -2015,10 +2015,10 @@
       "youtubeId": "WEhuDqlxHmM",
       "youtubeUrl": "https://www.youtube.com/watch?v=WEhuDqlxHmM",
       "embedUrl": "https://www.youtube.com/embed/WEhuDqlxHmM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "naples-fl",
@@ -2034,10 +2034,10 @@
       "youtubeId": "Y4kskw4l3kU",
       "youtubeUrl": "https://www.youtube.com/watch?v=Y4kskw4l3kU",
       "embedUrl": "https://www.youtube.com/embed/Y4kskw4l3kU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "fort-lauderdale",
@@ -2053,10 +2053,10 @@
       "youtubeId": "pXx3YQVSUGg",
       "youtubeUrl": "https://www.youtube.com/watch?v=pXx3YQVSUGg",
       "embedUrl": "https://www.youtube.com/embed/pXx3YQVSUGg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cocoa-beach",
@@ -2072,10 +2072,10 @@
       "youtubeId": "gAvFqhNwZm0",
       "youtubeUrl": "https://www.youtube.com/watch?v=gAvFqhNwZm0",
       "embedUrl": "https://www.youtube.com/embed/gAvFqhNwZm0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "key-largo",
@@ -2091,10 +2091,10 @@
       "youtubeId": "cDzoBVvTaEU",
       "youtubeUrl": "https://www.youtube.com/watch?v=cDzoBVvTaEU",
       "embedUrl": "https://www.youtube.com/embed/cDzoBVvTaEU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "panama-city-beach",
@@ -2110,10 +2110,10 @@
       "youtubeId": "2XP_YxMgoys",
       "youtubeUrl": "https://www.youtube.com/watch?v=2XP_YxMgoys",
       "embedUrl": "https://www.youtube.com/embed/2XP_YxMgoys",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "gulf-shores",
@@ -2129,10 +2129,10 @@
       "youtubeId": "2l4UvogzXPA",
       "youtubeUrl": "https://www.youtube.com/watch?v=2l4UvogzXPA",
       "embedUrl": "https://www.youtube.com/embed/2l4UvogzXPA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "south-padre",
@@ -2148,10 +2148,10 @@
       "youtubeId": "dzylsC0KcOE",
       "youtubeUrl": "https://www.youtube.com/watch?v=dzylsC0KcOE",
       "embedUrl": "https://www.youtube.com/embed/dzylsC0KcOE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "santa-cruz",
@@ -2167,10 +2167,10 @@
       "youtubeId": "IivKKYf_nrs",
       "youtubeUrl": "https://www.youtube.com/watch?v=IivKKYf_nrs",
       "embedUrl": "https://www.youtube.com/embed/IivKKYf_nrs",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "huntington-beach",
@@ -2186,10 +2186,10 @@
       "youtubeId": "37NSpRcO-VM",
       "youtubeUrl": "https://www.youtube.com/watch?v=37NSpRcO-VM",
       "embedUrl": "https://www.youtube.com/embed/37NSpRcO-VM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "malibu",
@@ -2205,10 +2205,10 @@
       "youtubeId": "8bW70xWxH-Y",
       "youtubeUrl": "https://www.youtube.com/watch?v=8bW70xWxH-Y",
       "embedUrl": "https://www.youtube.com/embed/8bW70xWxH-Y",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "big-bear",
@@ -2224,10 +2224,10 @@
       "youtubeId": "HpF2gVW5gBM",
       "youtubeUrl": "https://www.youtube.com/watch?v=HpF2gVW5gBM",
       "embedUrl": "https://www.youtube.com/embed/HpF2gVW5gBM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "mammoth",
@@ -2243,10 +2243,10 @@
       "youtubeId": "jFK8bVYad0M",
       "youtubeUrl": "https://www.youtube.com/watch?v=jFK8bVYad0M",
       "embedUrl": "https://www.youtube.com/embed/jFK8bVYad0M",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "aspen",
@@ -2262,10 +2262,10 @@
       "youtubeId": "FX9s5PcJWew",
       "youtubeUrl": "https://www.youtube.com/watch?v=FX9s5PcJWew",
       "embedUrl": "https://www.youtube.com/embed/FX9s5PcJWew",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "gatlinburg",
@@ -2281,10 +2281,10 @@
       "youtubeId": "LLGgMFaWL5s",
       "youtubeUrl": "https://www.youtube.com/watch?v=LLGgMFaWL5s",
       "embedUrl": "https://www.youtube.com/embed/LLGgMFaWL5s",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "asheville",
@@ -2300,10 +2300,10 @@
       "youtubeId": "wDuFAFS-xXM",
       "youtubeUrl": "https://www.youtube.com/watch?v=wDuFAFS-xXM",
       "embedUrl": "https://www.youtube.com/embed/wDuFAFS-xXM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "mount-rushmore",
@@ -2319,10 +2319,10 @@
       "youtubeId": "Pi-vehCXUF0",
       "youtubeUrl": "https://www.youtube.com/watch?v=Pi-vehCXUF0",
       "embedUrl": "https://www.youtube.com/embed/Pi-vehCXUF0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "brussels",
@@ -2338,10 +2338,10 @@
       "youtubeId": "TfhntMe0qys",
       "youtubeUrl": "https://www.youtube.com/watch?v=TfhntMe0qys",
       "embedUrl": "https://www.youtube.com/embed/TfhntMe0qys",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "bruges",
@@ -2357,10 +2357,10 @@
       "youtubeId": "1FmTkkuuGRM",
       "youtubeUrl": "https://www.youtube.com/watch?v=1FmTkkuuGRM",
       "embedUrl": "https://www.youtube.com/embed/1FmTkkuuGRM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "porto",
@@ -2376,10 +2376,10 @@
       "youtubeId": "45wxTsNFPXw",
       "youtubeUrl": "https://www.youtube.com/watch?v=45wxTsNFPXw",
       "embedUrl": "https://www.youtube.com/embed/45wxTsNFPXw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "seville",
@@ -2395,10 +2395,10 @@
       "youtubeId": "KGX3NiX63zI",
       "youtubeUrl": "https://www.youtube.com/watch?v=KGX3NiX63zI",
       "embedUrl": "https://www.youtube.com/embed/KGX3NiX63zI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "valencia",
@@ -2414,10 +2414,10 @@
       "youtubeId": "9UehjEzPExY",
       "youtubeUrl": "https://www.youtube.com/watch?v=9UehjEzPExY",
       "embedUrl": "https://www.youtube.com/embed/9UehjEzPExY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "naples-it",
@@ -2433,10 +2433,10 @@
       "youtubeId": "TRJfatjMU7E",
       "youtubeUrl": "https://www.youtube.com/watch?v=TRJfatjMU7E",
       "embedUrl": "https://www.youtube.com/embed/TRJfatjMU7E",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "geneva",
@@ -2452,10 +2452,10 @@
       "youtubeId": "RTy-3SnVI-U",
       "youtubeUrl": "https://www.youtube.com/watch?v=RTy-3SnVI-U",
       "embedUrl": "https://www.youtube.com/embed/RTy-3SnVI-U",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "interlaken",
@@ -2471,10 +2471,10 @@
       "youtubeId": "P_Hmi0x84SY",
       "youtubeUrl": "https://www.youtube.com/watch?v=P_Hmi0x84SY",
       "embedUrl": "https://www.youtube.com/embed/P_Hmi0x84SY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "innsbruck",
@@ -2490,10 +2490,10 @@
       "youtubeId": "gPgSnKL8cQA",
       "youtubeUrl": "https://www.youtube.com/watch?v=gPgSnKL8cQA",
       "embedUrl": "https://www.youtube.com/embed/gPgSnKL8cQA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "salzburg",
@@ -2509,10 +2509,10 @@
       "youtubeId": "6lBP4CYk1VA",
       "youtubeUrl": "https://www.youtube.com/watch?v=6lBP4CYk1VA",
       "embedUrl": "https://www.youtube.com/embed/6lBP4CYk1VA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "krakow",
@@ -2528,10 +2528,10 @@
       "youtubeId": "OUJ-wyQW8BE",
       "youtubeUrl": "https://www.youtube.com/watch?v=OUJ-wyQW8BE",
       "embedUrl": "https://www.youtube.com/embed/OUJ-wyQW8BE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "mykonos",
@@ -2547,10 +2547,10 @@
       "youtubeId": "CPnqlKYOkQ8",
       "youtubeUrl": "https://www.youtube.com/watch?v=CPnqlKYOkQ8",
       "embedUrl": "https://www.youtube.com/embed/CPnqlKYOkQ8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cannes",
@@ -2566,10 +2566,10 @@
       "youtubeId": "asO_10T0k2k",
       "youtubeUrl": "https://www.youtube.com/watch?v=asO_10T0k2k",
       "embedUrl": "https://www.youtube.com/embed/asO_10T0k2k",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "monaco",
@@ -2585,10 +2585,10 @@
       "youtubeId": "aj02iZZHT14",
       "youtubeUrl": "https://www.youtube.com/watch?v=aj02iZZHT14",
       "embedUrl": "https://www.youtube.com/embed/aj02iZZHT14",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "valletta",
@@ -2604,10 +2604,10 @@
       "youtubeId": "3SW7lmjpPnw",
       "youtubeUrl": "https://www.youtube.com/watch?v=3SW7lmjpPnw",
       "embedUrl": "https://www.youtube.com/embed/3SW7lmjpPnw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "bergen",
@@ -2623,10 +2623,10 @@
       "youtubeId": "3lYSpLueVLM",
       "youtubeUrl": "https://www.youtube.com/watch?v=3lYSpLueVLM",
       "embedUrl": "https://www.youtube.com/embed/3lYSpLueVLM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "tromso",
@@ -2642,10 +2642,10 @@
       "youtubeId": "YV4oSsPNltU",
       "youtubeUrl": "https://www.youtube.com/watch?v=YV4oSsPNltU",
       "embedUrl": "https://www.youtube.com/embed/YV4oSsPNltU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "tallinn",
@@ -2661,10 +2661,10 @@
       "youtubeId": "W_TvWaw_CC0",
       "youtubeUrl": "https://www.youtube.com/watch?v=W_TvWaw_CC0",
       "embedUrl": "https://www.youtube.com/embed/W_TvWaw_CC0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "abu-dhabi",
@@ -2680,10 +2680,10 @@
       "youtubeId": "nkIYIBhHY3A",
       "youtubeUrl": "https://www.youtube.com/watch?v=nkIYIBhHY3A",
       "embedUrl": "https://www.youtube.com/embed/nkIYIBhHY3A",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "doha",
@@ -2699,10 +2699,10 @@
       "youtubeId": "cbhOU_j3ONQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=cbhOU_j3ONQ",
       "embedUrl": "https://www.youtube.com/embed/cbhOU_j3ONQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "kuala-lumpur",
@@ -2718,10 +2718,10 @@
       "youtubeId": "ncl7_zdPSdI",
       "youtubeUrl": "https://www.youtube.com/watch?v=ncl7_zdPSdI",
       "embedUrl": "https://www.youtube.com/embed/ncl7_zdPSdI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "manila",
@@ -2737,10 +2737,10 @@
       "youtubeId": "Xq0jNABhCJo",
       "youtubeUrl": "https://www.youtube.com/watch?v=Xq0jNABhCJo",
       "embedUrl": "https://www.youtube.com/embed/Xq0jNABhCJo",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "sapporo",
@@ -2756,10 +2756,10 @@
       "youtubeId": "TPIzbMwlrOI",
       "youtubeUrl": "https://www.youtube.com/watch?v=TPIzbMwlrOI",
       "embedUrl": "https://www.youtube.com/embed/TPIzbMwlrOI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "brisbane",
@@ -2775,10 +2775,10 @@
       "youtubeId": "GFmvn_752Zs",
       "youtubeUrl": "https://www.youtube.com/watch?v=GFmvn_752Zs",
       "embedUrl": "https://www.youtube.com/embed/GFmvn_752Zs",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "perth",
@@ -2794,10 +2794,10 @@
       "youtubeId": "0scbifNPRJY",
       "youtubeUrl": "https://www.youtube.com/watch?v=0scbifNPRJY",
       "embedUrl": "https://www.youtube.com/embed/0scbifNPRJY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cairns",
@@ -2813,10 +2813,10 @@
       "youtubeId": "1BuW6k4861k",
       "youtubeUrl": "https://www.youtube.com/watch?v=1BuW6k4861k",
       "embedUrl": "https://www.youtube.com/embed/1BuW6k4861k",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "wellington",
@@ -2832,10 +2832,10 @@
       "youtubeId": "qs3o-zfShvM",
       "youtubeUrl": "https://www.youtube.com/watch?v=qs3o-zfShvM",
       "embedUrl": "https://www.youtube.com/embed/qs3o-zfShvM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "punta-del-este",
@@ -2851,10 +2851,10 @@
       "youtubeId": "SxeF3INAxT8",
       "youtubeUrl": "https://www.youtube.com/watch?v=SxeF3INAxT8",
       "embedUrl": "https://www.youtube.com/embed/SxeF3INAxT8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "marrakech",
@@ -2870,10 +2870,10 @@
       "youtubeId": "Uj8-_h4h71o",
       "youtubeUrl": "https://www.youtube.com/watch?v=Uj8-_h4h71o",
       "embedUrl": "https://www.youtube.com/embed/Uj8-_h4h71o",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "zanzibar",
@@ -2889,10 +2889,10 @@
       "youtubeId": "bU2JR1GUzxs",
       "youtubeUrl": "https://www.youtube.com/watch?v=bU2JR1GUzxs",
       "embedUrl": "https://www.youtube.com/embed/bU2JR1GUzxs",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "barcelona",
@@ -2908,10 +2908,10 @@
       "youtubeId": "3q9Fou6ZWFY",
       "youtubeUrl": "https://www.youtube.com/watch?v=3q9Fou6ZWFY",
       "embedUrl": "https://www.youtube.com/embed/3q9Fou6ZWFY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "detroit",
@@ -2927,10 +2927,10 @@
       "youtubeId": "VA5zde5zPGk",
       "youtubeUrl": "https://www.youtube.com/watch?v=VA5zde5zPGk",
       "embedUrl": "https://www.youtube.com/embed/VA5zde5zPGk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "park-city",
@@ -2946,10 +2946,10 @@
       "youtubeId": "uE_ent5rC3Y",
       "youtubeUrl": "https://www.youtube.com/watch?v=uE_ent5rC3Y",
       "embedUrl": "https://www.youtube.com/embed/uE_ent5rC3Y",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "maui-lahaina",
@@ -2965,10 +2965,10 @@
       "youtubeId": "YXji6UQ0bwY",
       "youtubeUrl": "https://www.youtube.com/watch?v=YXji6UQ0bwY",
       "embedUrl": "https://www.youtube.com/embed/YXji6UQ0bwY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "okinawa",
@@ -2984,10 +2984,10 @@
       "youtubeId": "VWpOgCVKoK4",
       "youtubeUrl": "https://www.youtube.com/watch?v=VWpOgCVKoK4",
       "embedUrl": "https://www.youtube.com/embed/VWpOgCVKoK4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-28",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "houston",
@@ -3003,10 +3003,10 @@
       "youtubeId": "wUQc3RoLAPs",
       "youtubeUrl": "https://www.youtube.com/watch?v=wUQc3RoLAPs",
       "embedUrl": "https://www.youtube.com/embed/wUQc3RoLAPs",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "galveston",
@@ -3022,10 +3022,10 @@
       "youtubeId": "HkHhXsWci7Q",
       "youtubeUrl": "https://www.youtube.com/watch?v=HkHhXsWci7Q",
       "embedUrl": "https://www.youtube.com/embed/HkHhXsWci7Q",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "dallas",
@@ -3041,10 +3041,10 @@
       "youtubeId": "QEJyYolmjeo",
       "youtubeUrl": "https://www.youtube.com/watch?v=QEJyYolmjeo",
       "embedUrl": "https://www.youtube.com/embed/QEJyYolmjeo",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "kansas-city",
@@ -3060,10 +3060,10 @@
       "youtubeId": "F4G6M8SIIfw",
       "youtubeUrl": "https://www.youtube.com/watch?v=F4G6M8SIIfw",
       "embedUrl": "https://www.youtube.com/embed/F4G6M8SIIfw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "st-louis",
@@ -3079,10 +3079,10 @@
       "youtubeId": "WLpybhD6viU",
       "youtubeUrl": "https://www.youtube.com/watch?v=WLpybhD6viU",
       "embedUrl": "https://www.youtube.com/embed/WLpybhD6viU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "orlando",
@@ -3098,10 +3098,10 @@
       "youtubeId": "VjaW5c1x7JU",
       "youtubeUrl": "https://www.youtube.com/watch?v=VjaW5c1x7JU",
       "embedUrl": "https://www.youtube.com/embed/VjaW5c1x7JU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "sarasota",
@@ -3117,10 +3117,10 @@
       "youtubeId": "NLhxcyzXQxM",
       "youtubeUrl": "https://www.youtube.com/watch?v=NLhxcyzXQxM",
       "embedUrl": "https://www.youtube.com/embed/NLhxcyzXQxM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "hilton-head",
@@ -3136,10 +3136,10 @@
       "youtubeId": "cSDFxxE7YWE",
       "youtubeUrl": "https://www.youtube.com/watch?v=cSDFxxE7YWE",
       "embedUrl": "https://www.youtube.com/embed/cSDFxxE7YWE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "atlantic-city",
@@ -3155,10 +3155,10 @@
       "youtubeId": "GDU59FNpYAM",
       "youtubeUrl": "https://www.youtube.com/watch?v=GDU59FNpYAM",
       "embedUrl": "https://www.youtube.com/embed/GDU59FNpYAM",
-      "status": "embed_blocked",
+      "status": "offline",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cape-may",
@@ -3174,10 +3174,10 @@
       "youtubeId": "QsJzCLUdwgM",
       "youtubeUrl": "https://www.youtube.com/watch?v=QsJzCLUdwgM",
       "embedUrl": "https://www.youtube.com/embed/QsJzCLUdwgM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "laguna-beach",
@@ -3193,10 +3193,10 @@
       "youtubeId": "Xvu5imiDOXY",
       "youtubeUrl": "https://www.youtube.com/watch?v=Xvu5imiDOXY",
       "embedUrl": "https://www.youtube.com/embed/Xvu5imiDOXY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "monterey",
@@ -3212,10 +3212,10 @@
       "youtubeId": "fVa6-zCBR7A",
       "youtubeUrl": "https://www.youtube.com/watch?v=fVa6-zCBR7A",
       "embedUrl": "https://www.youtube.com/embed/fVa6-zCBR7A",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "sedona",
@@ -3231,10 +3231,10 @@
       "youtubeId": "BJVGBbZVdhQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=BJVGBbZVdhQ",
       "embedUrl": "https://www.youtube.com/embed/BJVGBbZVdhQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "santa-fe",
@@ -3250,10 +3250,10 @@
       "youtubeId": "3QBMi7xi6Ns",
       "youtubeUrl": "https://www.youtube.com/watch?v=3QBMi7xi6Ns",
       "embedUrl": "https://www.youtube.com/embed/3QBMi7xi6Ns",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "steamboat-springs",
@@ -3269,10 +3269,10 @@
       "youtubeId": "2UJDLWcSADk",
       "youtubeUrl": "https://www.youtube.com/watch?v=2UJDLWcSADk",
       "embedUrl": "https://www.youtube.com/embed/2UJDLWcSADk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "breckenridge",
@@ -3288,10 +3288,10 @@
       "youtubeId": "SH63YaIWyK0",
       "youtubeUrl": "https://www.youtube.com/watch?v=SH63YaIWyK0",
       "embedUrl": "https://www.youtube.com/embed/SH63YaIWyK0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "telluride",
@@ -3307,10 +3307,10 @@
       "youtubeId": "p3iru95BVYg",
       "youtubeUrl": "https://www.youtube.com/watch?v=p3iru95BVYg",
       "embedUrl": "https://www.youtube.com/embed/p3iru95BVYg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "duluth",
@@ -3326,10 +3326,10 @@
       "youtubeId": "QnbZA_Juf9w",
       "youtubeUrl": "https://www.youtube.com/watch?v=QnbZA_Juf9w",
       "embedUrl": "https://www.youtube.com/embed/QnbZA_Juf9w",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "milwaukee",
@@ -3345,10 +3345,10 @@
       "youtubeId": "7fZ2JLtv_c8",
       "youtubeUrl": "https://www.youtube.com/watch?v=7fZ2JLtv_c8",
       "embedUrl": "https://www.youtube.com/embed/7fZ2JLtv_c8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "bar-harbor",
@@ -3364,10 +3364,10 @@
       "youtubeId": "OteVW3af3BU",
       "youtubeUrl": "https://www.youtube.com/watch?v=OteVW3af3BU",
       "embedUrl": "https://www.youtube.com/embed/OteVW3af3BU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "portland-me",
@@ -3383,10 +3383,10 @@
       "youtubeId": "9-LxVDA63Y0",
       "youtubeUrl": "https://www.youtube.com/watch?v=9-LxVDA63Y0",
       "embedUrl": "https://www.youtube.com/embed/9-LxVDA63Y0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cannon-beach",
@@ -3402,10 +3402,10 @@
       "youtubeId": "1fb9LAVzGyY",
       "youtubeUrl": "https://www.youtube.com/watch?v=1fb9LAVzGyY",
       "embedUrl": "https://www.youtube.com/embed/1fb9LAVzGyY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "anchorage",
@@ -3421,10 +3421,10 @@
       "youtubeId": "61pi8UjLOlo",
       "youtubeUrl": "https://www.youtube.com/watch?v=61pi8UjLOlo",
       "embedUrl": "https://www.youtube.com/embed/61pi8UjLOlo",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "juneau",
@@ -3440,10 +3440,10 @@
       "youtubeId": "Vp5fjH5u9PY",
       "youtubeUrl": "https://www.youtube.com/watch?v=Vp5fjH5u9PY",
       "embedUrl": "https://www.youtube.com/embed/Vp5fjH5u9PY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "jacksonville-fl",
@@ -3459,10 +3459,10 @@
       "youtubeId": "JLvCEDGJr-s",
       "youtubeUrl": "https://www.youtube.com/watch?v=JLvCEDGJr-s",
       "embedUrl": "https://www.youtube.com/embed/JLvCEDGJr-s",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "liverpool",
@@ -3478,10 +3478,10 @@
       "youtubeId": "H5sU6NsOAF0",
       "youtubeUrl": "https://www.youtube.com/watch?v=H5sU6NsOAF0",
       "embedUrl": "https://www.youtube.com/embed/H5sU6NsOAF0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "manchester",
@@ -3497,10 +3497,10 @@
       "youtubeId": "SngWqFuN37E",
       "youtubeUrl": "https://www.youtube.com/watch?v=SngWqFuN37E",
       "embedUrl": "https://www.youtube.com/embed/SngWqFuN37E",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "york",
@@ -3516,10 +3516,10 @@
       "youtubeId": "vByZX49lCic",
       "youtubeUrl": "https://www.youtube.com/watch?v=vByZX49lCic",
       "embedUrl": "https://www.youtube.com/embed/vByZX49lCic",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "brighton",
@@ -3535,10 +3535,10 @@
       "youtubeId": "47EINjlMakA",
       "youtubeUrl": "https://www.youtube.com/watch?v=47EINjlMakA",
       "embedUrl": "https://www.youtube.com/embed/47EINjlMakA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "glasgow",
@@ -3554,10 +3554,10 @@
       "youtubeId": "_1XsssXVr7E",
       "youtubeUrl": "https://www.youtube.com/watch?v=_1XsssXVr7E",
       "embedUrl": "https://www.youtube.com/embed/_1XsssXVr7E",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "hamburg",
@@ -3573,10 +3573,10 @@
       "youtubeId": "OmyDLXvaus4",
       "youtubeUrl": "https://www.youtube.com/watch?v=OmyDLXvaus4",
       "embedUrl": "https://www.youtube.com/embed/OmyDLXvaus4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cologne",
@@ -3592,10 +3592,10 @@
       "youtubeId": "GrqfWFiN2xI",
       "youtubeUrl": "https://www.youtube.com/watch?v=GrqfWFiN2xI",
       "embedUrl": "https://www.youtube.com/embed/GrqfWFiN2xI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "frankfurt",
@@ -3611,10 +3611,10 @@
       "youtubeId": "F8WJkjHIsj0",
       "youtubeUrl": "https://www.youtube.com/watch?v=F8WJkjHIsj0",
       "embedUrl": "https://www.youtube.com/embed/F8WJkjHIsj0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "gdansk",
@@ -3630,10 +3630,10 @@
       "youtubeId": "mhwL1nzpxeg",
       "youtubeUrl": "https://www.youtube.com/watch?v=mhwL1nzpxeg",
       "embedUrl": "https://www.youtube.com/embed/mhwL1nzpxeg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "split",
@@ -3649,10 +3649,10 @@
       "youtubeId": "_7n9U3dHLEQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=_7n9U3dHLEQ",
       "embedUrl": "https://www.youtube.com/embed/_7n9U3dHLEQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "thessaloniki",
@@ -3668,10 +3668,10 @@
       "youtubeId": "TStsV0knTwQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=TStsV0knTwQ",
       "embedUrl": "https://www.youtube.com/embed/TStsV0knTwQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "malaga",
@@ -3687,10 +3687,10 @@
       "youtubeId": "xU8jOmmW9jQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=xU8jOmmW9jQ",
       "embedUrl": "https://www.youtube.com/embed/xU8jOmmW9jQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "palma-mallorca",
@@ -3706,10 +3706,10 @@
       "youtubeId": "VCS0vpTWnGA",
       "youtubeUrl": "https://www.youtube.com/watch?v=VCS0vpTWnGA",
       "embedUrl": "https://www.youtube.com/embed/VCS0vpTWnGA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "turin",
@@ -3725,10 +3725,10 @@
       "youtubeId": "nCErlIWUEAo",
       "youtubeUrl": "https://www.youtube.com/watch?v=nCErlIWUEAo",
       "embedUrl": "https://www.youtube.com/embed/nCErlIWUEAo",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "verona",
@@ -3744,10 +3744,10 @@
       "youtubeId": "D4oodRh5AOA",
       "youtubeUrl": "https://www.youtube.com/watch?v=D4oodRh5AOA",
       "embedUrl": "https://www.youtube.com/embed/D4oodRh5AOA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "pisa",
@@ -3763,10 +3763,10 @@
       "youtubeId": "nMt1WO-xCjk",
       "youtubeUrl": "https://www.youtube.com/watch?v=nMt1WO-xCjk",
       "embedUrl": "https://www.youtube.com/embed/nMt1WO-xCjk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "amalfi",
@@ -3782,10 +3782,10 @@
       "youtubeId": "hGmeXzB1HYY",
       "youtubeUrl": "https://www.youtube.com/watch?v=hGmeXzB1HYY",
       "embedUrl": "https://www.youtube.com/embed/hGmeXzB1HYY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "lake-como",
@@ -3801,10 +3801,10 @@
       "youtubeId": "d0-a8UJAyvY",
       "youtubeUrl": "https://www.youtube.com/watch?v=d0-a8UJAyvY",
       "embedUrl": "https://www.youtube.com/embed/d0-a8UJAyvY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "lyon",
@@ -3820,10 +3820,10 @@
       "youtubeId": "tfhB-lP8-Ig",
       "youtubeUrl": "https://www.youtube.com/watch?v=tfhB-lP8-Ig",
       "embedUrl": "https://www.youtube.com/embed/tfhB-lP8-Ig",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "marseille",
@@ -3839,10 +3839,10 @@
       "youtubeId": "U4KfboraZVM",
       "youtubeUrl": "https://www.youtube.com/watch?v=U4KfboraZVM",
       "embedUrl": "https://www.youtube.com/embed/U4KfboraZVM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "lucerne",
@@ -3858,10 +3858,10 @@
       "youtubeId": "QIt1FaDMnQc",
       "youtubeUrl": "https://www.youtube.com/watch?v=QIt1FaDMnQc",
       "embedUrl": "https://www.youtube.com/embed/QIt1FaDMnQc",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "grindelwald",
@@ -3877,10 +3877,10 @@
       "youtubeId": "TcsegiW92C4",
       "youtubeUrl": "https://www.youtube.com/watch?v=TcsegiW92C4",
       "embedUrl": "https://www.youtube.com/embed/TcsegiW92C4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "gothenburg",
@@ -3896,10 +3896,10 @@
       "youtubeId": "pYTjPKVdnQs",
       "youtubeUrl": "https://www.youtube.com/watch?v=pYTjPKVdnQs",
       "embedUrl": "https://www.youtube.com/embed/pYTjPKVdnQs",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "funchal",
@@ -3915,10 +3915,10 @@
       "youtubeId": "-p1Xnt9n0yg",
       "youtubeUrl": "https://www.youtube.com/watch?v=-p1Xnt9n0yg",
       "embedUrl": "https://www.youtube.com/embed/-p1Xnt9n0yg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "shanghai",
@@ -3934,10 +3934,10 @@
       "youtubeId": "o5BuSp8oXB0",
       "youtubeUrl": "https://www.youtube.com/watch?v=o5BuSp8oXB0",
       "embedUrl": "https://www.youtube.com/embed/o5BuSp8oXB0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "macau",
@@ -3953,10 +3953,10 @@
       "youtubeId": "JQ2YmBQY6WU",
       "youtubeUrl": "https://www.youtube.com/watch?v=JQ2YmBQY6WU",
       "embedUrl": "https://www.youtube.com/embed/JQ2YmBQY6WU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "yokohama",
@@ -3972,10 +3972,10 @@
       "youtubeId": "XSThU54QmYY",
       "youtubeUrl": "https://www.youtube.com/watch?v=XSThU54QmYY",
       "embedUrl": "https://www.youtube.com/embed/XSThU54QmYY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "mount-fuji",
@@ -3991,10 +3991,10 @@
       "youtubeId": "bdUbACCWmoY",
       "youtubeUrl": "https://www.youtube.com/watch?v=bdUbACCWmoY",
       "embedUrl": "https://www.youtube.com/embed/bdUbACCWmoY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "pattaya",
@@ -4010,10 +4010,10 @@
       "youtubeId": "xUaoNdxufBI",
       "youtubeUrl": "https://www.youtube.com/watch?v=xUaoNdxufBI",
       "embedUrl": "https://www.youtube.com/embed/xUaoNdxufBI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "krabi",
@@ -4029,10 +4029,10 @@
       "youtubeId": "bxU-wlKl0_U",
       "youtubeUrl": "https://www.youtube.com/watch?v=bxU-wlKl0_U",
       "embedUrl": "https://www.youtube.com/embed/bxU-wlKl0_U",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "chiang-mai",
@@ -4048,10 +4048,10 @@
       "youtubeId": "ieVKKLuKKco",
       "youtubeUrl": "https://www.youtube.com/watch?v=ieVKKLuKKco",
       "embedUrl": "https://www.youtube.com/embed/ieVKKLuKKco",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "hanoi",
@@ -4067,10 +4067,10 @@
       "youtubeId": "JXQUeX0Dpb0",
       "youtubeUrl": "https://www.youtube.com/watch?v=JXQUeX0Dpb0",
       "embedUrl": "https://www.youtube.com/embed/JXQUeX0Dpb0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "maldives",
@@ -4086,10 +4086,10 @@
       "youtubeId": "c4xE2KeZ_9s",
       "youtubeUrl": "https://www.youtube.com/watch?v=c4xE2KeZ_9s",
       "embedUrl": "https://www.youtube.com/embed/c4xE2KeZ_9s",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "kathmandu",
@@ -4105,10 +4105,10 @@
       "youtubeId": "71sc5FRtuKM",
       "youtubeUrl": "https://www.youtube.com/watch?v=71sc5FRtuKM",
       "embedUrl": "https://www.youtube.com/embed/71sc5FRtuKM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "mecca",
@@ -4124,10 +4124,10 @@
       "youtubeId": "m9-Umj3aL1I",
       "youtubeUrl": "https://www.youtube.com/watch?v=m9-Umj3aL1I",
       "embedUrl": "https://www.youtube.com/embed/m9-Umj3aL1I",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "casablanca",
@@ -4143,10 +4143,10 @@
       "youtubeId": "xfbmVGy6t0g",
       "youtubeUrl": "https://www.youtube.com/watch?v=xfbmVGy6t0g",
       "embedUrl": "https://www.youtube.com/embed/xfbmVGy6t0g",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "victoria-falls",
@@ -4162,10 +4162,10 @@
       "youtubeId": "Fhy535QIy4A",
       "youtubeUrl": "https://www.youtube.com/watch?v=Fhy535QIy4A",
       "embedUrl": "https://www.youtube.com/embed/Fhy535QIy4A",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "kruger",
@@ -4181,10 +4181,10 @@
       "youtubeId": "NapztoCaKFY",
       "youtubeUrl": "https://www.youtube.com/watch?v=NapztoCaKFY",
       "embedUrl": "https://www.youtube.com/embed/NapztoCaKFY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "amman",
@@ -4200,10 +4200,10 @@
       "youtubeId": "uSRuS6mN3bU",
       "youtubeUrl": "https://www.youtube.com/watch?v=uSRuS6mN3bU",
       "embedUrl": "https://www.youtube.com/embed/uSRuS6mN3bU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "hobart",
@@ -4219,10 +4219,10 @@
       "youtubeId": "5p2gU_R3SRA",
       "youtubeUrl": "https://www.youtube.com/watch?v=5p2gU_R3SRA",
       "embedUrl": "https://www.youtube.com/embed/5p2gU_R3SRA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "tahiti",
@@ -4238,10 +4238,10 @@
       "youtubeId": "ACTsy-idtpI",
       "youtubeUrl": "https://www.youtube.com/watch?v=ACTsy-idtpI",
       "embedUrl": "https://www.youtube.com/embed/ACTsy-idtpI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "bogota",
@@ -4257,10 +4257,10 @@
       "youtubeId": "wPuY0mAFq9E",
       "youtubeUrl": "https://www.youtube.com/watch?v=wPuY0mAFq9E",
       "embedUrl": "https://www.youtube.com/embed/wPuY0mAFq9E",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "quito",
@@ -4276,10 +4276,10 @@
       "youtubeId": "_DFfABx7JOg",
       "youtubeUrl": "https://www.youtube.com/watch?v=_DFfABx7JOg",
       "embedUrl": "https://www.youtube.com/embed/_DFfABx7JOg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cusco",
@@ -4295,10 +4295,10 @@
       "youtubeId": "sF5-TIr1N8E",
       "youtubeUrl": "https://www.youtube.com/watch?v=sF5-TIr1N8E",
       "embedUrl": "https://www.youtube.com/embed/sF5-TIr1N8E",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "montevideo",
@@ -4314,10 +4314,10 @@
       "youtubeId": "qr2G18JXxGg",
       "youtubeUrl": "https://www.youtube.com/watch?v=qr2G18JXxGg",
       "embedUrl": "https://www.youtube.com/embed/qr2G18JXxGg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "aruba",
@@ -4333,10 +4333,10 @@
       "youtubeId": "_ZXMjk5K0_s",
       "youtubeUrl": "https://www.youtube.com/watch?v=_ZXMjk5K0_s",
       "embedUrl": "https://www.youtube.com/embed/_ZXMjk5K0_s",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "tulum",
@@ -4352,10 +4352,10 @@
       "youtubeId": "fE3I1Cr9w6w",
       "youtubeUrl": "https://www.youtube.com/watch?v=fE3I1Cr9w6w",
       "embedUrl": "https://www.youtube.com/embed/fE3I1Cr9w6w",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "puerto-vallarta",
@@ -4371,10 +4371,10 @@
       "youtubeId": "cghZs56pmmc",
       "youtubeUrl": "https://www.youtube.com/watch?v=cghZs56pmmc",
       "embedUrl": "https://www.youtube.com/embed/cghZs56pmmc",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "monterey-bay-aquarium",
@@ -4390,10 +4390,10 @@
       "youtubeId": "w3LjpFhySTg",
       "youtubeUrl": "https://www.youtube.com/watch?v=w3LjpFhySTg",
       "embedUrl": "https://www.youtube.com/embed/w3LjpFhySTg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "decorah-eagles",
@@ -4409,10 +4409,10 @@
       "youtubeId": "GGIE1E-kaMQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=GGIE1E-kaMQ",
       "embedUrl": "https://www.youtube.com/embed/GGIE1E-kaMQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "denali",
@@ -4428,10 +4428,10 @@
       "youtubeId": "H2fBWSNDAgk",
       "youtubeUrl": "https://www.youtube.com/watch?v=H2fBWSNDAgk",
       "embedUrl": "https://www.youtube.com/embed/H2fBWSNDAgk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "yosemite",
@@ -4447,10 +4447,10 @@
       "youtubeId": "v6r2hxI3aJo",
       "youtubeUrl": "https://www.youtube.com/watch?v=v6r2hxI3aJo",
       "embedUrl": "https://www.youtube.com/embed/v6r2hxI3aJo",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "zion",
@@ -4466,10 +4466,10 @@
       "youtubeId": "wdLsWyZP8-k",
       "youtubeUrl": "https://www.youtube.com/watch?v=wdLsWyZP8-k",
       "embedUrl": "https://www.youtube.com/embed/wdLsWyZP8-k",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "grand-teton",
@@ -4485,10 +4485,10 @@
       "youtubeId": "o4fKtgPVpoU",
       "youtubeUrl": "https://www.youtube.com/watch?v=o4fKtgPVpoU",
       "embedUrl": "https://www.youtube.com/embed/o4fKtgPVpoU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "mount-rainier",
@@ -4504,10 +4504,10 @@
       "youtubeId": "oHQEoPmBj5g",
       "youtubeUrl": "https://www.youtube.com/watch?v=oHQEoPmBj5g",
       "embedUrl": "https://www.youtube.com/embed/oHQEoPmBj5g",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "hawaii-volcanoes",
@@ -4523,10 +4523,10 @@
       "youtubeId": "Tz5tPqRRv1Y",
       "youtubeUrl": "https://www.youtube.com/watch?v=Tz5tPqRRv1Y",
       "embedUrl": "https://www.youtube.com/embed/Tz5tPqRRv1Y",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "albuquerque",
@@ -4542,10 +4542,10 @@
       "youtubeId": "skFzxs74XQ8",
       "youtubeUrl": "https://www.youtube.com/watch?v=skFzxs74XQ8",
       "embedUrl": "https://www.youtube.com/embed/skFzxs74XQ8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "palm-springs",
@@ -4561,10 +4561,10 @@
       "youtubeId": "UU1E2fQcKmQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=UU1E2fQcKmQ",
       "embedUrl": "https://www.youtube.com/embed/UU1E2fQcKmQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "nantucket",
@@ -4580,10 +4580,10 @@
       "youtubeId": "XomeUlZuaz8",
       "youtubeUrl": "https://www.youtube.com/watch?v=XomeUlZuaz8",
       "embedUrl": "https://www.youtube.com/embed/XomeUlZuaz8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "capri",
@@ -4599,10 +4599,10 @@
       "youtubeId": "_1FejTmaS1k",
       "youtubeUrl": "https://www.youtube.com/watch?v=_1FejTmaS1k",
       "embedUrl": "https://www.youtube.com/embed/_1FejTmaS1k",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "ibiza",
@@ -4618,10 +4618,10 @@
       "youtubeId": "PO-eKcqOOo8",
       "youtubeUrl": "https://www.youtube.com/watch?v=PO-eKcqOOo8",
       "embedUrl": "https://www.youtube.com/embed/PO-eKcqOOo8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "corfu",
@@ -4637,10 +4637,10 @@
       "youtubeId": "ZxYxfGpzwAg",
       "youtubeUrl": "https://www.youtube.com/watch?v=ZxYxfGpzwAg",
       "embedUrl": "https://www.youtube.com/embed/ZxYxfGpzwAg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "crete",
@@ -4656,10 +4656,10 @@
       "youtubeId": "jQFPfE2NsWM",
       "youtubeUrl": "https://www.youtube.com/watch?v=jQFPfE2NsWM",
       "embedUrl": "https://www.youtube.com/embed/jQFPfE2NsWM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "sardinia",
@@ -4678,7 +4678,7 @@
       "status": "embed_blocked",
       "verifiedOn": "2026-06-29",
       "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "taormina",
@@ -4694,10 +4694,10 @@
       "youtubeId": "sXnIOjWwzCY",
       "youtubeUrl": "https://www.youtube.com/watch?v=sXnIOjWwzCY",
       "embedUrl": "https://www.youtube.com/embed/sXnIOjWwzCY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "langkawi",
@@ -4713,10 +4713,10 @@
       "youtubeId": "9RBTcZ8eABQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=9RBTcZ8eABQ",
       "embedUrl": "https://www.youtube.com/embed/9RBTcZ8eABQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "boracay",
@@ -4732,10 +4732,10 @@
       "youtubeId": "paNHwIZtRcw",
       "youtubeUrl": "https://www.youtube.com/watch?v=paNHwIZtRcw",
       "embedUrl": "https://www.youtube.com/embed/paNHwIZtRcw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "jeju",
@@ -4751,10 +4751,10 @@
       "youtubeId": "VzJdt74dAEk",
       "youtubeUrl": "https://www.youtube.com/watch?v=VzJdt74dAEk",
       "embedUrl": "https://www.youtube.com/embed/VzJdt74dAEk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "curacao",
@@ -4770,10 +4770,10 @@
       "youtubeId": "28U-t3fA9ks",
       "youtubeUrl": "https://www.youtube.com/watch?v=28U-t3fA9ks",
       "embedUrl": "https://www.youtube.com/embed/28U-t3fA9ks",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "st-thomas",
@@ -4789,10 +4789,10 @@
       "youtubeId": "hcdnCChxcKo",
       "youtubeUrl": "https://www.youtube.com/watch?v=hcdnCChxcKo",
       "embedUrl": "https://www.youtube.com/embed/hcdnCChxcKo",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "bermuda",
@@ -4808,10 +4808,10 @@
       "youtubeId": "goVZFe46KS0",
       "youtubeUrl": "https://www.youtube.com/watch?v=goVZFe46KS0",
       "embedUrl": "https://www.youtube.com/embed/goVZFe46KS0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "seychelles",
@@ -4827,10 +4827,10 @@
       "youtubeId": "rnqeOk4hAuw",
       "youtubeUrl": "https://www.youtube.com/watch?v=rnqeOk4hAuw",
       "embedUrl": "https://www.youtube.com/embed/rnqeOk4hAuw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "mauritius",
@@ -4846,10 +4846,10 @@
       "youtubeId": "zrW28VfO480",
       "youtubeUrl": "https://www.youtube.com/watch?v=zrW28VfO480",
       "embedUrl": "https://www.youtube.com/embed/zrW28VfO480",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "galapagos",
@@ -4865,10 +4865,10 @@
       "youtubeId": "eWDfrhooM-E",
       "youtubeUrl": "https://www.youtube.com/watch?v=eWDfrhooM-E",
       "embedUrl": "https://www.youtube.com/embed/eWDfrhooM-E",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "san-pedro-belize",
@@ -4884,10 +4884,10 @@
       "youtubeId": "GP0UwuIH0TQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=GP0UwuIH0TQ",
       "embedUrl": "https://www.youtube.com/embed/GP0UwuIH0TQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "beijing",
@@ -4903,10 +4903,10 @@
       "youtubeId": "cAIsh45a3c0",
       "youtubeUrl": "https://www.youtube.com/watch?v=cAIsh45a3c0",
       "embedUrl": "https://www.youtube.com/embed/cAIsh45a3c0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "shenzhen",
@@ -4922,10 +4922,10 @@
       "youtubeId": "ef7JuoIEY1w",
       "youtubeUrl": "https://www.youtube.com/watch?v=ef7JuoIEY1w",
       "embedUrl": "https://www.youtube.com/embed/ef7JuoIEY1w",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "varanasi",
@@ -4941,10 +4941,10 @@
       "youtubeId": "5KIZ674msxI",
       "youtubeUrl": "https://www.youtube.com/watch?v=5KIZ674msxI",
       "embedUrl": "https://www.youtube.com/embed/5KIZ674msxI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "phnom-penh",
@@ -4960,10 +4960,10 @@
       "youtubeId": "y9w3zVLWgwk",
       "youtubeUrl": "https://www.youtube.com/watch?v=y9w3zVLWgwk",
       "embedUrl": "https://www.youtube.com/embed/y9w3zVLWgwk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "kobe",
@@ -4979,10 +4979,10 @@
       "youtubeId": "oSZI7D2yyb4",
       "youtubeUrl": "https://www.youtube.com/watch?v=oSZI7D2yyb4",
       "embedUrl": "https://www.youtube.com/embed/oSZI7D2yyb4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "hiroshima",
@@ -4998,10 +4998,10 @@
       "youtubeId": "nRiHoQJSWY4",
       "youtubeUrl": "https://www.youtube.com/watch?v=nRiHoQJSWY4",
       "embedUrl": "https://www.youtube.com/embed/nRiHoQJSWY4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "nagoya",
@@ -5017,10 +5017,10 @@
       "youtubeId": "-74S4PmD-As",
       "youtubeUrl": "https://www.youtube.com/watch?v=-74S4PmD-As",
       "embedUrl": "https://www.youtube.com/embed/-74S4PmD-As",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "baku",
@@ -5036,10 +5036,10 @@
       "youtubeId": "Bb-vF0Gq7RY",
       "youtubeUrl": "https://www.youtube.com/watch?v=Bb-vF0Gq7RY",
       "embedUrl": "https://www.youtube.com/embed/Bb-vF0Gq7RY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "durban",
@@ -5055,10 +5055,10 @@
       "youtubeId": "3xtfbreufRU",
       "youtubeUrl": "https://www.youtube.com/watch?v=3xtfbreufRU",
       "embedUrl": "https://www.youtube.com/embed/3xtfbreufRU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "addis-ababa",
@@ -5074,10 +5074,10 @@
       "youtubeId": "phgndoqNNOY",
       "youtubeUrl": "https://www.youtube.com/watch?v=phgndoqNNOY",
       "embedUrl": "https://www.youtube.com/embed/phgndoqNNOY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "mara-triangle",
@@ -5093,10 +5093,10 @@
       "youtubeId": "BaEFc79IMCA",
       "youtubeUrl": "https://www.youtube.com/watch?v=BaEFc79IMCA",
       "embedUrl": "https://www.youtube.com/embed/BaEFc79IMCA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "serengeti",
@@ -5112,10 +5112,10 @@
       "youtubeId": "BmOLK7LTKbY",
       "youtubeUrl": "https://www.youtube.com/watch?v=BmOLK7LTKbY",
       "embedUrl": "https://www.youtube.com/embed/BmOLK7LTKbY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "tembe",
@@ -5131,10 +5131,10 @@
       "youtubeId": "gdrNUUf-cQw",
       "youtubeUrl": "https://www.youtube.com/watch?v=gdrNUUf-cQw",
       "embedUrl": "https://www.youtube.com/embed/gdrNUUf-cQw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "etosha",
@@ -5150,10 +5150,10 @@
       "youtubeId": "JMMoRwYo5kE",
       "youtubeUrl": "https://www.youtube.com/watch?v=JMMoRwYo5kE",
       "embedUrl": "https://www.youtube.com/embed/JMMoRwYo5kE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "bucharest",
@@ -5169,10 +5169,10 @@
       "youtubeId": "nNlhyjBIjwg",
       "youtubeUrl": "https://www.youtube.com/watch?v=nNlhyjBIjwg",
       "embedUrl": "https://www.youtube.com/embed/nNlhyjBIjwg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "belgrade",
@@ -5188,10 +5188,10 @@
       "youtubeId": "tf5ODiffVEU",
       "youtubeUrl": "https://www.youtube.com/watch?v=tf5ODiffVEU",
       "embedUrl": "https://www.youtube.com/embed/tf5ODiffVEU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "sarajevo",
@@ -5207,10 +5207,10 @@
       "youtubeId": "B4BjZcQQ7Nw",
       "youtubeUrl": "https://www.youtube.com/watch?v=B4BjZcQQ7Nw",
       "embedUrl": "https://www.youtube.com/embed/B4BjZcQQ7Nw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "tirana",
@@ -5226,10 +5226,10 @@
       "youtubeId": "W_LvNQX0RpU",
       "youtubeUrl": "https://www.youtube.com/watch?v=W_LvNQX0RpU",
       "embedUrl": "https://www.youtube.com/embed/W_LvNQX0RpU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "brno",
@@ -5245,10 +5245,10 @@
       "youtubeId": "atakzXwhXVM",
       "youtubeUrl": "https://www.youtube.com/watch?v=atakzXwhXVM",
       "embedUrl": "https://www.youtube.com/embed/atakzXwhXVM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "wroclaw",
@@ -5264,10 +5264,10 @@
       "youtubeId": "5ylAFbbs5t8",
       "youtubeUrl": "https://www.youtube.com/watch?v=5ylAFbbs5t8",
       "embedUrl": "https://www.youtube.com/embed/5ylAFbbs5t8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "kyiv",
@@ -5283,10 +5283,10 @@
       "youtubeId": "eFBV2ejeVNY",
       "youtubeUrl": "https://www.youtube.com/watch?v=eFBV2ejeVNY",
       "embedUrl": "https://www.youtube.com/embed/eFBV2ejeVNY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "genoa",
@@ -5302,10 +5302,10 @@
       "youtubeId": "_pZ4Acz4uQM",
       "youtubeUrl": "https://www.youtube.com/watch?v=_pZ4Acz4uQM",
       "embedUrl": "https://www.youtube.com/embed/_pZ4Acz4uQM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "rimini",
@@ -5321,10 +5321,10 @@
       "youtubeId": "ZZrEQ2Y5kec",
       "youtubeUrl": "https://www.youtube.com/watch?v=ZZrEQ2Y5kec",
       "embedUrl": "https://www.youtube.com/embed/ZZrEQ2Y5kec",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "ghent",
@@ -5340,10 +5340,10 @@
       "youtubeId": "agmAdlmdEpc",
       "youtubeUrl": "https://www.youtube.com/watch?v=agmAdlmdEpc",
       "embedUrl": "https://www.youtube.com/embed/agmAdlmdEpc",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "rotterdam",
@@ -5359,10 +5359,10 @@
       "youtubeId": "nFozEhYTEMo",
       "youtubeUrl": "https://www.youtube.com/watch?v=nFozEhYTEMo",
       "embedUrl": "https://www.youtube.com/embed/nFozEhYTEMo",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "san-sebastian",
@@ -5378,10 +5378,10 @@
       "youtubeId": "WkvW2ptp5L4",
       "youtubeUrl": "https://www.youtube.com/watch?v=WkvW2ptp5L4",
       "embedUrl": "https://www.youtube.com/embed/WkvW2ptp5L4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "granada",
@@ -5397,10 +5397,10 @@
       "youtubeId": "1EiqyVppKQU",
       "youtubeUrl": "https://www.youtube.com/watch?v=1EiqyVppKQU",
       "embedUrl": "https://www.youtube.com/embed/1EiqyVppKQU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "antigua-gt",
@@ -5416,10 +5416,10 @@
       "youtubeId": "McKMk4HqxFk",
       "youtubeUrl": "https://www.youtube.com/watch?v=McKMk4HqxFk",
       "embedUrl": "https://www.youtube.com/embed/McKMk4HqxFk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "mendoza",
@@ -5435,10 +5435,10 @@
       "youtubeId": "y2LrCy-ZfqM",
       "youtubeUrl": "https://www.youtube.com/watch?v=y2LrCy-ZfqM",
       "embedUrl": "https://www.youtube.com/embed/y2LrCy-ZfqM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "chennai",
@@ -5454,10 +5454,10 @@
       "youtubeId": "uRTkuNA5Brw",
       "youtubeUrl": "https://www.youtube.com/watch?v=uRTkuNA5Brw",
       "embedUrl": "https://www.youtube.com/embed/uRTkuNA5Brw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "amritsar",
@@ -5473,10 +5473,10 @@
       "youtubeId": "_ZXiTtJj_HE",
       "youtubeUrl": "https://www.youtube.com/watch?v=_ZXiTtJj_HE",
       "embedUrl": "https://www.youtube.com/embed/_ZXiTtJj_HE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "rishikesh",
@@ -5492,10 +5492,10 @@
       "youtubeId": "KlAobnfh1TI",
       "youtubeUrl": "https://www.youtube.com/watch?v=KlAobnfh1TI",
       "embedUrl": "https://www.youtube.com/embed/KlAobnfh1TI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "shimla",
@@ -5511,10 +5511,10 @@
       "youtubeId": "f02V2ILl_1U",
       "youtubeUrl": "https://www.youtube.com/watch?v=f02V2ILl_1U",
       "embedUrl": "https://www.youtube.com/embed/f02V2ILl_1U",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "dhaka",
@@ -5530,10 +5530,10 @@
       "youtubeId": "Mv4PIkQ7qwQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=Mv4PIkQ7qwQ",
       "embedUrl": "https://www.youtube.com/embed/Mv4PIkQ7qwQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "ubud",
@@ -5549,10 +5549,10 @@
       "youtubeId": "xuSvwBMhysw",
       "youtubeUrl": "https://www.youtube.com/watch?v=xuSvwBMhysw",
       "embedUrl": "https://www.youtube.com/embed/xuSvwBMhysw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "vung-tau",
@@ -5568,10 +5568,10 @@
       "youtubeId": "158mVGS6sew",
       "youtubeUrl": "https://www.youtube.com/watch?v=158mVGS6sew",
       "embedUrl": "https://www.youtube.com/embed/158mVGS6sew",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "koh-samui",
@@ -5587,10 +5587,10 @@
       "youtubeId": "VR-x3HdhKLQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=VR-x3HdhKLQ",
       "embedUrl": "https://www.youtube.com/embed/VR-x3HdhKLQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "hua-hin",
@@ -5606,10 +5606,10 @@
       "youtubeId": "Ntc7BWvZRc4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Ntc7BWvZRc4",
       "embedUrl": "https://www.youtube.com/embed/Ntc7BWvZRc4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "otaru",
@@ -5625,10 +5625,10 @@
       "youtubeId": "0wC0-PpsxnM",
       "youtubeUrl": "https://www.youtube.com/watch?v=0wC0-PpsxnM",
       "embedUrl": "https://www.youtube.com/embed/0wC0-PpsxnM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "ulaanbaatar",
@@ -5644,10 +5644,10 @@
       "youtubeId": "wT-73JwVSZk",
       "youtubeUrl": "https://www.youtube.com/watch?v=wT-73JwVSZk",
       "embedUrl": "https://www.youtube.com/embed/wT-73JwVSZk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "hangzhou",
@@ -5663,10 +5663,10 @@
       "youtubeId": "yEVkgfJd3pA",
       "youtubeUrl": "https://www.youtube.com/watch?v=yEVkgfJd3pA",
       "embedUrl": "https://www.youtube.com/embed/yEVkgfJd3pA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "chengdu-pandas",
@@ -5682,10 +5682,10 @@
       "youtubeId": "SUXPnIEpbn4",
       "youtubeUrl": "https://www.youtube.com/watch?v=SUXPnIEpbn4",
       "embedUrl": "https://www.youtube.com/embed/SUXPnIEpbn4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "astana",
@@ -5701,10 +5701,10 @@
       "youtubeId": "tSQAb1BuaAg",
       "youtubeUrl": "https://www.youtube.com/watch?v=tSQAb1BuaAg",
       "embedUrl": "https://www.youtube.com/embed/tSQAb1BuaAg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "batumi",
@@ -5720,10 +5720,10 @@
       "youtubeId": "JdUdOTKuaOc",
       "youtubeUrl": "https://www.youtube.com/watch?v=JdUdOTKuaOc",
       "embedUrl": "https://www.youtube.com/embed/JdUdOTKuaOc",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "medina",
@@ -5739,10 +5739,10 @@
       "youtubeId": "rHWSRMcGGBQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=rHWSRMcGGBQ",
       "embedUrl": "https://www.youtube.com/embed/rHWSRMcGGBQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "pridelands",
@@ -5758,10 +5758,10 @@
       "youtubeId": "zsUzt6CoInM",
       "youtubeUrl": "https://www.youtube.com/watch?v=zsUzt6CoInM",
       "embedUrl": "https://www.youtube.com/embed/zsUzt6CoInM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "wollongong",
@@ -5777,10 +5777,10 @@
       "youtubeId": "NxqB2aNuais",
       "youtubeUrl": "https://www.youtube.com/watch?v=NxqB2aNuais",
       "embedUrl": "https://www.youtube.com/embed/NxqB2aNuais",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "tauranga",
@@ -5796,10 +5796,10 @@
       "youtubeId": "ewGQK6rV7Yk",
       "youtubeUrl": "https://www.youtube.com/watch?v=ewGQK6rV7Yk",
       "embedUrl": "https://www.youtube.com/embed/ewGQK6rV7Yk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "oklahoma-city",
@@ -5815,10 +5815,10 @@
       "youtubeId": "yP_wzHmBrdc",
       "youtubeUrl": "https://www.youtube.com/watch?v=yP_wzHmBrdc",
       "embedUrl": "https://www.youtube.com/embed/yP_wzHmBrdc",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "spokane",
@@ -5834,10 +5834,10 @@
       "youtubeId": "9FAhkSV5-Ng",
       "youtubeUrl": "https://www.youtube.com/watch?v=9FAhkSV5-Ng",
       "embedUrl": "https://www.youtube.com/embed/9FAhkSV5-Ng",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "sacramento",
@@ -5853,10 +5853,10 @@
       "youtubeId": "XiuaGrZIFiY",
       "youtubeUrl": "https://www.youtube.com/watch?v=XiuaGrZIFiY",
       "embedUrl": "https://www.youtube.com/embed/XiuaGrZIFiY",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "burlington-vt",
@@ -5872,10 +5872,10 @@
       "youtubeId": "WYgjhPHIw1k",
       "youtubeUrl": "https://www.youtube.com/watch?v=WYgjhPHIw1k",
       "embedUrl": "https://www.youtube.com/embed/WYgjhPHIw1k",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "mystic-ct",
@@ -5891,10 +5891,10 @@
       "youtubeId": "49vez0ls8OI",
       "youtubeUrl": "https://www.youtube.com/watch?v=49vez0ls8OI",
       "embedUrl": "https://www.youtube.com/embed/49vez0ls8OI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "rehoboth-beach",
@@ -5910,10 +5910,10 @@
       "youtubeId": "ounmZ43SVEU",
       "youtubeUrl": "https://www.youtube.com/watch?v=ounmZ43SVEU",
       "embedUrl": "https://www.youtube.com/embed/ounmZ43SVEU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "wildwood-nj",
@@ -5929,10 +5929,10 @@
       "youtubeId": "EnLGaYdeCB4",
       "youtubeUrl": "https://www.youtube.com/watch?v=EnLGaYdeCB4",
       "embedUrl": "https://www.youtube.com/embed/EnLGaYdeCB4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "destin",
@@ -5948,10 +5948,10 @@
       "youtubeId": "BFW0ZgvNiyQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=BFW0ZgvNiyQ",
       "embedUrl": "https://www.youtube.com/embed/BFW0ZgvNiyQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "corpus-christi",
@@ -5967,10 +5967,10 @@
       "youtubeId": "UlpxbZSkjZI",
       "youtubeUrl": "https://www.youtube.com/watch?v=UlpxbZSkjZI",
       "embedUrl": "https://www.youtube.com/embed/UlpxbZSkjZI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "moab",
@@ -5986,10 +5986,10 @@
       "youtubeId": "Wv7lXVK9jV0",
       "youtubeUrl": "https://www.youtube.com/watch?v=Wv7lXVK9jV0",
       "embedUrl": "https://www.youtube.com/embed/Wv7lXVK9jV0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "taos",
@@ -6005,10 +6005,10 @@
       "youtubeId": "LgzDMoVhrAM",
       "youtubeUrl": "https://www.youtube.com/watch?v=LgzDMoVhrAM",
       "embedUrl": "https://www.youtube.com/embed/LgzDMoVhrAM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "georgia-aquarium",
@@ -6024,10 +6024,10 @@
       "youtubeId": "WPD9yUdFhc8",
       "youtubeUrl": "https://www.youtube.com/watch?v=WPD9yUdFhc8",
       "embedUrl": "https://www.youtube.com/embed/WPD9yUdFhc8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "statue-of-liberty",
@@ -6043,10 +6043,10 @@
       "youtubeId": "cWR8KGKftUw",
       "youtubeUrl": "https://www.youtube.com/watch?v=cWR8KGKftUw",
       "embedUrl": "https://www.youtube.com/embed/cWR8KGKftUw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "lincoln-memorial",
@@ -6062,10 +6062,10 @@
       "youtubeId": "NJF8AMBPMFg",
       "youtubeUrl": "https://www.youtube.com/watch?v=NJF8AMBPMFg",
       "embedUrl": "https://www.youtube.com/embed/NJF8AMBPMFg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cincinnati-zoo",
@@ -6081,10 +6081,10 @@
       "youtubeId": "Oh2jORwSAE0",
       "youtubeUrl": "https://www.youtube.com/watch?v=Oh2jORwSAE0",
       "embedUrl": "https://www.youtube.com/embed/Oh2jORwSAE0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "colosseum",
@@ -6100,10 +6100,10 @@
       "youtubeId": "e_O9eO4mjQg",
       "youtubeUrl": "https://www.youtube.com/watch?v=e_O9eO4mjQg",
       "embedUrl": "https://www.youtube.com/embed/e_O9eO4mjQg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "trevi-fountain",
@@ -6119,10 +6119,10 @@
       "youtubeId": "JRv49VYmqRI",
       "youtubeUrl": "https://www.youtube.com/watch?v=JRv49VYmqRI",
       "embedUrl": "https://www.youtube.com/embed/JRv49VYmqRI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "st-peters-square",
@@ -6138,10 +6138,10 @@
       "youtubeId": "38_Ir14A_ms",
       "youtubeUrl": "https://www.youtube.com/watch?v=38_Ir14A_ms",
       "embedUrl": "https://www.youtube.com/embed/38_Ir14A_ms",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "arc-de-triomphe",
@@ -6157,10 +6157,10 @@
       "youtubeId": "Quy-Wkr42zU",
       "youtubeUrl": "https://www.youtube.com/watch?v=Quy-Wkr42zU",
       "embedUrl": "https://www.youtube.com/embed/Quy-Wkr42zU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "louvre",
@@ -6176,10 +6176,10 @@
       "youtubeId": "kWkFHMdnPTE",
       "youtubeUrl": "https://www.youtube.com/watch?v=kWkFHMdnPTE",
       "embedUrl": "https://www.youtube.com/embed/kWkFHMdnPTE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "luxembourg-gardens",
@@ -6195,10 +6195,10 @@
       "youtubeId": "-k7o0hoGFlo",
       "youtubeUrl": "https://www.youtube.com/watch?v=-k7o0hoGFlo",
       "embedUrl": "https://www.youtube.com/embed/-k7o0hoGFlo",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "ueno-park",
@@ -6214,10 +6214,10 @@
       "youtubeId": "jF7mxi4H_Xg",
       "youtubeUrl": "https://www.youtube.com/watch?v=jF7mxi4H_Xg",
       "embedUrl": "https://www.youtube.com/embed/jF7mxi4H_Xg",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "christ-redeemer",
@@ -6233,10 +6233,10 @@
       "youtubeId": "7loXQp6RjH4",
       "youtubeUrl": "https://www.youtube.com/watch?v=7loXQp6RjH4",
       "embedUrl": "https://www.youtube.com/embed/7loXQp6RjH4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "chichen-itza",
@@ -6252,10 +6252,10 @@
       "youtubeId": "qeDV1szfW2E",
       "youtubeUrl": "https://www.youtube.com/watch?v=qeDV1szfW2E",
       "embedUrl": "https://www.youtube.com/embed/qeDV1szfW2E",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "plitvice",
@@ -6271,10 +6271,10 @@
       "youtubeId": "lflAQpnmAmQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=lflAQpnmAmQ",
       "embedUrl": "https://www.youtube.com/embed/lflAQpnmAmQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "louisville",
@@ -6290,10 +6290,10 @@
       "youtubeId": "uzgmc0qTgUQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=uzgmc0qTgUQ",
       "embedUrl": "https://www.youtube.com/embed/uzgmc0qTgUQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "buffalo",
@@ -6309,10 +6309,10 @@
       "youtubeId": "HrCbyq2wGiE",
       "youtubeUrl": "https://www.youtube.com/watch?v=HrCbyq2wGiE",
       "embedUrl": "https://www.youtube.com/embed/HrCbyq2wGiE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "rochester-ny",
@@ -6328,10 +6328,10 @@
       "youtubeId": "oVeSh83ay-g",
       "youtubeUrl": "https://www.youtube.com/watch?v=oVeSh83ay-g",
       "embedUrl": "https://www.youtube.com/embed/oVeSh83ay-g",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "syracuse",
@@ -6347,10 +6347,10 @@
       "youtubeId": "Nk-4UZmQfgw",
       "youtubeUrl": "https://www.youtube.com/watch?v=Nk-4UZmQfgw",
       "embedUrl": "https://www.youtube.com/embed/Nk-4UZmQfgw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "baltimore",
@@ -6366,10 +6366,10 @@
       "youtubeId": "J2gseGKKaYM",
       "youtubeUrl": "https://www.youtube.com/watch?v=J2gseGKKaYM",
       "embedUrl": "https://www.youtube.com/embed/J2gseGKKaYM",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "hartford",
@@ -6385,10 +6385,10 @@
       "youtubeId": "nwzbW2EN6J4",
       "youtubeUrl": "https://www.youtube.com/watch?v=nwzbW2EN6J4",
       "embedUrl": "https://www.youtube.com/embed/nwzbW2EN6J4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "knoxville",
@@ -6404,10 +6404,10 @@
       "youtubeId": "bsOhhs6J2BE",
       "youtubeUrl": "https://www.youtube.com/watch?v=bsOhhs6J2BE",
       "embedUrl": "https://www.youtube.com/embed/bsOhhs6J2BE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "grand-rapids",
@@ -6423,10 +6423,10 @@
       "youtubeId": "KRvp2GE1Umk",
       "youtubeUrl": "https://www.youtube.com/watch?v=KRvp2GE1Umk",
       "embedUrl": "https://www.youtube.com/embed/KRvp2GE1Umk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "toledo",
@@ -6442,10 +6442,10 @@
       "youtubeId": "WQT5lDGIUjA",
       "youtubeUrl": "https://www.youtube.com/watch?v=WQT5lDGIUjA",
       "embedUrl": "https://www.youtube.com/embed/WQT5lDGIUjA",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "dayton",
@@ -6461,10 +6461,10 @@
       "youtubeId": "U-IugjfRLGw",
       "youtubeUrl": "https://www.youtube.com/watch?v=U-IugjfRLGw",
       "embedUrl": "https://www.youtube.com/embed/U-IugjfRLGw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "charlotte",
@@ -6480,10 +6480,10 @@
       "youtubeId": "9H-5XNfxXqk",
       "youtubeUrl": "https://www.youtube.com/watch?v=9H-5XNfxXqk",
       "embedUrl": "https://www.youtube.com/embed/9H-5XNfxXqk",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "greensboro",
@@ -6499,10 +6499,10 @@
       "youtubeId": "PyPiyeOwNaE",
       "youtubeUrl": "https://www.youtube.com/watch?v=PyPiyeOwNaE",
       "embedUrl": "https://www.youtube.com/embed/PyPiyeOwNaE",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "des-moines",
@@ -6518,10 +6518,10 @@
       "youtubeId": "1QCEWIHHA4E",
       "youtubeUrl": "https://www.youtube.com/watch?v=1QCEWIHHA4E",
       "embedUrl": "https://www.youtube.com/embed/1QCEWIHHA4E",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "dusseldorf",
@@ -6537,10 +6537,10 @@
       "youtubeId": "L0o8ACCxH_A",
       "youtubeUrl": "https://www.youtube.com/watch?v=L0o8ACCxH_A",
       "embedUrl": "https://www.youtube.com/embed/L0o8ACCxH_A",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "dresden",
@@ -6556,10 +6556,10 @@
       "youtubeId": "06l93LO35g8",
       "youtubeUrl": "https://www.youtube.com/watch?v=06l93LO35g8",
       "embedUrl": "https://www.youtube.com/embed/06l93LO35g8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "nuremberg",
@@ -6575,10 +6575,10 @@
       "youtubeId": "EkXiD23Uot8",
       "youtubeUrl": "https://www.youtube.com/watch?v=EkXiD23Uot8",
       "embedUrl": "https://www.youtube.com/embed/EkXiD23Uot8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "bremen",
@@ -6594,10 +6594,10 @@
       "youtubeId": "SsyiWrkUjy4",
       "youtubeUrl": "https://www.youtube.com/watch?v=SsyiWrkUjy4",
       "embedUrl": "https://www.youtube.com/embed/SsyiWrkUjy4",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "toulouse",
@@ -6613,10 +6613,10 @@
       "youtubeId": "Reuz0dRsBk0",
       "youtubeUrl": "https://www.youtube.com/watch?v=Reuz0dRsBk0",
       "embedUrl": "https://www.youtube.com/embed/Reuz0dRsBk0",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "cluj",
@@ -6632,10 +6632,10 @@
       "youtubeId": "wRcyUpKJ4-g",
       "youtubeUrl": "https://www.youtube.com/watch?v=wRcyUpKJ4-g",
       "embedUrl": "https://www.youtube.com/embed/wRcyUpKJ4-g",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "antalya",
@@ -6651,10 +6651,10 @@
       "youtubeId": "TzE1VfPTxb8",
       "youtubeUrl": "https://www.youtube.com/watch?v=TzE1VfPTxb8",
       "embedUrl": "https://www.youtube.com/embed/TzE1VfPTxb8",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "curitiba",
@@ -6670,10 +6670,10 @@
       "youtubeId": "rdk4EvW26bQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=rdk4EvW26bQ",
       "embedUrl": "https://www.youtube.com/embed/rdk4EvW26bQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "porto-alegre",
@@ -6689,10 +6689,10 @@
       "youtubeId": "yCeQueusZxs",
       "youtubeUrl": "https://www.youtube.com/watch?v=yCeQueusZxs",
       "embedUrl": "https://www.youtube.com/embed/yCeQueusZxs",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "recife",
@@ -6708,10 +6708,10 @@
       "youtubeId": "Ra6qwEmijTU",
       "youtubeUrl": "https://www.youtube.com/watch?v=Ra6qwEmijTU",
       "embedUrl": "https://www.youtube.com/embed/Ra6qwEmijTU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "monterrey",
@@ -6727,10 +6727,10 @@
       "youtubeId": "F7Z9DYxQRpw",
       "youtubeUrl": "https://www.youtube.com/watch?v=F7Z9DYxQRpw",
       "embedUrl": "https://www.youtube.com/embed/F7Z9DYxQRpw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "merida-mx",
@@ -6746,10 +6746,10 @@
       "youtubeId": "jHZzubjRywQ",
       "youtubeUrl": "https://www.youtube.com/watch?v=jHZzubjRywQ",
       "embedUrl": "https://www.youtube.com/embed/jHZzubjRywQ",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "surabaya",
@@ -6765,10 +6765,10 @@
       "youtubeId": "rURFCHY3DnU",
       "youtubeUrl": "https://www.youtube.com/watch?v=rURFCHY3DnU",
       "embedUrl": "https://www.youtube.com/embed/rURFCHY3DnU",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "guangzhou",
@@ -6784,10 +6784,10 @@
       "youtubeId": "tL0ft4EMtfI",
       "youtubeUrl": "https://www.youtube.com/watch?v=tL0ft4EMtfI",
       "embedUrl": "https://www.youtube.com/embed/tL0ft4EMtfI",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     },
     {
       "id": "sharjah",
@@ -6803,11 +6803,258 @@
       "youtubeId": "tEuFz6rrAqw",
       "youtubeUrl": "https://www.youtube.com/watch?v=tEuFz6rrAqw",
       "embedUrl": "https://www.youtube.com/embed/tEuFz6rrAqw",
-      "status": "embed_blocked",
+      "status": "live",
       "verifiedOn": "2026-06-29",
-      "errorCode": 150,
-      "lastChecked": "2026-06-29T16:39:24.896Z"
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "newport-beach",
+      "cameraName": "Newport Beach (Blackie's)",
+      "city": "Newport Beach",
+      "state": "CA",
+      "country": "USA",
+      "lat": 33.6189,
+      "lng": -117.9298,
+      "timezone": "America/Los_Angeles",
+      "sourceType": "harbor",
+      "channelName": "World Live Cams",
+      "youtubeId": "JmNs41b8ZDQ",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JmNs41b8ZDQ",
+      "embedUrl": "https://www.youtube.com/embed/JmNs41b8ZDQ",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "fairbanks-ak",
+      "cameraName": "Fairbanks",
+      "city": "Fairbanks",
+      "state": "AK",
+      "country": "USA",
+      "lat": 64.8378,
+      "lng": -147.7164,
+      "timezone": "America/Anchorage",
+      "sourceType": "skyline",
+      "channelName": "Webcams Touristiques",
+      "youtubeId": "v189zZhZv38",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v189zZhZv38",
+      "embedUrl": "https://www.youtube.com/embed/v189zZhZv38",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "st-george-ut",
+      "cameraName": "St. George",
+      "city": "St. George",
+      "state": "UT",
+      "country": "USA",
+      "lat": 37.0965,
+      "lng": -113.5684,
+      "timezone": "America/Denver",
+      "sourceType": "street",
+      "channelName": "SeeCam",
+      "youtubeId": "08UBMud58ZE",
+      "youtubeUrl": "https://www.youtube.com/watch?v=08UBMud58ZE",
+      "embedUrl": "https://www.youtube.com/embed/08UBMud58ZE",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "new-smyrna-beach-fl",
+      "cameraName": "New Smyrna Beach",
+      "city": "New Smyrna Beach",
+      "state": "FL",
+      "country": "USA",
+      "lat": 29.0258,
+      "lng": -80.927,
+      "timezone": "America/New_York",
+      "sourceType": "beach",
+      "channelName": "Volusia Beaches",
+      "youtubeId": "kB2PZC-ow68",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kB2PZC-ow68",
+      "embedUrl": "https://www.youtube.com/embed/kB2PZC-ow68",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "sunny-isles-beach-fl",
+      "cameraName": "Sunny Isles Beach",
+      "city": "Sunny Isles Beach",
+      "state": "FL",
+      "country": "USA",
+      "lat": 25.942,
+      "lng": -80.1223,
+      "timezone": "America/New_York",
+      "sourceType": "beach",
+      "channelName": "World Live Cams",
+      "youtubeId": "T5U_EzpjCJk",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T5U_EzpjCJk",
+      "embedUrl": "https://www.youtube.com/embed/T5U_EzpjCJk",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "sunny-isles-beach-fl-2",
+      "cameraName": "Sunny Isles Beach 2",
+      "city": "Sunny Isles Beach",
+      "state": "FL",
+      "country": "USA",
+      "lat": 25.942,
+      "lng": -80.1223,
+      "timezone": "America/New_York",
+      "sourceType": "beach",
+      "channelName": "World Live Cams",
+      "youtubeId": "qDQ97Gw83Xs",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qDQ97Gw83Xs",
+      "embedUrl": "https://www.youtube.com/embed/qDQ97Gw83Xs",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "stuart-fl",
+      "cameraName": "Stuart (Haney Circle)",
+      "city": "Stuart",
+      "state": "FL",
+      "country": "USA",
+      "lat": 27.1973,
+      "lng": -80.2528,
+      "timezone": "America/New_York",
+      "sourceType": "street",
+      "channelName": "Stuart WebCam",
+      "youtubeId": "AQp8sXogq3c",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AQp8sXogq3c",
+      "embedUrl": "https://www.youtube.com/embed/AQp8sXogq3c",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "prescott-az",
+      "cameraName": "Whiskey Row (Prescott)",
+      "city": "Prescott",
+      "state": "AZ",
+      "country": "USA",
+      "lat": 34.54,
+      "lng": -112.4685,
+      "timezone": "America/Phoenix",
+      "sourceType": "street",
+      "channelName": "KYCA Digital",
+      "youtubeId": "iTAgcZoTHRc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iTAgcZoTHRc",
+      "embedUrl": "https://www.youtube.com/embed/iTAgcZoTHRc",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "jefferson-ga",
+      "cameraName": "Downtown Jefferson",
+      "city": "Jefferson",
+      "state": "GA",
+      "country": "USA",
+      "lat": 34.109,
+      "lng": -83.573,
+      "timezone": "America/New_York",
+      "sourceType": "street",
+      "channelName": "City of Jefferson Fire Dept ",
+      "youtubeId": "B9rQefsotSM",
+      "youtubeUrl": "https://www.youtube.com/watch?v=B9rQefsotSM",
+      "embedUrl": "https://www.youtube.com/embed/B9rQefsotSM",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "bartlesville-ok",
+      "cameraName": "Bartlesville",
+      "city": "Bartlesville",
+      "state": "OK",
+      "country": "USA",
+      "lat": 36.7473,
+      "lng": -95.9808,
+      "timezone": "America/Chicago",
+      "sourceType": "skyline",
+      "channelName": "Washington County EM",
+      "youtubeId": "qTX5pDOguxg",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qTX5pDOguxg",
+      "embedUrl": "https://www.youtube.com/embed/qTX5pDOguxg",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "redondo-beach-ca",
+      "cameraName": "Redondo Beach Pier",
+      "city": "Redondo Beach",
+      "state": "CA",
+      "country": "USA",
+      "lat": 33.8492,
+      "lng": -118.3884,
+      "timezone": "America/Los_Angeles",
+      "sourceType": "harbor",
+      "channelName": "City of Redondo Beach",
+      "youtubeId": "TuVOKRP7IBA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TuVOKRP7IBA",
+      "embedUrl": "https://www.youtube.com/embed/TuVOKRP7IBA",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "redondo-beach-ca-2",
+      "cameraName": "Redondo Beach Harbor",
+      "city": "Redondo Beach",
+      "state": "CA",
+      "country": "USA",
+      "lat": 33.8492,
+      "lng": -118.3884,
+      "timezone": "America/Los_Angeles",
+      "sourceType": "harbor",
+      "channelName": "City of Redondo Beach",
+      "youtubeId": "Ni7v-aIa3bw",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ni7v-aIa3bw",
+      "embedUrl": "https://www.youtube.com/embed/Ni7v-aIa3bw",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
+    },
+    {
+      "id": "rockford-il",
+      "cameraName": "Rockford",
+      "city": "Rockford",
+      "state": "IL",
+      "country": "USA",
+      "lat": 42.2711,
+      "lng": -89.094,
+      "timezone": "America/Chicago",
+      "sourceType": "skyline",
+      "channelName": "Rockford Sky Watch ",
+      "youtubeId": "HId49Ip2fJs",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HId49Ip2fJs",
+      "embedUrl": "https://www.youtube.com/embed/HId49Ip2fJs",
+      "status": "live",
+      "verifiedOn": "2026-07-03",
+      "errorCode": null,
+      "lastChecked": "2026-07-03T09:25:57.823Z"
     }
   ],
-  "lastValidated": "2026-06-29T16:39:24.896Z"
+  "lastValidated": "2026-07-03T09:25:57.823Z"
 }

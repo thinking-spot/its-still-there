@@ -8698,5 +8698,135 @@
       "Sharjah city center live webcam youtube",
       "Sharjah skyline live cam 24/7"
     ]
+  },
+  {
+    "id": "fairbanks-ak",
+    "city": "Fairbanks",
+    "state": "AK",
+    "country": "USA",
+    "lat": 64.8378,
+    "lng": -147.7164,
+    "timezone": "America/Anchorage",
+    "sourceType": "skyline",
+    "queries": [
+      "Fairbanks live webcam"
+    ]
+  },
+  {
+    "id": "st-george-ut",
+    "city": "St. George",
+    "state": "UT",
+    "country": "USA",
+    "lat": 37.0965,
+    "lng": -113.5684,
+    "timezone": "America/Denver",
+    "sourceType": "street",
+    "queries": [
+      "St. George live webcam"
+    ]
+  },
+  {
+    "id": "new-smyrna-beach-fl",
+    "city": "New Smyrna Beach",
+    "state": "FL",
+    "country": "USA",
+    "lat": 29.0258,
+    "lng": -80.927,
+    "timezone": "America/New_York",
+    "sourceType": "beach",
+    "queries": [
+      "New Smyrna Beach live webcam"
+    ]
+  },
+  {
+    "id": "sunny-isles-beach-fl",
+    "city": "Sunny Isles Beach",
+    "state": "FL",
+    "country": "USA",
+    "lat": 25.942,
+    "lng": -80.1223,
+    "timezone": "America/New_York",
+    "sourceType": "beach",
+    "queries": [
+      "Sunny Isles Beach live webcam"
+    ]
+  },
+  {
+    "id": "stuart-fl",
+    "city": "Stuart",
+    "state": "FL",
+    "country": "USA",
+    "lat": 27.1973,
+    "lng": -80.2528,
+    "timezone": "America/New_York",
+    "sourceType": "street",
+    "queries": [
+      "Stuart live webcam"
+    ]
+  },
+  {
+    "id": "prescott-az",
+    "city": "Prescott",
+    "state": "AZ",
+    "country": "USA",
+    "lat": 34.54,
+    "lng": -112.4685,
+    "timezone": "America/Phoenix",
+    "sourceType": "street",
+    "queries": [
+      "Prescott live webcam"
+    ]
+  },
+  {
+    "id": "jefferson-ga",
+    "city": "Jefferson",
+    "state": "GA",
+    "country": "USA",
+    "lat": 34.109,
+    "lng": -83.573,
+    "timezone": "America/New_York",
+    "sourceType": "street",
+    "queries": [
+      "Jefferson live webcam"
+    ]
+  },
+  {
+    "id": "bartlesville-ok",
+    "city": "Bartlesville",
+    "state": "OK",
+    "country": "USA",
+    "lat": 36.7473,
+    "lng": -95.9808,
+    "timezone": "America/Chicago",
+    "sourceType": "skyline",
+    "queries": [
+      "Bartlesville live webcam"
+    ]
+  },
+  {
+    "id": "redondo-beach-ca",
+    "city": "Redondo Beach",
+    "state": "CA",
+    "country": "USA",
+    "lat": 33.8492,
+    "lng": -118.3884,
+    "timezone": "America/Los_Angeles",
+    "sourceType": "harbor",
+    "queries": [
+      "Redondo Beach live webcam"
+    ]
+  },
+  {
+    "id": "rockford-il",
+    "city": "Rockford",
+    "state": "IL",
+    "country": "USA",
+    "lat": 42.2711,
+    "lng": -89.094,
+    "timezone": "America/Chicago",
+    "sourceType": "skyline",
+    "queries": [
+      "Rockford live webcam"
+    ]
   }
 ]

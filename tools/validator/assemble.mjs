@@ -28,6 +28,15 @@ const picks = readJSON(PICKS_PATH);
 const data = readJSON(STREAMS_PATH);
 const byId = new Map(data.streams.map(s => [s.youtubeId, s]));
 
+// Entry ids must be unique even when a target yields multiple cams.
+const idCount = {};
+data.streams.forEach(s => { idCount[s.id] = (idCount[s.id] || 0) + 1; });
+function uniqueEntryId(baseId) {
+  const n = (idCount[baseId] || 0) + 1;
+  idCount[baseId] = n;
+  return n === 1 ? baseId : `${baseId}-${n}`;
+}
+
 let added = 0, skipped = 0;
 for (const pick of picks) {
   const t = targets[pick.targetId];
@@ -35,7 +44,7 @@ for (const pick of picks) {
   if (byId.has(pick.youtubeId)) { console.error(`. already present: ${pick.youtubeId}`); skipped++; continue; }
 
   const entry = {
-    id: t.id,
+    id: uniqueEntryId(t.id),
     cameraName: pick.cameraName || t.cameraName || t.city,
     city: t.city.replace(/\s*\(.*\)\s*/, '').trim(),   // keep grouping clean; detail lives in cameraName
     state: t.state || '',
