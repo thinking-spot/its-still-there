@@ -625,13 +625,9 @@
                 if (ytState === 'loading') pendingCams.push(item);
                 else mountCam(item);
             });
-            recomputeLayout();
-        }
-
-        function recomputeLayout() {
-            const grid = $('webcamGrid');
-            const n = grid.querySelectorAll('.webcam-container').length;
-            grid.classList.toggle('single', n === 1 && !(liveTracker && liveTracker.collection));
+            // The window layout is only for places that HAVE exactly one cam.
+            // A multi-cam place keeps its grid even if views go dark.
+            grid.classList.toggle('single', liveTracker.expected === 1 && !collection);
         }
 
         function mountCam(item) {
@@ -676,7 +672,7 @@
             try { if (item.player && item.player.destroy) item.player.destroy(); } catch (_) {}
             item.container.remove();
             activeCams = activeCams.filter(x => x !== item);
-            if (liveTracker && item.gen === generation) { liveTracker.dark++; updateDarkState(); recomputeLayout(); }
+            if (liveTracker && item.gen === generation) { liveTracker.dark++; updateDarkState(); }
         }
 
         function updateDarkState() {
