@@ -1,16 +1,15 @@
 {
-  "checkedAt": "2026-07-13T15:42:29.741Z",
+  "checkedAt": "2026-07-20T15:10:10.545Z",
   "total": 371,
   "tally": {
-    "offline": 3,
-    "embed_blocked": 367,
-    "live": 1
+    "embed_blocked": 369,
+    "offline": 2
   },
   "streams": [
     {
       "id": "VGnFLdQW39A",
-      "status": "offline",
-      "code": null
+      "status": "embed_blocked",
+      "code": 150
     },
     {
       "id": "7WgkjCSDe0w",
@@ -24,8 +23,8 @@
     },
     {
       "id": "Ksrleaxxxhw",
-      "status": "embed_blocked",
-      "code": 150
+      "status": "offline",
+      "code": null
     },
     {
       "id": "h5Grd2w7HQM",
@@ -144,8 +143,8 @@
     },
     {
       "id": "rxBBRLWF0mM",
-      "status": "offline",
-      "code": null
+      "status": "embed_blocked",
+      "code": 150
     },
     {
       "id": "wRU6mf_s8rQ",
@@ -1494,8 +1493,8 @@
     },
     {
       "id": "yEVkgfJd3pA",
-      "status": "live",
-      "code": null
+      "status": "embed_blocked",
+      "code": 150
     },
     {
       "id": "SUXPnIEpbn4",
