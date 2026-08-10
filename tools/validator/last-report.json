@@ -1,8 +1,9 @@
 {
-  "checkedAt": "2026-08-03T15:42:13.303Z",
+  "checkedAt": "2026-08-10T14:20:17.697Z",
   "total": 371,
   "tally": {
-    "embed_blocked": 371
+    "embed_blocked": 370,
+    "offline": 1
   },
   "streams": [
     {
@@ -12,8 +13,8 @@
     },
     {
       "id": "7WgkjCSDe0w",
-      "status": "embed_blocked",
-      "code": 150
+      "status": "offline",
+      "code": null
     },
     {
       "id": "1EiC9bvVGnk",
