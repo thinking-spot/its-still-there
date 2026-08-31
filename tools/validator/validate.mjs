@@ -21,23 +21,50 @@ const REPORT_PATH = path.join(__dirname, 'last-report.json');
 const data = readJSON(STREAMS_PATH);
 const streams = data.streams || [];
 const ids = streams.map(s => s.youtubeId).filter(Boolean);
+const previousLiveCount = streams.filter(s => s.status === 'live').length;
 
 console.log(`Validating ${ids.length} stream(s) via headless Chromium + YouTube IFrame API...\n`);
 
 const verdicts = await withHarness(check => check(ids));
 
 const checkedAt = new Date().toISOString();
-for (const s of streams) {
+const results = streams.map(s => {
   const raw = verdicts[s.youtubeId];
-  if (!raw) continue;
+  if (!raw) return null;
   const v = classify(raw.outcome, raw.code);
-  s.status = v.status;
-  s.errorCode = v.code;
-  s.lastChecked = checkedAt;
   console.log(
     `  ${v.status === 'live' ? '✓' : '✗'} ${STATUS_LABEL[v.status].padEnd(14)}` +
     `${v.code ? `(code ${v.code}) ` : ''}${s.youtubeId}  ${s.cameraName}`
   );
+  return { stream: s, v };
+}).filter(Boolean);
+
+const newLiveCount = results.filter(r => r.v.status === 'live').length;
+
+/**
+ * Sanity guard: a real-world week never crashes the live rate to near-zero —
+ * that pattern (seen for months here) means the CHECKER failed, not that
+ * every stream simultaneously lost embeddability. This is almost always
+ * YouTube rejecting the runner's IP as a datacenter/bot address, not a real
+ * embed-policy change. Refuse to write a result that looks like an
+ * environment failure rather than a genuine mass die-off.
+ */
+const MIN_SAMPLE = 20;   // below this, ratios are too noisy to judge
+const MAX_DROP_RATIO = 0.5; // refuse if live count falls to <50% of last-known-good
+if (previousLiveCount >= MIN_SAMPLE && newLiveCount < previousLiveCount * MAX_DROP_RATIO) {
+  console.error(
+    `\nREFUSING TO WRITE: live count would collapse from ${previousLiveCount} to ${newLiveCount} ` +
+    `(${ids.length} checked). This looks like a checker/environment failure (e.g. the runner's ` +
+    `IP being rejected by YouTube), not a real mass embed-policy change. streams.json left ` +
+    `untouched. Investigate (try running from a non-datacenter IP) before overriding.`
+  );
+  process.exit(1);
+}
+
+for (const { stream, v } of results) {
+  stream.status = v.status;
+  stream.errorCode = v.code;
+  stream.lastChecked = checkedAt;
 }
 
 data.lastValidated = checkedAt;

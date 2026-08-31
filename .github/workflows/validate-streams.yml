@@ -1,8 +1,18 @@
 name: Validate streams
 
-# Re-checks every webcam in database.csv through a real headless browser so the
-# dataset heals itself: dead and embed-blocked streams get an accurate Status,
+# Re-checks every webcam in streams.json through a real headless browser so the
+# dataset heals itself: dead and embed-blocked streams get an accurate status,
 # committed straight back to the repo. Runs weekly and on demand.
+#
+# KNOWN FAILURE MODE (hit for months, 2026-06-29 through 2026-08-31): YouTube's
+# embed check can reject GitHub Actions' shared/datacenter IP ranges near-
+# instantly for almost every video, producing a false mass "embed_blocked"
+# result that looks nothing like a real per-video outcome. validate.mjs now
+# refuses to write (and this job then fails loudly, visible in the Actions
+# tab) if the live count would collapse to <50% of the last known-good run —
+# so a checker/environment failure can no longer silently overwrite good data
+# in production. A failed run here means "investigate", not "the streams
+# actually died" — re-run from a non-datacenter IP (e.g. locally) to confirm.
 
 on:
   schedule:
